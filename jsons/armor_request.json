@@ -1,0 +1,312 @@
+[
+  {
+    "name": "Sem armadura",
+    "item_type": "armadura",
+    "img_key": "items/armadura/sem_armadura",
+    "defense": "DES",
+    "magic_defense": "AST",
+    "is_martial": false,
+    "initiative": "0",
+    "cost": 0
+  },
+  {
+    "name": "Camisa de seda",
+    "item_type": "armadura",
+    "img_key": "items/armadura/camisa_de_seda",
+    "defense": "Dado de DES",
+    "magic_defense": "Dado de AST +2",
+    "is_martial": false,
+    "initiative": "-1",
+    "cost": 100
+  },
+  {
+    "name": "Traje de viagem",
+    "item_type": "armadura",
+    "img_key": "items/armadura/traje_de_viagem",
+    "defense": "Dado de DES +1",
+    "magic_defense": "Dado de AST +1",
+    "is_martial": false,
+    "initiative": "-1",
+    "cost": 100
+  },
+  {
+    "name": "Túnica de combate",
+    "item_type": "armadura",
+    "img_key": "items/armadura/tunica_de_combate",
+    "defense": "Dado de DES +1",
+    "magic_defense": "Dado de AST +1",
+    "is_martial": false,
+    "initiative": "-",
+    "cost": 150
+  },
+  {
+    "name": "Vestes de sábio",
+    "item_type": "armadura",
+    "img_key": "items/armadura/vestes_de_sabio",
+    "defense": "Dado de DES +1",
+    "magic_defense": "Dado de AST +2",
+    "is_martial": false,
+    "initiative": "-2",
+    "cost": 200
+  },
+  {
+    "name": "Brigantina",
+    "item_type": "armadura",
+    "img_key": "items/armadura/brigantina",
+    "defense": "10",
+    "magic_defense": "Dado de AST",
+    "is_martial": true,
+    "initiative": "-2",
+    "cost": 150
+  },
+  {
+    "name": "Placa de bronze",
+    "item_type": "armadura",
+    "img_key": "items/armadura/placa_de_bronze",
+    "defense": "11",
+    "magic_defense": "Dado de AST",
+    "is_martial": true,
+    "initiative": "-3",
+    "cost": 200
+  },
+  {
+    "name": "Placa rúnica",
+    "item_type": "armadura",
+    "img_key": "items/armadura/placa_runica",
+    "defense": "11",
+    "magic_defense": "Dado de AST +1",
+    "is_martial": true,
+    "initiative": "-3",
+    "cost": 250
+  },
+  {
+    "name": "Placa de aço",
+    "item_type": "armadura",
+    "img_key": "items/armadura/placa_de_aco",
+    "defense": "12",
+    "magic_defense": "Dado de AST",
+    "is_martial": true,
+    "initiative": "-4",
+    "cost": 300
+  },
+  {
+    "name": "Jaqueta Viscosa",
+    "item_type": "armadura",
+    "img_key": "items/armadura/jaqueta_viscosa",
+    "defense": "Dado de DES +1",
+    "magic_defense": "Dado de AST +1",
+    "is_martial": false,
+    "initiative": "-1",
+    "cost": 600
+  },
+  {
+    "name": "Traje de raposa",
+    "item_type": "armadura",
+    "img_key": "items/armadura/traje_de_raposa",
+    "defense": "Dado de DES +1",
+    "magic_defense": "Dado de AST +1",
+    "is_martial": false,
+    "initiative": "-",
+    "cost": 650
+  },
+  {
+    "name": "Túnica Sombria",
+    "item_type": "armadura",
+    "img_key": "items/armadura/tunica_sombria",
+    "defense": "Dado de DES +1",
+    "magic_defense": "Dado de AST +1",
+    "is_martial": false,
+    "initiative": "+4",
+    "cost": 650
+  },
+  {
+    "name": "Casaco Desesperado",
+    "item_type": "armadura",
+    "img_key": "items/armadura/casaco_desesperado",
+    "defense": "Dado de DES +1",
+    "magic_defense": "Dado de AST +1",
+    "is_martial": false,
+    "initiative": "-1",
+    "cost": 750
+  },
+  {
+    "name": "Traje de Mordomo",
+    "item_type": "armadura",
+    "img_key": "items/armadura/traje_de_mordomo",
+    "defense": "Dado de DES +1",
+    "magic_defense": "Dado de AST +2",
+    "is_martial": false,
+    "initiative": "-2",
+    "cost": 800
+  },
+  {
+    "name": "Traje de Camareira",
+    "item_type": "armadura",
+    "img_key": "items/armadura/traje_de_camareira",
+    "defense": "Dado de DES +1",
+    "magic_defense": "Dado de AST +2",
+    "is_martial": false,
+    "initiative": "-2",
+    "cost": 800
+  },
+  {
+    "name": "Jaqueta de Bandido",
+    "item_type": "armadura",
+    "img_key": "items/armadura/jaqueta_de_bandido",
+    "defense": "Dado de DES +1",
+    "magic_defense": "Dado de AST +1",
+    "is_martial": false,
+    "initiative": "-1",
+    "cost": 900
+  },
+  {
+    "name": "Placa de Cristal",
+    "item_type": "armadura",
+    "img_key": "items/armadura/placa_de_cristal",
+    "defense": "11",
+    "magic_defense": "Dado de AST",
+    "is_martial": true,
+    "initiative": "-3",
+    "cost": 900
+  },
+  {
+    "name": "Asas da Valquíria",
+    "item_type": "armadura",
+    "img_key": "items/armadura/asas_da_valquiria",
+    "defense": "11",
+    "magic_defense": "Dado de AST +1",
+    "is_martial": true,
+    "initiative": "-3",
+    "cost": 900
+  },
+  {
+    "name": "Armadura Heroica",
+    "item_type": "armadura",
+    "img_key": "items/armadura/armadura_heroica",
+    "defense": "12",
+    "magic_defense": "Dado de AST",
+    "is_martial": true,
+    "initiative": "-4",
+    "cost": 1000
+  },
+  {
+    "name": "Faixa Preta",
+    "item_type": "armadura",
+    "img_key": "items/armadura/faixa_preta",
+    "defense": "Dado de DES",
+    "magic_defense": "Dado de AST",
+    "is_martial": false,
+    "initiative": "-",
+    "cost": 1000
+  },
+  {
+    "name": "Traje de Meditação",
+    "item_type": "armadura",
+    "img_key": "items/armadura/traje_de_meditacao",
+    "defense": "Dado de DES +1",
+    "magic_defense": "Dado de AST +2",
+    "is_martial": false,
+    "initiative": "-2",
+    "cost": 1000
+  },
+  {
+    "name": "Traje de Arquimago",
+    "item_type": "armadura",
+    "img_key": "items/armadura/traje_de_arquimago",
+    "defense": "Dado de DES +1",
+    "magic_defense": "Dado de AST +2",
+    "is_martial": false,
+    "initiative": "-2",
+    "cost": 1200
+  },
+  {
+    "name": "Traje Autômato",
+    "item_type": "armadura",
+    "img_key": "items/armadura/traje_automato",
+    "defense": "11",
+    "magic_defense": "Dado de AST +1",
+    "is_martial": true,
+    "initiative": "-3",
+    "cost": 1250
+  },
+  {
+    "name": "Adamantronco",
+    "item_type": "armadura",
+    "img_key": "items/armadura/adamantronco",
+    "defense": "12",
+    "magic_defense": "Dado de AST",
+    "is_martial": true,
+    "initiative": "-4",
+    "cost": 1300
+  },
+  {
+    "name": "Yoroi Ardente",
+    "item_type": "armadura",
+    "img_key": "items/armadura/yoroi_ardente",
+    "defense": "12",
+    "magic_defense": "Dado de AST",
+    "is_martial": true,
+    "initiative": "-4",
+    "cost": 1300
+  },
+  {
+    "name": "Riso Demoníaco",
+    "item_type": "armadura",
+    "img_key": "items/armadura/riso_demoniaco",
+    "defense": "12",
+    "magic_defense": "Dado de AST",
+    "is_martial": true,
+    "initiative": "-4",
+    "cost": 1500
+  },
+  {
+    "name": "Bioplaca",
+    "item_type": "armadura",
+    "img_key": "items/armadura/bioplaca",
+    "defense": "11",
+    "magic_defense": "Dado de AST",
+    "is_martial": false,
+    "initiative": "-3",
+    "cost": 1700
+  },
+  {
+    "name": "Túnica Branca",
+    "item_type": "armadura",
+    "img_key": "items/armadura/tunica_branca",
+    "defense": "Dado de DES +1",
+    "magic_defense": "Dado de AST +2",
+    "is_martial": false,
+    "initiative": "-2",
+    "cost": 1700
+  },
+  {
+    "name": "Roupa de Vovó",
+    "item_type": "armadura",
+    "img_key": "items/armadura/roupa_de_vovo",
+    "defense": "Dado de DES",
+    "magic_defense": "Dado de AST +2",
+    "is_martial": false,
+    "initiative": "-1",
+    "cost": 2000
+  },
+  {
+    "name": "Túnica Preta",
+    "item_type": "armadura",
+    "img_key": "items/armadura/tunica_preta",
+    "defense": "Dado de DES +1",
+    "magic_defense": "Dado de AST +2",
+    "is_martial": false,
+    "initiative": "-2",
+    "cost": 2200
+  },
+  {
+    "name": "Túnica Vermelha",
+    "item_type": "armadura",
+    "img_key": "items/armadura/tunica_vermelha",
+    "defense": "Dado de DES",
+    "magic_defense": "Dado de AST +2",
+    "is_martial": false,
+    "initiative": "-1",
+    "cost": 2500
+  }
+]

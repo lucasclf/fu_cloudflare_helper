@@ -1,0 +1,52 @@
+[
+  {
+    "npc_id": "Cid, o Gato",
+    "item_id": "Nekode",
+    "slot": "main_hand"
+  },
+  {
+    "npc_id": "Cid, o Gato",
+    "item_id": "Nekode",
+    "slot": "off_hand"
+  },
+  {
+    "npc_id": "Cid, o Gato",
+    "item_id": "Traje Autômato",
+    "slot": "armor_slot"
+  },
+  {
+    "npc_id": "Cid, o Gato",
+    "item_id": "Anel do Ovo",
+    "slot": "accessory_slot"
+  },
+  {
+    "npc_id": "Luiz Inácio Lula da Silva",
+    "item_id": "Jormungand",
+    "slot": "main_hand"
+  },
+  {
+    "npc_id": "Luiz Inácio Lula da Silva",
+    "item_id": "Túnica Vermelha",
+    "slot": "armor_slot"
+  },
+  {
+    "npc_id": "Luiz Inácio Lula da Silva",
+    "item_id": "Luvas Carmesins",
+    "slot": "accessory_slot"
+  },
+  {
+    "npc_id": "Karl Marx",
+    "item_id": "Ars Goetia",
+    "slot": "main_hand"
+  },
+  {
+    "npc_id": "Karl Marx",
+    "item_id": "Roupa de Vovó",
+    "slot": "armor_slot"
+  },
+  {
+    "npc_id": "Karl Marx",
+    "item_id": "Luvas Carmesins",
+    "slot": "accessory_slot"
+  }
+]

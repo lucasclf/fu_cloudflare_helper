@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Cid, o Gato",
+    "description": "Mercador/mecânico itinerante\nSempre aparece quando necessário. Memória curta, negociação afiada. Sempre com um veículo diferente",
+    "tagline": "???",
+    "img_key": "cid_gato"
+  },
+  {
+    "name": "Luiz Inácio Lula da Silva",
+    "description": "Um líder veterano, moldado por décadas de disputas políticas, alianças improváveis e embates contra forças muito maiores que ele. Lula pode é um governante carismático, negociador habilidoso e símbolo popular, capaz de mobilizar multidões com discursos inflamados, construir pactos entre facções rivais e sobreviver a crises que derrubariam personagens menos resilientes. Em campanha, pode atuar como patrono político, mediador de conflitos, alvo de conspirações ou figura central em uma disputa entre impérios, guildas e movimentos populares.",
+    "tagline": "A voz rouca que move multidões.",
+    "img_key": "luiz_inacio_lula_da_silva",
+    "hp": 70,
+    "mp": 80,
+    "initiative": 6,
+    "defense": 10,
+    "magic_defense": 13,
+    "level": 20,
+    "dexterity_die": "d6",
+    "insight_die": "d10",
+    "might_die": "d8",
+    "willpower_die": "d12"
+  },
+  {
+  "name": "Karl Marx",
+  "description": "Um pensador revolucionário, filósofo e teórico social cujas ideias atravessaram impérios, inspiraram levantes e dividiram nações. Como NPC de Fábula Ultima, Karl Marx pode ser usado como um intelectual perigoso para as elites, um mentor de movimentos populares, um escritor perseguido por monarquias ou uma figura enigmática capaz de transformar indignação coletiva em força histórica. Sua presença em campanha pode desencadear conflitos entre guildas, aristocratas, trabalhadores, igrejas e governos.",
+  "tagline": "Um espectro ronda o mundo.",
+  "img_key": "karl_marx",
+  "hp": 55,
+  "mp": 95,
+  "initiative": 5,
+  "defense": 9,
+  "magic_defense": 14,
+  "level": 20,
+  "dexterity_die": "d6",
+  "insight_die": "d12",
+  "might_die": "d6",
+  "willpower_die": "d10"
+}
+]

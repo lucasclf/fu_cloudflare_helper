@@ -1,0 +1,208 @@
+[
+  {
+    "job_id" : "Andarilho",
+    "alias": "Aventureiro"
+  },
+  {
+    "job_id" : "Andarilho",
+    "alias": "Caçador de Tesouros"
+  },
+  {
+    "job_id" : "Andarilho",
+    "alias": "Explorador"
+  },
+
+  {
+    "job_id" : "Arcanista",
+    "alias": "Avatar"
+  },
+  {
+    "job_id" : "Arcanista",
+    "alias": "Escolhido"
+  },
+  {
+    "job_id" : "Arcanista",
+    "alias": "Invocador"
+  },
+
+  {
+    "job_id" : "Atirador",
+    "alias": "Arqueiro"
+  },
+  {
+    "job_id" : "Atirador",
+    "alias": " Franco-atirador"
+  },
+  {
+    "job_id" : "Atirador",
+    "alias": "Pistoleiro"
+  },
+
+  {
+    "job_id" :  "Elementalista",
+    "alias": "Feiticeiro"
+  },
+  {
+    "job_id" :  "Elementalista",
+    "alias": "Geomante"
+  },
+  {
+    "job_id" :  "Elementalista",
+    "alias": "Mago de Batalha"
+  },
+
+  {
+    "job_id" : "Entropista",
+    "alias": "Apostador"
+  },
+  {
+    "job_id" : "Entropista",
+    "alias": "Astromante"
+  },
+  {
+    "job_id" : "Entropista",
+    "alias": "Mago do Caos"
+  },
+
+  {
+    "job_id" : "Erudito",
+    "alias": "Acadêmico"
+  },
+  {
+    "job_id" : "Erudito",
+    "alias": "Arquivista"
+  },
+  {
+    "job_id" : "Erudito",
+    "alias": "Sábio"
+  },
+
+  {
+    "job_id" : "Espiritualista",
+    "alias": "Bruxa"
+  },
+  {
+    "job_id" : "Espiritualista",
+    "alias": "Curandeiro"
+  },
+  {
+    "job_id" : "Espiritualista",
+    "alias": "Sacerdote"
+  },
+
+  {
+    "job_id" : "Furioso",
+    "alias": "Berserker"
+  },
+  {
+    "job_id" : "Furioso",
+    "alias": "Lutador"
+  },
+  {
+    "job_id" : "Furioso",
+    "alias": "Viking"
+  },
+
+  {
+    "job_id" : "Guardião",
+    "alias": "Paladino"
+  },
+  {
+    "job_id" : "Guardião",
+    "alias": "Soldado"
+  },
+  {
+    "job_id" : "Guardião",
+    "alias": "Yojimbo"
+  },
+
+  {
+    "job_id" :  "Guerreiro Sombrio",
+    "alias": " Cavaleiro da Morte"
+  },
+  {
+    "job_id" : "Guerreiro Sombrio",
+    "alias": "Cavaleiro Negro"
+  },
+  {
+    "job_id" : "Guerreiro Sombrio",
+    "alias": "Vingador"
+  },
+
+  {
+    "job_id" : "Inventor",
+    "alias": "Alquimista"
+  },
+  {
+    "job_id" : "Inventor",
+    "alias": "Engenheiro Tecnomágico"
+  },
+  {
+    "job_id" : "Inventor",
+    "alias": "Mecânico"
+  },
+
+  {
+    "job_id" : "Ladino",
+    "alias": "Bandido"
+  },
+  {
+    "job_id" : "Ladino",
+    "alias": "Ladrão"
+  },
+  {
+    "job_id" : "Ladino",
+    "alias": "Ninja"
+  },
+
+  {
+    "job_id" : "Mestre de Armas",
+    "alias": "Guerreiro"
+  },
+  {
+    "job_id" : "Mestre de Armas",
+    "alias": "Lutador"
+  },
+  {
+    "job_id" : "Mestre de Armas",
+    "alias": "Ronin"
+  },
+
+  {
+    "job_id" : "Orador",
+    "alias": "Artista"
+  },
+  {
+    "job_id" : "Orador",
+    "alias": "Diplomata"
+  },
+  {
+    "job_id" : "Orador",
+    "alias": "Embaixador"
+  },
+
+  {
+    "job_id" : "Quimerista",
+    "alias": "Druida"
+  },
+  {
+    "job_id" : "Quimerista",
+    "alias": "Mago Selvagem"
+  },
+  {
+    "job_id" : "Quimerista",
+    "alias": "Metamorfo"
+  },
+  {
+    "job_id" : "Lâmina Carmesim",
+    "alias": "Hemomante"
+  },
+  {
+    "job_id" : "Lâmina Carmesim",
+    "alias": "Dampiro"
+  },
+  {
+    "job_id" : "Lâmina Carmesim",
+    "alias": "Cavaleiro Vermelho"
+  }
+]

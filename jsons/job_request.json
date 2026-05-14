@@ -1,0 +1,133 @@
+[
+  {
+    "name": "Andarilho",
+    "img_key": "andarilho",
+    "tagline": "Fronteiras são um truque da mente.",
+    "description": "Nômades à procura de um continente mitológico, exploradores desbravando os ermos, caçadores e viajantes, todos têm algo em comum: são andarilhos. Embora a maioria dos heróis viaje pelo mundo durante suas aventuras, Andarilhos vivem pela jornada, sempre dispostos a visitar novos lugares e aprender com os outros. Aos olhos de um Andarilho, a natureza não é uma inimiga ou aliada, mas uma professora severa que pode revelar muitas verdades esquecidas.",
+    "ip_bonus": 2
+  },
+  {
+    "name": "Arcanista",
+    "img_key": "arcanista",
+    "tagline": "Alguns destinos não podem ser evitados",
+    "description": "Arcanistas podem entrar em um transe profundo e temporariamente projetar uma porção considerável da sua alma para fora do corpo, concedendo-lhe forma física. Cercado por esta névoa mágica, o Arcanista ganha várias habilidades sobrenaturais. Dizem que essas formas invocadas são manifestações das almas ancestrais que pertencem a entidades mitológicas chamadas de Arcanos.Em alguns mundos, os Arcanos são cultuados como divindades.",
+    "mp_bonus": 5,
+     "allows_arcane": true
+  },
+  {
+    "name": "Atirador",
+    "img_key": "atirador",
+    "tagline": "Fuja até o outro canto do mundo; minha flecha ainda encontrará você.",
+    "description": "A maioria dos Atiradores é excepcional em lidar com ameaças a uma distância cuidadosamente calculada; outros são corajosos, habilidosos ou imprudentes o bastante para enfrentar os adversários de perto. Embora muitos desses combatentes sejam soldados habilidosos, alguns caíram na pirataria, na caça a recompensas ou na bandidagem. Outros colocam suas habilidades a serviço do povo ou as usam para proteger um local sagrado ou proibido contra intrusos.",
+    "hp_bonus": 5,
+    "allows_martial_shield": true,
+    "allows_martial_ranged_weapon": true
+  },
+  {
+    "name": "Elementalista",
+    "img_key": "elementalista",
+    "tagline": "Ignore os avisos deste mundo por sua conta e risco.",
+    "description": "Os Elementalistas aprendem a canalizar as almas que fluem dentro dos elementos básicos da criação: Água, Terra, Fogo e Ar. Alguns deles desenvolvem feitiços complexos para conter os poderosos elementos da natureza; outros buscam a prote- ção em harmonia e comunhão. Magia elemental pode ser muito destrutiva, causando dano e infligindo condições negativas; é por isso que muitos desejam as habilidades de um Elementalista... para fins maléficos.",
+    "mp_bonus": 5,
+    "allows_rituals": true
+  },
+  {
+    "name": "Entropista",
+    "img_key": "entropista",
+    "tagline": "O frio entre as estrelas... não me assusta.",
+    "description": "Muito acima das estrelas, onde sua luz não brilha, existe um vazio sem fundo onde a vida e as almas murcham e se transformam em algo irreconhecível. Esse reino é uma não realidade, um caos vasto e infinito imune às leis do tempo, do espaço e da probabilidade. Entropistas o chamam de Cosmos, Céu ou apenas Sorte, e estão entre os poucos com a dádiva de canalizar suas energias que distorcem a realidade.",
+    "mp_bonus": 5,
+    "allows_rituals": true
+  },
+  {
+    "name": "Erudito",
+    "img_key": "erudito",
+    "tagline": "Ah, eu sabia que isto aconteceria.",
+    "description": "Eruditos são famosos pela sua fome insaciável por descobertas. Eles acreditam com louvor que conhecimento é poder e dariam todo o ouro do mundo para ter a chance de solucionar um bom mistério. Infelizmente, muitos Eruditos são desligados e se distraem com facilidade, pouco se preocupando com assuntos “pragmáticos”... ao ponto de não notarem as consequências sombrias de suas descobertas.",
+    "mp_bonus": 5
+  },
+  {
+    "name": "Espiritualista",
+    "img_key": "espiritualista",
+    "tagline": "Mostre-me a verdade do seu coração.",
+    "description": "Os Espiritualistas cultivam uma poderosa conexão com os aspectos brutos da alma: emoção, energia, vida e morte. Eles usam poderes tão milagrosos quanto assustadores e costumam ser afiliados a cultos ou religiões. Vários mundos veem os poderes do espiritualismo como dá- divas divinas ou como prova da pureza de coração de alguém; entretanto, não há prova definitiva de que essas habilidades vêm de algo além de disciplina, empatia e foco.",
+    "mp_bonus": 5,
+    "allows_rituals": true
+  },
+  {
+    "name": "Furioso",
+    "img_key": "furioso",
+    "tagline": "Eu só preciso ficar mais forte que você!",
+    "description": "Furiosos não sabem parar — na guerra e na vida, são enérgicos, determinados e implacá- veis. Seja quais forem os seus ideais ou desejos, eles não param por nada e arriscam tudo para conquistá-los. Alguns Furiosos passam por treinamentos rígidos para controlar suas emoções; outros apenas veem o poder como a solução de todos os problemas e estão sempre prestes a deixar sua ira dominá-los.",
+    "hp_bonus": 5,
+    "allows_martial_armor": true,
+    "allows_martial_melee_weapon": true
+  },
+  {
+    "name": "Guardião",
+    "img_key": "guardiao",
+    "tagline": "Deixe-me ser seu escudo.",
+    "description": "Orgulhosos e altruístas,Guardi- ões sabem o valor da vida... e estão dispostos a se sacrificar por uma pessoa, nação ou ideal que juraram proteger. Costumam ser indivíduos extraordinários e impressionantes, como soldados ou veteranos valentes marcados por centenas de batalhas. Há guardiões que podem parecer barulhentos e tempestuosos, mas muitos deles estão apenas mascarando memórias atormentadas das pessoas que falharam em proteger.",
+    "hp_bonus": 5,
+    "allows_martial_armor": true,
+    "allows_martial_shield": true
+  },
+  {
+    "name": "Guerreiro Sombrio",
+    "img_key": "guerreiro_sombrio",
+    "tagline": "Hoje você conhecerá a extensão do meu sofrimento.",
+    "description": "Guerreiros Sombrios são combatentes lúgubres e poderosos que escondem passados tristes. Devido a suas experiências trágicas no campo de batalha ou na vida pessoal, sua alma desenvolveu uma afinidade à dor e a energias sombrias. Heróis no mínimo improváveis, Guerreiros Sombrios sacrificam a própria força vital para desferir golpes poderosos e extrair coragem, poder e até sabedoria do seu sofrimento.",
+    "hp_bonus": 5,
+    "allows_martial_armor": true,
+    "allows_martial_melee_weapon": true
+  },
+  {
+    "name": "Inventor",
+    "img_key": "inventor",
+    "tagline": "Gosto de imaginar que aquilo que temos hoje não foi um presente dos deuses.",
+    "description": "Inventores têm uma engenhosidade sem igual, conhecidos por suas invenções excêntricas e maravilhosas. Viajam ao redor do mundo em uma busca infindável por teorias perdidas e maquinário antigo; seus olhos brilham quando eles testemunham maravilhas da arquitetura e da engenharia. De certo modo, os Inventores são os maiores sonhadores e rebeldes, desafiando as regras da natureza e da sociedade em prol de um futuro melhor.",
+    "ip_bonus": 2,
+    "can_start_projects": true
+  },
+  {
+    "name": "Ladino",
+    "img_key": "ladino",
+    "tagline": "Eu encontrarei minha própria justiça.",
+    "description": "Sejam criminosos, rebeldes ou espiões, os Ladinos estão mais que dispostos a jogar sujo para conseguirem o que querem. No geral, são rápidos, perspicazes e evasivos — embora a infâmia de alguns por se preocuparem apenas com o próprio dinheiro e lucro seja reconhecida, muitos se consideram inimigos de injustiças, tiranias ou exclusão social. É comum que Ladinos tenham o trágico destino de serem vistos como ameaça pelas mesmas pessoas a quem defendem.",
+    "ip_bonus": 2
+  },
+  {
+    "name": "Mestre de Armas",
+    "img_key": "mestre_de_armas",
+    "tagline": "As lâminas mais aguçadas nunca são desembainhadas.",
+    "description": "Os Mestres de Armas devotam anos e anos ao aperfeiçoamento das suas artes de combate a curto alcance. A maioria tem uma habilidade notável com diversas armas; outros treinaram para se tornarem um com um armamento específico. Alguns Mestres de Armas seguem e protegem alguém por amor ou por lealdade, mas há também aqueles que atravessam o mundo buscando oponentes dignos, armas mágicas lendárias ou professores capacitados.",
+    "hp_bonus": 5,
+    "allows_martial_melee_weapon": true,
+    "allows_martial_shield": true
+  },
+  {
+    "name": "Orador",
+    "img_key": "orador",
+    "tagline": "Palavras só servem de algo se as ações subsequentes também servirem.",
+    "description": "Alguns Oradores são graciosos e de sorriso cheio, outros são sutis e perspicazes, mas todos são igualmente habilidosos em ler emoções e reunir aliados em prol de suas causas — às vezes sem querer. As palavras de um Orador podem reacender a coragem ou causar desespero aos oponentes: ao longo dos séculos, os talentos de alguns Oradores levaram nações inteiras à ruína... da mesma maneira que muitos causaram a ascensão de reinos outrora destruídos.",
+    "mp_bonus": 5
+  },
+  {
+    "name": "Quimerista",
+    "img_key": "quimerista",
+    "tagline": "Poder sem harmonia só leva ao sofrimento.",
+    "description": "Os Quimeristas obtêm seu poder das almas dos monstros e feras que encontram. Ao manipular sua selvagem energia interior, esses magos podem imitar as habilidades mágicas dos monstros e alcan- çar compreensão sobrenatural sobre criaturas ferais. Os Quimeristas se apoiam em sua resistência e força física unidas à magia. Geralmente são vistos viajando pelo mundo na incessante busca de criaturas raras e encantadas.",
+    "mp_bonus": 5,
+    "allows_rituals": true,
+    "allows_monster_spells":  true
+  },
+  {
+    "name": "Lâmina Carmesim",
+    "img_key": "lamina_carmesim",
+    "tagline": "Sangue é vivo!",
+    "description": "Dominando o sangue, substância que sustenta a vida, lâminas carmesins podem moldá-la à sua vontade, uma habilidade que por vezes faz eles serem temidos ou renegados por onde passam. Contos de origem desconhecida dizem que todo lâmina carmesim descende de vampiros. Outros, que seus poderes vêm de experimentos alquímicos. Não importa qual é a origem, tais poderes vêm com uma sede de sangue e dominá-los requer controle ímpar desse desejo voraz.",
+    "hp_bonus": 5,
+    "allows_martial_melee_weapon": true,
+    "allows_martial_shield": true
+  }
+]

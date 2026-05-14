@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Kafra",
+    "description": "Ex-generala da Igreja, atualmente atua como sindica da Academia.",
+    "dexterity_die": "d8",
+    "insight_die": "d6",
+    "might_die": "d10",
+    "willpower_die": "d8",
+    "img_key": "kafra",
+    "pronouns": "Ela",
+    "origin": "Capital do Império",
+    "identity": "Ex-generala do Exército",
+    "theme": "Culpa",
+    "tagline": "Tema o Sangue antigo!",
+    "money": 0
+  }
+]

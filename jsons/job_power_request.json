@@ -1,0 +1,805 @@
+[
+  {
+    "name": "CAÇADOR DE TESOUROS",
+    "job_id": ["Andarilho"],
+    "description": "Quando seu grupo se aventura pelo mapa do mundo, você faz uma descoberta se tirar (NP + 1) ou menos no teste de Viagem (em vez de apenas 1).",
+    "type": "common",
+    "max_level": 2
+  },
+  {
+    "name": "COMPANHEIRO FIEL",
+    "job_id": ["Andarilho"],
+    "description": "Com a ajuda do grupo, crie um NPC construto, elemental, fera ou planta de nível 5 para ser seu companheiro: essa criatura não tem iniciativa e não sobe de nível, pode ter no máximo dois ataques básicos, recebe um bônus em testes de Precisão e Magia igual a (NP) e seus PV máximos são iguais a ((NP x o dado básico de Vigor do companheiro) + metade do seu nível). Você pode gastar sua ação para fazê-lo realizar uma ação no seu turno (uma vez por turno) — ele não age de outra forma. Se o seu companheiro for afetado por efeitos de turno, ele é afetado no seu turno. Seu companheiro entra e sai de cena com você e recebe os mesmos benefícios de descanso. Se ficar com 0 PV, ele foge e reencontra você no início da próxima cena em que estiver. Quando reaparece, está com metade dos PV máximos.",
+    "type": "common",
+    "max_level": 5
+  },
+  {
+    "name": "PAPO DE TAVERNA",
+    "job_id": ["Andarilho"],
+    "description": "Ao descansar em uma estalagem ou taverna, você pode fazer (NP) perguntas ao mestre sobre os arredores e habitantes. O mestre deve responder com informações verdadeiras, mas você deve descrever como obteve tais informações.",
+    "type": "common",
+    "max_level": 3
+  },
+  {
+    "name": "PRÁTICO",
+    "job_id": ["Andarilho"],
+    "description": "Você recupera (NP) PI após cada teste de Viagem.",
+    "type": "common",
+    "max_level": 4
+  },
+  {
+    "name": "VIAJANTE EXPERIENTE",
+    "job_id": ["Andarilho"],
+    "description": "Você reduz o dado rolado em seus testes de Viagem em um (mínimo d6). Se mais de um personagem tiver este poder, os efeitos não são cumulativos.",
+    "type": "common",
+    "max_level": 1
+  },
+
+  {
+    "name": "ARCANISMO RITUALISTA",
+    "job_id": ["Arcanista"],
+    "description": "Você pode fazer rituais da disciplina arcanismo, desde que seus efeitos estejam entre os domínios de um ou mais Arcanos que você vinculou. Rituais de arcanismo usam (VON + VON) no teste de Magia.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "ARCANO EMERGENCIAL",
+    "job_id": ["Arcanista"],
+    "description": "Enquanto estiver em crise, o custo de invocar seu Arcano é reduzido em (NP × 5).",
+    "type": "common",
+    "max_level": 6
+  },
+  {
+    "name": "CÍRCULO ARCANO",
+    "job_id": ["Arcanista"],
+    "description": "Em seu turno, após dispensar voluntariamente um Arcano durante um conflito, se esse Arcano não foi invocado durante esse mesmo turno e você tem uma arma arcana equipada, você pode fazer a ação Feitiço sem usar uma ação (após resolver o efeito gerado por dispensar). O feitiço que você lançar dessa forma deve ter um custo total de PM igual ou inferior a (NP × 5) e você ainda deve pagar seu custo em PM.",
+    "type": "common",
+    "max_level": 4
+  },
+  {
+    "name": "REGENERAÇÃO ARCANA",
+    "job_id": ["Arcanista"],
+    "description": "Ao invocar um Arcano, você recupera (NP × 5) PV.",
+    "type": "common",
+    "max_level": 2
+  },
+  {
+    "name": "VINCULAR E INVOCAR",
+    "job_id": ["Arcanista"],
+    "description": "Você pode vincular Arcanos à sua alma para invocá-los em um momento posterior. Na primeira vez que você encontrar o Arcano em questão, o mestre lhe dirá os detalhes que envolvem cada processo de vinculação. Você pode usar uma ação e gastar 40 PM para invocar um Arcano que já vinculou. Se escolher este poder na criação de personagem, você começa o jogo já vinculado a um Arcano, à sua escolha, da lista nas próximas páginas. Para além disso, só se pode obter novos Arcanos explorando e avançando na história.",
+    "type": "common",
+    "max_level": 1
+  },
+
+  {
+    "name": "BARRAGEM",
+    "job_id": ["Atirador"],
+    "description": "Ao fazer um ataque à distância, você pode gastar 10 PM para escolher uma opção: o ataque recebe a propriedade multi (2); ou você aumenta em +1 a propriedade multi do ataque, até o máximo de multi (3).",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "FOGO CRUZADO",
+    "job_id": ["Atirador"],
+    "description": "Quando uma criatura que você possa ver faz um ataque à distância, você pode gastar um total de PM igual a (5 + teste de Precisão da criatura alvo) para fazer o ataque falhar automaticamente contra todos os alvos. Você só pode usar este poder se tiver uma arma à distância equipada. Este poder não funciona se o teste de Precisão da criatura for um sucesso crítico.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "MAESTRIA COM ARMAS À DISTÂNCIA",
+    "job_id": ["Atirador"],
+    "description": "Você recebe um bônus igual a (NP) em testes de Precisão à distância.",
+    "type": "common",
+    "max_level": 4
+  },
+  {
+    "name": "OLHOS DE ÁGUIA",
+    "job_id": ["Atirador"],
+    "description": "Quando faz a ação Guarda, se escolher não dar cobertura a outra criatura, você pode escolher uma opção: o próximo ataque à distância que você fizer na cena atual causa (NP × 3) pontos de dano adicional ou você pode fazer um ataque livre com um arco ou arma de fogo equipada, considerando sua RA como 0 ao calcular o dano causado por este ataque.",
+    "type": "common",
+    "max_level": 5
+  },
+  {
+    "name": "TIRO DE AVISO",
+    "job_id": ["Atirador"],
+    "description": "Depois de atingir um ou mais alvos com um ataque à distância, você pode escolher não causar dano. Se fizer isso, escolha uma opção: cada alvo atingido pelo ataque fica abalado; ou fica lento; ou perde (NP × 10) PM. Descreva como você faz essa manobra!",
+    "type": "common",
+    "max_level": 4
+  },
+
+  {
+    "name": "ARTILHARIA MÁGICA",
+    "job_id": ["Elementalista"],
+    "description": "Quando lança um feitiço ofensivo com uma arma arcana equipada, você recebe um bônus igual a (NP × 2) no teste de Magia.",
+    "type": "common",
+    "max_level": 3
+  },
+  {
+    "name": "CATACLISMO",
+    "job_id": ["Elementalista"],
+    "description": "Quando lança um feitiço de duração “instantânea” com uma arma arcana equipada, você pode aumentar o custo total de PM do feitiço em até (NP × 10) PM. Se o fizer, o feitiço causa 5 pontos de dano adicional para cada 10 PM com os quais o custo foi aumentado dessa forma.",
+    "type": "common",
+    "max_level": 3
+  },
+  {
+    "name": "ELEMENTALISMO RITUALISTA",
+    "job_id": ["Elementalista"],
+    "description": "Você pode fazer rituais da disciplina elementalismo. Rituais de elementalismo usam (AST + VON) no teste de Magia.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "LÂMINA MÁGICA",
+    "job_id": ["Elementalista"],
+    "description": "Quando lança um feitiço ofensivo com custo total de PM igual ou inferior a (NP × 20) cujo alvo é uma única criatura, você pode escolher uma arma equipada que não seja arcana. Se fizer isso, seu teste de Magia usa a mesma fórmula do teste de Precisão da arma. Se a fórmula inclui Destreza, você também recebe um bônus igual ao (NP) no teste de Magia.",
+    "type": "common",
+    "max_level": 4
+  },
+  {
+    "name": "MAGIA ELEMENTAL",
+    "job_id": ["Elementalista"],
+    "description": "Sempre que adquirir este poder, aprenda um feitiço de Elementalista. Feitiços ofensivos de Elementalista usam (AST + VON) no teste de Magia.",
+    "type": "common",
+    "max_level": 10
+  },
+
+  {
+    "name": "ABSORVER PM",
+    "job_id": ["Entropista"],
+    "description": "Depois de sofrer dano, você recupera (NP × 2) PM.",
+    "type": "common",
+    "max_level": 5
+  },
+  {
+    "name": "ENTROPISMO RITUALISTA",
+    "job_id": ["Entropista"],
+    "description": "Você pode fazer rituais da disciplina entropismo. Rituais de entropismo usam (AST + VON) no teste de Magia.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "MAGIA ENTRÓPICA",
+    "job_id": ["Entropista"],
+    "description": "Sempre que adquirir este poder, aprenda um feitiço de Entropista. Feitiços ofensivos de Entropista usam (AST + VON) no teste de Magia.",
+    "type": "common",
+    "max_level": 10
+  },
+  {
+    "name": "SETE DA SORTE",
+    "job_id": ["Entropista"],
+    "description": "Você tem um número da sorte; no início de cada sessão, esse número é 7. Uma vez por cena, após fazer um teste, você pode substituir o valor de um dado que rolou pelo seu número da sorte (mesmo que isso lhe dê um resultado impossível, como um 7 em um d6). Se fizer isso, o valor substituído torna-se o seu novo número da sorte.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "TEMPO ROUBADO",
+    "job_id": ["Entropista"],
+    "description": "Durante um conflito, você pode usar uma ação e até (NP × 5) PM para interferir no fluxo temporal. Para cada 5 PM gastos dessa forma, escolha uma opção: uma criatura fica lenta; ou deixa de ficar lenta; ou faz a ação Equipamento sem custo; ou um inimigo que esteja lento perde (10 + (NP x 5)) Pontos de Vida; ou escolha um aliado que ainda não tenha agido nesta rodada: esse aliado faz o turno dele imediatamente depois do seu durante essa rodada. Cada opção só pode ser escolhida uma vez por uso deste poder e você precisa ver as criaturas para poder afetá-las com ele.",
+    "type": "common",
+    "max_level": 4
+  },
+
+  {
+    "name": "ANÁLISE RÁPIDA",
+    "job_id": ["Erudito"],
+    "description": "No início de um conflito, você pode gastar até (NP × 5) PM. Para cada 5 PM gastos dessa forma, escolha uma opção: escolha uma criatura que você possa ver e o mestre revela um dos Traços dela; ou escolha um tipo de dano e uma criatura que você possa ver e o mestre revela a Afinidade dela ao tipo escolhido.",
+    "type": "common",
+    "max_level": 6
+  },
+  {
+    "name": "CONCENTRADO",
+    "job_id": ["Erudito"],
+    "description": "Aumente permanentemente seus PM máximos em (NP × 3). Ao fazer um teste aberto usando (AST + AST), você recebe um bônus igual a (NP) naquele teste (funciona apenas em testes abertos).",
+    "type": "common",
+    "max_level": 5
+  },
+  {
+    "name": "CONHECIMENTO É PODER",
+    "job_id": ["Erudito"],
+    "description": "Quando faz um teste de Precisão, você pode substituir um de seus dados de Atributo por Astúcia (como (AST + AST) para uma pistola ou (AST + VIG) para um machado de guerra).",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "LAMPEJO DE SABER",
+    "job_id": ["Erudito"],
+    "description": "Quando tira 13 ou mais em um teste para investigar uma criatura, item ou local — inclusive na ação Estudo —, você pode fazer até (NP) perguntas ao mestre sobre o tópico de sua investigação. Estas perguntas podem ser feitas imediatamente ou em um momento oportuno no futuro. O mestre deve responder com informações verdadeiras, mas você deve descrever o processo dedutivo de seu personagem. Este poder só pode ser usado uma vez na mesma criatura, item ou local.",
+    "type": "common",
+    "max_level": 3
+  },
+  {
+    "name": "MEMÓRIA TREINADA",
+    "job_id": ["Erudito"],
+    "description": "Você pode lembrar com perfeição dos detalhes de qualquer cena em que tenha estado na última semana. Você pode “voltar no tempo” dentro de sua mente para examinar ou investigar essas cenas de novo — seu poder Lampejo de Saber também pode ser usado nestas memórias.",
+    "type": "common",
+    "max_level": 1
+  },
+
+  {
+    "name": "ESPIRITUALISMO RITUALISTA",
+    "job_id": ["Espiritualista"],
+    "description": "Você pode fazer rituais da disciplina espiritualismo. Rituais de espiritualismo usam (AST + VON) no teste de Magia.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "MAGIA DE SUPORTE",
+    "job_id": ["Espiritualista"],
+    "description": "Quando lança um feitiço que tenha como alvo um ou mais aliados, se estiver com uma arma arcana equipada, escolha um destes aliados com quem você tenha um Laço. O aliado recebe um bônus igual à força do seu Laço com ele no próximo teste que fizer até o fim da cena.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "MAGIA ESPIRITUAL",
+    "job_id": ["Espiritualista"],
+    "description": "Sempre que adquirir este poder, aprenda um feitiço de Espiritualista. Feitiços ofensivos de Espiritualista usam (AST + VON) no teste de Magia.",
+    "type": "common",
+    "max_level": 10
+  },
+  {
+    "name": "PODER CURATIVO",
+    "job_id": ["Espiritualista"],
+    "description": "Quando lança um feitiço que tenha como alvo um ou mais aliados, se estiver com uma arma arcana equipada, cada aliado alvo recupera uma quantidade de PV igual a (3 + (NP × número de Laços que você tem)). Esta cura é separada de qualquer cura causada pelos efeitos do feitiço.",
+    "type": "common",
+    "max_level": 2
+  },
+  {
+    "name": "VISMAGUS",
+    "job_id": ["Espiritualista"],
+    "description": "Quando lança um feitiço, caso não tenha PM para pagar seu custo total, em vez disso, você pode gastar uma quantidade de PV igual a (10 + o custo total em PM do feitiço). Se um feitiço lançado dessa forma faria você recuperar PV, você não o faz (outros alvos são afetados normalmente).",
+    "type": "common",
+    "max_level": 1
+  },
+
+  {
+    "name": "ADRENALINA",
+    "job_id": ["Furioso"],
+    "description": "Enquanto estiver em crise, você causa (NP × 2) pontos de dano adicional (seja através de ataques, feitiços, Arcanos, itens ou qualquer outro meio).",
+    "type": "common",
+    "max_level": 5
+  },
+  {
+    "name": "ESPÍRITO INDOMÁVEL",
+    "job_id": ["Furioso"],
+    "description": "Quando gasta um ou mais Pontos de Fabula, você recebe um benefício adicional — escolha um: você recupera (NP × 5) PV; ou você recupera (NP × 5) PM; ou você se recupera de uma única condição à sua escolha.",
+    "type": "common",
+    "max_level": 4
+  },
+  {
+    "name": "FRENESI",
+    "job_id": ["Furioso"],
+    "description": "Seus testes de Precisão com adaga, luta, malho e armas de arremesso contam como um sucesso crítico se ambos os dados mostrarem um mesmo número, qualquer que seja (contanto que o teste não seja uma falha crítica).",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "PROVOCAR",
+    "job_id": ["Furioso"],
+    "description": "Você pode usar uma ação e 5 PM para fazer um teste oposto de (VIG + VON) contra uma criatura que você possa ver — descreva de que maneira a provoca! Se passar, o alvo fica enfurecido e é compelido a se concentrar em você (ele deve fazer o possível para ter você como alvo de ataques e feitiços). A compulsão termina se você ficar inconsciente ou deixar a cena, ou se a criatura deixar de ficar enfurecida ou for provocada por outra pessoa. Você recebe um bônus igual a (NP) em testes de (VIG + VON) para este poder.",
+    "type": "common",
+    "max_level": 5
+  },
+  {
+    "name": "RESISTIR",
+    "job_id": ["Furioso"],
+    "description": "Quando faz a ação Guarda, se você escolher não dar cobertura a outra criatura, recupere uma quantidade de PV igual a (NP × a maior força de Laço que tiver) e escolha Vigor ou Vontade. Até o fim do seu próximo turno, o dado atual do Atributo escolhido é considerado um passo maior (máximo de d12).",
+    "type": "common",
+    "max_level": 5
+  },
+
+  {
+    "name": "DUPLO ESCUDEIRO",
+    "job_id": ["Guardião"],
+    "description": "Você se torna capaz de equipar um escudo em seu espaço de mão dominante. Enquanto tiver dois escudos equipados, você recebe os benefícios de ambos os itens e pode tratá-los como a seguinte arma de luta de duas mãos: Escudos Gêmeos (VIG + VIG) (RA + 5) físico. Causa dano adicional igual ao seu (NP) em Maestria Defensiva.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "FORTALEZA",
+    "job_id": ["Guardião"],
+    "description": "Aumente permanentemente seus PV máximos em (NP × 3).",
+    "type": "common",
+    "max_level": 5
+  },
+  {
+    "name": "GUARDA-COSTAS",
+    "job_id": ["Guardião"],
+    "description": "Se você fizer a ação Guarda e escolher dar cobertura a um aliado, essa criatura torna-se Resistente a todos os tipos de dano até o início de seu próximo turno.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "MAESTRIA DEFENSIVA",
+    "job_id": ["Guardião"],
+    "description": "Enquanto tiver um escudo ou uma armadura marcial equipada, todo o dano que você sofrer será reduzido em (NP) (aplicado antes de Afinidades a dano).",
+    "type": "common",
+    "max_level": 5
+  },
+  {
+    "name": "PROTEGER",
+    "job_id": ["Guardião"],
+    "description": "Quando outra criatura é ameaçada por um ataque, feitiço ou outro perigo, você pode tomar o lugar dela. Quaisquer testes que forem parte do perigo serão realizados contra você; além disso, você pode declarar o uso deste poder antes ou depois da realização dos testes. Se o perigo já afetou você, ele o afetará duas vezes (resolva ambas as instâncias separadamente); além disso, você não pode proteger várias criaturas do mesmo perigo. Se usar este poder durante um conflito, você não poderá reutilizá-lo até o início de seu próximo turno.",
+    "type": "common",
+    "max_level": 1
+  },
+
+  {
+    "name": "AGONIA",
+    "job_id": ["Guerreiro Sombrio"],
+    "description": "Uma vez por turno (inclusive os turnos de outras criaturas), após causar dano a uma ou mais inimigos com os quais tem um Laço, você recupera (NP × 2) Pontos de Vida e (NP × 2) Pontos de Mana.",
+    "type": "common",
+    "max_level": 5
+  },
+  {
+    "name": "CORAÇÃO DA ESCURIDÃO",
+    "job_id": ["Guerreiro Sombrio"],
+    "description": "Uma vez por cena, quando entra em crise, escolha uma criatura específica que você possa ver e com a qual não tenha um Laço; você cria um Laço de ódio para com a criatura escolhida.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "GOLPE DAS SOMBRAS",
+    "job_id": ["Guerreiro Sombrio"],
+    "description": "Você aprendeu a canalizar sua força vital em seus ataques. Você pode usar uma ação para fazer um Golpe das Sombras: role seu dado atual de Vigor e perca uma quantidade de PV igual ao resultado. Se isto não reduzir seus PV a 0, você pode fazer um ataque livre com uma arma equipada; se atingir um ou mais alvos, você causa dano adicional igual a (NP + número rolado no dado de Vigor). Esse ataque causa dano de trevas e seu tipo não pode ser alterado.",
+    "type": "common",
+    "max_level": 5
+  },
+  {
+    "name": "LIÇÃO DOLOROSA",
+    "job_id": ["Guerreiro Sombrio"],
+    "description": "Quando outra criatura faz você perder PV (com um ataque, feitiço ou qualquer outro método), você pode fazer a ação Estudo imediatamente, tendo-a como alvo. Se fizer isso, você faz o teste com um bônus igual a (NP). Lembre-se: você só pode estudar a mesma informação de uma criatura uma vez.",
+    "type": "common",
+    "max_level": 3
+  },
+  {
+    "name": "SANGUE DAS TREVAS",
+    "job_id": ["Guerreiro Sombrio"],
+    "description": "Enquanto estiver em crise, você tem Resistência a dano de trevas e de veneno.",
+    "type": "common",
+    "max_level": 1
+  },
+
+  {
+    "name": "CHUVA DE POÇÕES",
+    "job_id": ["Inventor"],
+    "description": "Quando cria uma poção que restaura PV e/ou PM de uma única criatura, você pode fazer com que ela afete até (NP) criaturas adicionais. Se fizer isso, a poção restaura apenas metade da quantidade normal de PV e PM para cada criatura.",
+    "type": "common",
+    "max_level": 2
+  },
+  {
+    "name": "ENGENHOCAS",
+    "job_id": ["Inventor"],
+    "description": "Quando adquire este poder pela primeira vez, escolha um tipo de engenhoca: alquimia, infusões ou tecnomagia. Você recebe os benefícios básicos desse tipo de engenhoca. Sempre que adquirir este poder novamente, escolha uma opção: você recebe os benefícios básicos de um novo tipo de engenhoca; ou recebe os benefícios avançados de uma engenhoca cujos benefícios básicos já possua; ou recebe os benefícios superiores de uma engenhoca cujos benefícios avançados já possua.",
+    "type": "common",
+    "max_level": 5
+  },
+  {
+    "name": "FÓRMULA SECRETA",
+    "job_id": ["Inventor"],
+    "description": "Quando cria uma poção ou magisfera cujos efeitos restauram PV e/ou PM, cada recurso restaurado aumenta em (NP × 5). Quando cria um fragmento elemental, uma magisfera ou uma poção que cause dano, esse item causa (NP) pontos de dano adicional.",
+    "type": "common",
+    "max_level": 5
+  },
+  {
+    "name": "ITEM EMERGENCIAL",
+    "job_id": ["Inventor"],
+    "description": "Uma vez por cena de conflito, quando estiver em crise, você pode fazer uma ação adicional no seu turno, mas deve ser a ação Inventário.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "VISIONÁRIO",
+    "job_id": ["Inventor"],
+    "description": "Quando trabalha em um projeto, até (NP × 100) zênites do seu custo de material são pagos automaticamente. Além disso, você gera mais (NP) de progresso todos os dias. Se vários personagens com este poder trabalharem no mesmo projeto, os efeitos são cumulativos.",
+    "type": "common",
+    "max_level": 5
+  },
+
+  {
+    "name": "ALTA VELOCIDADE",
+    "job_id": ["Ladino"],
+    "description": "No início de um conflito, você pode gastar 10 PM. Se fizer isso, escolha uma opção: faça um ataque livre com uma arma equipada; ou faça a ação Impedimento ou Objetivo. Isso acontece antes da primeira rodada. Você também recebe um bônus igual a (NP) em testes feitos como parte da opção escolhida.",
+    "type": "common",
+    "max_level": 3
+  },
+  {
+    "name": "ESQUIVA",
+    "job_id": ["Ladino"],
+    "description": "Enquanto não tiver escudos ou armaduras marciais equipadas, sua Defesa aumenta em (NP).",
+    "type": "common",
+    "max_level": 3
+  },
+  {
+    "name": "GOLPE BAIXO",
+    "job_id": ["Ladino"],
+    "description": "Quando atinge uma criatura com um ataque, caso essa criatura seja o único alvo do ataque e esteja sofrendo uma ou mais condições, você causa dano adicional igual a (NP + o número de condições afetando a criatura).",
+    "type": "common",
+    "max_level": 5
+  },
+  {
+    "name": "ROUBO DE ALMA",
+    "job_id": ["Ladino"],
+    "description": "Em um conflito, você pode usar uma ação para fazer um teste de (DES + VON) contra a Defesa Mágica de um inimigo que possa ver. Se o alvo for um soldado e você tiver sucesso, recupere (NP) PI; se ele for um elite ou um campeão, em vez disso você recebe o tesouro da alma do alvo: um item com valor em zênites igual ou inferior ao (nível do alvo multiplicado por 30 ou, se for um vilão, multiplicado por 50). Esse tesouro da alma aparece na sua mochila. Uma criatura pode ser furtada por este poder apenas uma vez. Você recebe um bônus igual a (NP) nos testes de (DES + VON) para este poder.",
+    "type": "common",
+    "max_level": 5
+  },
+  {
+    "name": "VEJO VOCÊ MAIS TARDE",
+    "job_id": ["Ladino"],
+    "description": "Você pode usar uma ação e 1 Ponto de Fabula para sumir da cena atual, reaparecendo quando quiser durante uma cena diferente em que outro PJ esteja. Descreva como você escapou e milagrosamente apareceu no novo local!",
+    "type": "common",
+    "max_level": 1
+  },
+
+  {
+    "name": "CHUVA DE LÂMINAS",
+    "job_id": ["Mestre de Armas"],
+    "description": "Quando faz um ataque corpo a corpo, você pode gastar 10 PM para escolher uma opção: o ataque recebe multi (2); ou você aumenta em um a propriedade multi do ataque, até o máximo de multi (3).",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "CONTRA-ATAQUE",
+    "job_id": ["Mestre de Armas"],
+    "description": "Quando um inimigo atinge ou erra um ataque corpo a corpo contra você, se o resultado do teste de Precisão for um número par, você pode fazer um ataque livre contra esse inimigo (depois que o ataque dele for resolvido). Esse ataque deve ser corpo a corpo e deve ter esse inimigo como único alvo; sua RA é considerada como 0 para calcular o dano causado por este ataque.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "QUEBRA-OSSOS",
+    "job_id": ["Mestre de Armas"],
+    "description": "Quando atinge um ou mais alvos com um ataque corpo a corpo que fosse causar dano, você pode escolher não causar dano. Se fizer isso, escolha uma opção: deixar cada alvo atingido pelo ataque atordoado; ou deixar cada alvo atingido fraco; ou cada alvo atingido perde (NP × 10) PM. Descreva sua manobra!",
+    "type": "common",
+    "max_level": 4
+  },
+  {
+    "name": "MAESTRIA COM ARMAS CORPO A CORPO",
+    "job_id": ["Mestre de Armas"],
+    "description": "Você recebe um bônus igual a (NP) em testes de Precisão corpo a corpo.",
+    "type": "common",
+    "max_level": 4
+  },
+  {
+    "name": "TRESPASSAR",
+    "job_id": ["Mestre de Armas"],
+    "description": "Você pode usar uma ação e gastar 5 PM para fazer um ataque livre com uma arma corpo a corpo equipada. Este ataque deve ter somente uma criatura como alvo. Se acertar, você não causa dano e escolhe uma opção: destrua um escudo equipado pelo alvo; ou destrua a armadura equipada pelo alvo; ou todas as fontes causam (NP × 2) pontos de dano adicional ao alvo até o início do seu próximo turno.",
+    "type": "common",
+    "max_level": 3
+  },
+
+  {
+    "name": "ALIADO INESPERADO",
+    "job_id": ["Orador"],
+    "description": "Você pode usar uma ação e 1 Ponto de Fabula para escolher uma criatura que não seja hostil e seja capaz de ouvir e entender você. Se fizer isso, ela se torna solícita, desde que tratada com respeito e gentileza e você faça pedidos razoáveis.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "CONDENAR",
+    "job_id": ["Orador"],
+    "description": "Você pode usar uma ação e 5 PM para fazer um teste oposto de (AST + VON) contra um inimigo capaz de ouvir e entender suas acusações. Em um sucesso, o inimigo alvo perde (NP × 10) PM e você escolhe se ele fica abalado ou atordoado; além disso, todas as fontes causam (NP) pontos de dano adicional a esse inimigo até o início do seu próximo turno. Você recebe um bônus igual a (NP) em testes de (AST + VON) para este poder.",
+    "type": "common",
+    "max_level": 4
+  },
+  {
+    "name": "CONFIO EM VOCÊ",
+    "job_id": ["Orador"],
+    "description": "Quando outro PJ capaz de ouvir você fizer um teste, você pode gastar 1 Ponto de Fabula para convocar um dos Traços ou Laços dele, permitindo que ele role dados novamente ou melhore o resultado do teste (seguindo as regras normais). Em seguida, se você tem um Laço com o personagem alvo, ele recupera (NP × 10) PM.",
+    "type": "common",
+    "max_level": 2
+  },
+  {
+    "name": "ENCORAJAR",
+    "job_id": ["Orador"],
+    "description": "Você pode usar uma ação e gastar 5 PM para escolher um aliado que possa ver e entender você. Esse aliado recupera (NP × 5) PV e escolhe Destreza, Vigor, Astúcia ou Vontade. Até o início do seu próximo turno, o dado atual do Atributo escolhido é considerado um passo maior (máximo de d12).",
+    "type": "common",
+    "max_level": 6
+  },
+  {
+    "name": "PERSUASIVO",
+    "job_id": ["Orador"],
+    "description": "Quando passar em um teste para preencher ou apagar as seções de um relógio, se a sua abordagem envolveu charme, diplomacia, enganação ou intimidação, você pode gastar até (NP × 20) PM. Se fizer isso, preencha ou apague uma seção adicional desse relógio para cada 20 PM gastos dessa maneira.",
+    "type": "common",
+    "max_level": 2
+  },
+
+  {
+    "name": "CONSUMIR",
+    "job_id": ["Quimerista"],
+    "description": "Quando causa dano a uma ou mais criaturas usando um feitiço, caso tenha uma adaga, arma arcana ou malho equipado, você recupera (NP × 2) PM.",
+    "type": "common",
+    "max_level": 5
+  },
+  {
+    "name": "IMITAÇÃO MÁGICA",
+    "job_id": ["Quimerista"],
+    "description": "Quando vê um feitiço sendo lançado por uma criatura das espécies fera, monstro ou planta, você pode aprendê-lo como um de seus feitiços de Quimerista: se fizer isso, anote a espécie da criatura com a qual aprendeu. Na primeira vez que receber este poder, escolha (AST + VON) ou (VIG + VON). A partir de agora, seus feitiços ofensivos de Quimerista usam os Atributos escolhidos no teste de Magia, independentemente dos Atributos usados pela criatura com a qual você aprendeu o feitiço. Você pode memorizar até (NP + 2) feitiços de Quimerista diferentes desta maneira. Se quiser memorizar um novo feitiço de Quimerista, mas já tiver atingido o limite, você deve esquecer um dos antigos e substituí-lo pelo novo.",
+    "type": "common",
+    "max_level": 10
+  },
+  {
+    "name": "LÍNGUA DAS FERAS",
+    "job_id": ["Quimerista"],
+    "description": "Você pode se comunicar com criaturas das espécies fera, monstro e planta.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "PATOGÊNESE",
+    "job_id": ["Quimerista"],
+    "description": "Quando causa dano a uma ou mais criaturas com um de seus feitiços de Quimerista, alvos que sejam da mesma espécie da criatura com a qual você aprendeu o feitiço ficam envenenados.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "QUIMERISMO RITUALISTA",
+    "job_id": ["Quimerista"],
+    "description": "Você pode fazer rituais da disciplina quimerismo. Ao obter este poder, escolha (AST + VON) ou (VIG + VON). A partir de agora, seus rituais de quimerismo utilizam os Atributos escolhidos no teste de Magia.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "ADVERSIDADE",
+    "job_id": ["Guerreiro Sombrio"],
+    "description": "Enquanto estiver sofrendo uma ou mais condições, você recebe +1 em todos os testes e causa 2 pontos de dano adicional (com Arcanos, ataques, feitiços, itens ou qualquer outro método) para cada condição que estiver sofrendo.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "AMBIDESTRIA",
+    "job_id": [],
+    "description": "Você pode aplicar os benefícios de luta com duas armas a qualquer arma, mesmo às que pertencem a categorias diferentes ou que uma seja corpo a corpo e outra seja à distância (como adaga e arma de fogo). Enquanto você tiver duas armas equipadas e elas não compartilharem categorias, você recebe um bônus de +2 na Defesa e o segundo ataque que fizer em cada um dos seus turnos causa 5 pontos de dano adicional.",
+    "type": "heroic",
+    "max_level": 1,
+    "is_global": true
+  },
+  {
+    "name": "ATAQUE PODEROSO",
+    "job_id": ["Furioso", "Mestre de Armas"],
+    "description": "Seus ataques corpo a corpo causam 5 pontos de dano adicional. Se estiver no 40° nível ou acima, esse dano aumenta para +10.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "BOLSOS FUNDOS",
+    "job_id": ["Inventor"],
+    "description": "Você reduz custos de Pontos de Inventário em –1 (mínimo 1).",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "COMETA",
+    "job_id": ["Entropista"],
+    "description": "Você aprende o feitiço supremo de entropista: Cometa. Cometa PM: 50. Alvo: especial. Duração: instantânea. Você abre um grande portal do Cosmos, convocando uma rocha astral do vazio. Escolha uma opção: você causa 60 pontos de dano a uma criatura que você possa ver; ou causa 40 pontos de dano a todos os inimigos que possa ver. Esses danos aumentam em +5 se você estiver no 20° nível ou acima, e em +10 se estiver no 40° nível ou acima. Esses danos não têm tipo (portanto, não são afetados por Afinidades a dano).",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "COMPANHEIRO HEROICO",
+    "job_id": ["Arcanista"],
+    "description": "Você recebe os seguintes benefícios: os PV máximos do companheiro aumentam em 10; seu companheiro causa 5 pontos de dano adicional; escolha um dos Atributos do companheiro: Destreza, Vigor, Astúcia ou Vontade. O dado básico do Atributo escolhido aumenta em um passo (máximo d12); o companheiro recebe um poder adicional. Quando você alcançar o 40º nível (ou se já o tiver ultrapassado), o companheiro recebe mais um poder. Converse com o mestre e os outros jogadores sobre suas decisões de poder.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "DESALMADO",
+    "job_id": ["Guerreiro Sombrio"],
+    "description": "Quando atinge uma criatura com um ataque, se apenas essa criatura for o alvo e você tiver um Laço com ela, pode gastar a metade de seus PV atuais (arredondada para baixo). Se fizer isso, o ataque causa (10 vezes a força de seu Laço com o alvo) pontos de dano adicional. Este poder só pode ser usado uma vez em cada um de seus turnos em um conflito.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "DOMÍNIO QUIMÉRICO",
+    "job_id": ["Quimerista"],
+    "description": "Escolha duas espécies entre construto, demônio, elemental e morto-vivo. Você pode usar seu poder Imitação Mágica para aprender feitiços de criaturas das espécies escolhidas. Este poder heroico pode ser adquirido até duas vezes, permitindo que você escolha duas das espécies mencionadas acima por vez. Sempre que adquirir este poder, você aumenta seu limite de feitiços memorizados de Quimerista em +2.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "ECOS ARCANOS",
+    "job_id": ["Arcanista"],
+    "description": "Se os domínios de um ou mais Arcanos vinculados a você forem aplicáveis a um teste para apagar ou preencher uma ou mais seções de um relógio, ao obter sucesso no teste, você pode apagar ou preencher uma seção adicional desse relógio. O mestre tem a palavra final se um domínio é aplicável ou não.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "ESPERANÇA",
+    "job_id": ["Espiritualista"],
+    "description": "Você aprende o feitiço supremo de espiritualista: Esperança. Esperança PM: 40. Alvo: especial. Duração: instantânea. Você reacende as chamas da coragem e da esperança de um herói derrotado. Escolha um PJ que tenha se rendido e ainda esteja narrativamente presente na cena: esse alvo imediatamente recobra a consciência e recupera uma quantidade de PV igual à metade dos seus PV máximos. Observe que esse feitiço não cancela as consequências pela rendição do personagem e não tem utilidade se ele tiver saído de cena como parte da rendição. Um PJ só pode ser afetado por esse feitiço uma vez por cena; se o personagem voltar ao conflito por meio desse feitiço e depois for reduzido a 0 PV novamente, ele deve se sacrificar ou se render de acordo com as regras normais.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "FEITIÇO PODEROSO",
+    "job_id": ["Elementalista", "Entropista", "Espiritualista", "Quimerista"],
+    "description": "Seus feitiços causam 5 pontos de dano adicional. Se estiver no 40° nível ou acima, esse dano aumenta para +10.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "FEITIÇOS EXTRAS",
+    "job_id": [],
+    "description": "Quando adquirir este poder, aprenda dois feitiços de uma das seguintes listas: elementalista, entropista ou espiritualista. Ambos os feitiços devem ser da mesma lista e seguir as regras padrão da respectiva classe para serem lançados.",
+    "type": "heroic",
+    "max_level": 1,
+    "is_global": true
+  },
+  {
+    "name": "GOLPE TEMPESTUOSO",
+    "job_id": ["Mestre de Armas"],
+    "description": "Quando faz um ataque corpo a corpo com a propriedade multi, você recebe um bônus em seu teste de Precisão igual ao valor desta habilidade multi e o ataque causa 5 pontos de dano adicional. Se o ataque atingir uma única criatura, causa mais 5 pontos de dano.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "IMBATÍVEL",
+    "job_id": ["Guardião"],
+    "description": "Uma vez por cena, quando estiver prestes a ficar com 0 PV, em vez disso você pode resistir à dor e ficar com exatamente 1 PV.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "IMUNIDADE À CONDIÇÃO",
+    "job_id": ["Arcanista"],
+    "description": "Você se torna Imune a uma única condição à sua escolha.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "MATEMÁGICA",
+    "job_id": ["Erudito"],
+    "description": "Quando lança um feitiço com alvo “uma criatura”, escolha um Atributo (Destreza, Vigor, Astúcia ou Vontade) e um tipo de dado (d6, d8, d10 ou d12). Se o fizer, o alvo do feitiço se torna “todas as criaturas na cena cujo dado básico do Atributo escolhido corresponde à sua escolha” e seu custo total de PM é dobrado. Além disso, substitua todas as menções a “o alvo” no texto do feitiço por “cada alvo”; ou por “um ou mais alvos” se o feitiço for Anomalia, Dissipar, Espelhar ou Piedade. Quando o feitiço termina em um ou mais alvos, ele automaticamente termina em todos os alvos. Se lançar um feitiço ofensivo dessa forma, você faz um único teste de Magia e compara com a Defesa Mágica de cada alvo.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "MÃO DE GORILA",
+    "job_id": ["Furioso"],
+    "description": "Você agora pode equipar armas de duas mãos das categorias espada, lança, malho e pesada usando um único espaço de mão. Além disso, o primeiro ataque que você fizer com uma arma de duas mãos em cada turno causa 5 pontos de dano adicional e ignora Resistências.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "MELHORIA",
+    "job_id": ["Inventor"],
+    "description": "Em um descanso, você pode escolher qualquer número de armas, armaduras e/ou escudos entre aqueles em posse do seu grupo. Para cada item escolhido desta forma, você pode aplicar uma característica (se ele não tiver uma) ou substituir sua característica atual por uma diferente. Estas novas características devem estar nas listas de características disponíveis para itens do respectivo tipo e devem custar +1000 zênites ou menos. No fim do descanso, você deve gastar uma quantidade de zênites igual à soma de todos os custos, reduzida por (NP do seu poder Visionário, multiplicado por 100). Se o fizer, os itens são modificados conforme as suas escolhas.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "MIRA PERFEITA",
+    "job_id": ["Atirador"],
+    "description": "Quando atinge uma ou mais criaturas com um ataque à distância e escolhe não causar dano para usar o poder Tiro de Aviso, você pode escolher duas opções em vez de uma; por exemplo, você poderia deixar cada criatura abalada e lenta ou infligir uma condição a cada criatura e reduzir os PM delas ao mesmo tempo.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "MURALHA",
+    "job_id": ["Guardião"],
+    "description": "No início da primeira rodada de cada cena de conflito, você é Resistente a todos os tipos de dano e não pode sofrer condições (mas não se recupera de condições anteriores). Este benefício dura até o fim da primeira rodada.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "PILHAR",
+    "job_id": ["Ladino"],
+    "description": "Quando usa Roubo de Alma, você pode escolher como alvo um número qualquer de criaturas ao mesmo tempo (faça um único teste e compare-o à Defesa Mágica de cada criatura que deseja furtar).",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "PI EXTRAS",
+    "job_id": [],
+    "description": "Aumente permanentemente seus PI máximos em 4.",
+    "type": "heroic",
+    "max_level": 1,
+    "is_global": true
+  },
+  {
+    "name": "PM EXTRAS",
+    "job_id": [],
+    "description": "Aumente permanentemente seus PM máximos em 10. Se estiver no 40° nível ou acima, esses PM adicionais aumentam para 20.",
+    "type": "heroic",
+    "max_level": 1,
+    "is_global": true
+  },
+  {
+    "name": "PREVISÍVEL!",
+    "job_id": ["Erudito"],
+    "description": "Em um conflito, você pode usar uma ação e 20 PM para antecipar os próximos movimentos de uma criatura que você possa ver, desde que conheça dois ou mais Traços dela. Se o fizer, escolha um tipo de ação entre Ataque, Feitiço, Guarda, Objetivo ou Poder. Até o início do seu próximo turno, a criatura deve gastar 20 PM sempre que quiser fazer a ação escolhida. Se não puder, ela deve fazer uma ação diferente.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "PV EXTRAS",
+    "job_id": [],
+    "description": "Aumente permanentemente seus PV máximos em 10. Se estiver no 40° nível ou acima, esses PV adicionais aumentam para 20.",
+    "type": "heroic",
+    "max_level": 1,
+    "is_global": true
+  },
+  {
+    "name": "REPETIÇÃO",
+    "job_id": ["Orador"],
+    "description": "Uma vez por turno em um conflito, após usar o poder Condenar ou Encorajar, você pode reutilizá-lo (no mesmo alvo ou em outro). Você ainda deve pagar o custo em PM por esse segundo uso do poder.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "REVELAÇÃO",
+    "job_id": ["Arcanista"],
+    "description": "Você faz contato com um Arcano desconhecido, vinculando-o à sua alma. Esse Arcano deve ser criado em conjunto com o grupo; enquanto você viver, ninguém mais no seu mundo pode se vincular ao Arcano criado. Uma vez por cena, enquanto estiver fundido a um Arcano, você pode usar uma ação e gastar 2 Pontos de Fabula para acionar o efeito de dispensa desse Arcano (se houver) sem dispensá-lo — isso não ativa o poder Círculo Arcano.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "RETÓRICA DESARMANTE",
+    "job_id": ["Orador"],
+    "description": "Durante uma cena de conflito, você pode usar uma ação para escolher uma criatura de patente soldado que possa ouvir e entender você. Se essa criatura estiver abalada ou em crise, você pode gastar uma quantidade de PM igual a (20 + metade do nível da criatura alvo) para fazer com que ela saia do conflito de maneira pacífica. Descreva como você a convence a desistir de lutar.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "SUMIR",
+    "job_id": ["Ladino"],
+    "description": "Quando atinge uma ou mais criaturas com um ataque, você pode gastar 1 Ponto de Fabula. Se fizer isso, cada uma dessas criaturas torna-se incapaz de ver você até o início do seu próximo turno.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "TIRO PODEROSO",
+    "job_id": ["Atirador"],
+    "description": "Seus ataques à distância causam 5 pontos de dano adicional. Se estiver no 40° nível ou acima, esse dano aumenta para +10.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "VULCÃO",
+    "job_id": ["Elementalista"],
+    "description": "Você aprende o feitiço supremo de elementalista: Vulcão (se combinar melhor com seu personagem, você pode mudar o nome deste feitiço e trocar o tipo de dano causado por ar, gelo, raio ou terra). Vulcão PM: 40. Alvo: especial. Duração: instantânea. Você canaliza a fúria do planeta em uma poderosa onda de fogo e magma. Escolha uma opção: você causa 50 pontos de dano de fogo a uma criatura que você possa ver; ou causa 30 pontos de dano de fogo a todos os inimigos que possa ver. Se estiver no 20° nível ou acima, esse dano aumenta em 5; se estiver no 40° nível ou acima, aumenta em 10. Dano causado por este feitiço ignora Resistências e Imunidades.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "ARSENAL VERMELHO",
+    "job_id": ["Lâmina Carmesim"],
+    "description": "Você pode usar uma ação e gastar 5 PV para cobrir uma arma corpo a corpo equipada com uma camada do seu próprio sangue até o fim da cena. Se fizer isso, a arma passa a disparar cortes de sangue em alta velocidade, atingindo alvos que não podem ser acertados por ataques corpo a corpo. Um alvo que esteja voando e seja atingido por um ataque desta arma é imediatamente forçado a pousar.\nQuando está em crise, você não gasta PV ao usar este poder e pode fazer um ataque livre como parte da mesma ação que usou para fazer isso.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "DOBRAR SANGUE",
+    "job_id": ["Lâmina Carmesim"],
+    "description": "Você pode usar uma ação e gastar 20 PM para escolher um ataque básico ou feitiço conhecido de um inimigo que você possa ver. Então faça um teste\noposto contra ele de (VON + VIG). Se você vencer, o alvo é obrigado a usar a ação escolhida no próximo turno dele contra um alvo à sua escolha.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "ESCUDO ESCARLATE",
+    "job_id": ["Lâmina Carmesim"],
+    "description": "Enquanto estiver em crise, sua Defesa e Defesa mágica aumentam em (NP).",
+    "type": "common",
+    "max_level": 2
+  },
+  {
+    "name": "FRENESI SANGUINOLENTO",
+    "job_id": ["Lâmina Carmesim"],
+    "description": "Quando rola um sucesso crítico ao fazer um ataque corpo a corpo, você pode gastar a oportunidade gerada para recuperar (NP × 10) PV.",
+    "type": "common",
+    "max_level": 4
+  },
+  {
+    "name": "HEMOFAGIA",
+    "job_id": ["Lâmina Carmesim"],
+    "description": "Uma vez por rodada, quando outra criatura faz você perder PV, você pode gastar 10 PV para fazer um ataque livre contra essa criatura (depois que a ação dela for resolvida). Se acertar, não causa o dano da arma; em vez disso causa (NP + RA do teste de Precisão) de dano físico.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "INSTINTO ASSASSINO",
+    "job_id": ["Lâmina Carmesim"],
+    "description": "Quando acerta uma criatura em crise com um ataque corpo a corpo, esse ataque causa 10 pontos de dano adicional. Se estiver no 40º nível ou acima, esse dano adicional aumenta para 20.",
+    "type": "heroic",
+    "max_level": 1
+  }
+]

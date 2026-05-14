@@ -1,0 +1,121 @@
+[
+  {
+    "npc_id": "Luiz Inácio Lula da Silva",
+    "type": "passive",
+    "title": "Carisma Popular",
+    "description": "Enquanto Lula estiver negociando com trabalhadores, comunidades populares ou movimentos sociais, ele recebe +2 em testes sociais baseados em Vontade ou Astúcia.",
+    "metadata": {
+      "bonus":2,
+      "contexto": "teste sociais"
+      }
+  },
+  {
+    "npc_id": "Luiz Inácio Lula da Silva",
+    "type": "bonus",
+    "title": "Articulador de Alianças",
+    "description": "Uma vez por cena, Lula pode escolher dois personagens ou facções em conflito. Até o fim da cena, testes feitos para negociar uma trégua entre eles recebem +1.",
+    "metadata": {
+      "bonus": 1,
+      "usos por cena": 1,
+      "contexto": "negociação"
+    }
+  },
+  {
+    "npc_id": "Luiz Inácio Lula da Silva",
+    "type": "reaction",
+    "title": "Virada Retórica",
+    "description": "Quando Lula falhar em um teste social, ele pode gastar 10 PM para repetir o teste. O segundo resultado deve ser mantido.",
+    "metadata": {
+      "custo": "10 PM",
+      "gatilho": "falha em teste social",
+      "efeito": "reroll"
+    }
+  },
+  {
+    "npc_id": "Luiz Inácio Lula da Silva",
+    "type": "condition",
+    "title": "Pressão Política",
+    "description": "Quando Lula sofre dano social, moral ou narrativo causado por uma facção rival, ele fica sob Pressão Política. Enquanto estiver nessa condição, sua Defesa Mágica é reduzida em 1, mas seus aliados recebem +1 em testes para defendê-lo publicamente.",
+    "metadata": {
+      "penalidade": "defesa mágica -1",
+      "bonus": "+1 para ser defendido",
+      "condition": "pressão politica"
+    }
+  },
+  {
+    "npc_id": "Luiz Inácio Lula da Silva",
+    "type": "note",
+    "title": "Símbolo de Polarização",
+    "description": "Lula raramente é percebido de forma neutra. Em cenas políticas, sua presença pode fortalecer aliados, provocar opositores ou atrair atenção de facções rivais."
+  },
+  {
+    "npc_id": "Karl Marx",
+    "type": "passive",
+    "title": "Crítica Estrutural",
+    "description": "Karl Marx recebe +2 em testes de Astúcia para analisar sistemas econômicos, relações de poder, exploração trabalhista ou conflitos de classe.",
+    "metadata": {
+      "bonus":2,
+      "contexto": "analise estrutural"
+    }
+  },
+  {
+    "npc_id": "Karl Marx",
+    "type": "attack",
+    "title": "Manifesto Incendiário",
+    "description": "Karl Marx realiza um ataque retórico contra uma autoridade, aristocrata, guilda dominante ou instituição opressora. Faça um teste de Astúcia + Vontade. Em caso de sucesso, o alvo fica abalado.",
+    "metadata": {
+      "teste": "astúcia + vontade",
+      "inflinge": "abalado"
+    }
+  },
+  {
+    "npc_id": "Karl Marx",
+    "type": "penalty",
+    "title": "Inimigo das Elites",
+    "description": "Em interações com nobres, grandes mercadores, banqueiros ou governantes autoritários, Karl Marx fornece -1 em testes sociais amistosos, mas recebe +1 em testes de intimidação, denúncia ou confronto ideológico contra eles.",
+    "metadata": {
+      "penalidade": "-1 em testes sociais amistosos",
+      "bonus": "+1 em testes de intimidação",
+      "contexto": "interação com elites"
+    }
+  },
+  {
+    "npc_id": "Karl Marx",
+    "type": "bonus",
+    "title": "Consciência de Classe",
+    "description": "Uma vez por cena, Karl Marx pode inspirar trabalhadores, camponeses ou grupos explorados. Aliados afetados recebem +1 em seu próximo teste feito contra uma autoridade ou força opressora.",
+    "metadata": {
+      "bonus":1,
+      "usos por cena": 1,
+      "alvo": "trabalhadores e outras minorias"
+    }
+  },
+  {
+    "npc_id": "Karl Marx",
+    "type": "note",
+    "title": "O Espectro da Revolução",
+    "description": "A presença de Marx pode transformar uma disputa local em um conflito ideológico maior. Suas ideias tendem a atrair seguidores fervorosos e inimigos poderosos."
+  },
+  {
+    "npc_id": "Cid, o Gato",
+    "type": "passive",
+    "title": "Aparece Quando Precisa",
+    "description": "Cid sempre surge no momento mais conveniente possível: no meio da estrada, atrás de uma pilha de sucata, dentro de um barril ou pilotando algum veículo improvável. Uma vez por sessão, o mestre pode introduzir Cid em uma cena quando o grupo estiver perdido, sem transporte ou precisando de manutenção.",
+    "metadata": {
+      "usos por sessão": 1,
+      "gatilho": "grupo precisa de ajuda"
+    }
+  },
+  {
+    "npc_id": "Cid, o Gato",
+    "type": "penalty",
+    "title": "Memória Curta",
+    "description": "Cid esquece nomes, acordos, dívidas e até o motivo de estar em determinado lugar. No entanto, ele nunca esquece quem ainda deve dinheiro a ele."
+  },
+  {
+    "npc_id": "Cid, o Gato",
+    "type": "passive",
+    "title": "Cacheiro Viajante",
+    "description": "Cid é um mercador por natureza, os jogadores podem recuperar seus PI com ele, pelo preço certo claro, Cid cobra um valor variante a depender da região e do seu próprio humor. Alguns dizem que se você levar uma certa erva para ele, o preço tende a desmoronar."
+  }
+]

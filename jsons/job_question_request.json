@@ -1,0 +1,336 @@
+[
+  {
+    "job_id" :  "Andarilho",
+    "question": "O que motiva você a viver viajando? Foi escolha sua? Você se cansou?",
+    "sort_order": 0
+  },
+  {
+    "job_id" :  "Andarilho",
+    "question": "Há um lugar que você considera um “lar”?",
+    "sort_order": 1
+  },
+  {
+    "job_id" :  "Andarilho",
+    "question": "Você visitou muitas pessoas e lugares. Tem algo que não consegue esquecer?",
+    "sort_order": 2
+  },
+  {
+    "job_id" :  "Andarilho",
+    "question": "Você perdeu algo ou alguém por conta de suas viagens. O que aconteceu?",
+    "sort_order": 3
+  },
+
+  {
+    "job_id" :  "Arcanista",
+    "question": "De onde vêm seus poderes? São um presente de sua linhagem sanguínea?",
+    "sort_order": 0
+  },
+  {
+    "job_id" :  "Arcanista",
+    "question": "Você já se comunicou com um Arcano ou eles são quietos e distantes?",
+    "sort_order": 1
+  },
+  {
+    "job_id" :  "Arcanista",
+    "question": "As pessoas consideram você alguém misterioso, poderoso ou sobrenatural?",
+    "sort_order": 2
+  },
+  {
+    "job_id" :  "Arcanista",
+    "question": "Há muitos praticando a sua magia ou você é uma exceção?",
+    "sort_order": 3
+  },
+
+  {
+    "job_id" :  "Atirador",
+    "question": "Alguns acreditam que flechas e balas são armas de covardes. E você?",
+    "sort_order": 0
+  },
+  {
+    "job_id" :  "Atirador",
+    "question": "Se for pego desprevenido, você improvisa ou recua?",
+    "sort_order": 1
+  },
+  {
+    "job_id" : "Atirador",
+    "question": " Você é discreto e reservado, confiante e astuto ou expansivo e imprudente?",
+    "sort_order": 2
+  },
+  {
+    "job_id" :  "Atirador",
+    "question": "Qual a aparência de suas armas e estilo de luta?",
+    "sort_order": 3
+  },
+
+  {
+    "job_id" : "Elementalista",
+    "question": "Quem treinou você no caminho dos Elementos?",
+    "sort_order": 0
+  },
+  {
+    "job_id" : "Elementalista",
+    "question": "Sua magia pode ser devastadora... Você teme a si mesmo?",
+    "sort_order": 1
+  },
+  {
+    "job_id" : "Elementalista",
+    "question": "A magia elemental é muito usada na guerra. Você serviu no exército?",
+    "sort_order": 2
+  },
+  {
+    "job_id" : "Elementalista",
+    "question": "Qual a aparência de sua magia?",
+    "sort_order": 3
+  },
+
+  {
+    "job_id" : "Entropista",
+    "question": "Quem ensinou você a canalizar os poderes do Cosmos e distorcer a realidade?",
+    "sort_order": 0
+  },
+  {
+    "job_id" : "Entropista",
+    "question": "O que você sabe sobre o Cosmos? É o fim de uma realidade ou o novo começo?",
+    "sort_order": 1
+  },
+  {
+    "job_id" : "Entropista",
+    "question": "Qual a aparência de sua magia?",
+    "sort_order": 2
+  },
+  {
+    "job_id" : "Entropista",
+    "question": "Há muitos praticando a sua magia ou você é uma exceção?",
+    "sort_order": 3
+  },
+
+  {
+    "job_id" : "Erudito",
+    "question": "Quem é ou era seu mentor? Como é ou era sua relação com essa pessoa?",
+    "sort_order": 0
+  },
+  {
+    "job_id" : "Erudito",
+    "question": "Você frequentava uma academia ou escola? Que tipo de pessoas conheceu lá?",
+    "sort_order": 1
+  },
+  {
+    "job_id" : "Erudito",
+    "question": "Há um mistério milenar pelo qual você tem obsessão. O que é?",
+    "sort_order": 2
+  },
+  {
+    "job_id" : "Erudito",
+    "question": "É verdade que algumas coisas são melhores se esquecidas pelo tempo?",
+    "sort_order": 3
+  },
+
+  {
+    "job_id" :  "Espiritualista",
+    "question": "De onde vem a sua magia? Quais são as suas crenças sobre vida e morte?",
+    "sort_order": 0
+  },
+  {
+    "job_id" : "Espiritualista",
+    "question": "Como se sente sobre manipular as emoções e a energia vital das pessoas?",
+    "sort_order": 1
+  },
+  {
+    "job_id" : "Espiritualista",
+    "question": "O que acha sobre religião? Você é parte de um culto ou igreja em específico?",
+    "sort_order": 2
+  },
+  {
+    "job_id" : "Espiritualista",
+    "question": "Qual a aparência de sua magia?",
+    "sort_order": 3
+  },
+
+  {
+    "job_id" : "Furioso",
+    "question": "Você conta com sua paixão ardente ou tenta mantê-la sob controle?",
+    "sort_order": 0
+  },
+  {
+    "job_id" : "Furioso",
+    "question": " Tem sempre uma coisa específica que faz você perder a cabeça. O que é?",
+    "sort_order": 1
+  },
+  {
+    "job_id" : "Furioso",
+    "question": "No passado, seu descontrole teve consequências trágicas. O que você perdeu?",
+    "sort_order": 2
+  },
+  {
+    "job_id" : "Furioso",
+    "question": "Qual a aparência de suas armas e como é seu estilo de luta?",
+    "sort_order": 3
+  },
+
+  {
+    "job_id" : "Guardião",
+    "question": "Por quem ou pelo que você daria sua vida de bom grado para proteger?",
+    "sort_order": 0
+  },
+  {
+    "job_id" : "Guardião",
+    "question": "Você está ou já esteve a serviço de uma dama ou lorde? Como era essa pessoa?",
+    "sort_order": 1
+  },
+  {
+    "job_id" : "Guardião",
+    "question": "O que você falhou em proteger? O que você perdeu?",
+    "sort_order": 2
+  },
+  {
+    "job_id" : "Guardião",
+    "question": "O que você usa de armadura e/ou escudo?",
+    "sort_order": 3
+  },
+
+  {
+    "job_id" : "Guerreiro Sombrio",
+    "question": "Que experiência trágica despertou suas habilidades?",
+    "sort_order": 0
+  },
+  {
+    "job_id" : "Guerreiro Sombrio",
+    "question": "Muitos acreditam que seus poderes são malignos. Como se sente sobre eles?",
+    "sort_order": 1
+  },
+  {
+    "job_id" : "Guerreiro Sombrio",
+    "question": "Qual a aparência de suas armas e como é seu estilo de luta?",
+    "sort_order": 2
+  },
+  {
+    "job_id" : "Guerreiro Sombrio",
+    "question": "Há muitos praticando a sua magia ou você é uma exceção?",
+    "sort_order": 3
+  },
+
+  {
+    "job_id" : "Inventor",
+    "question": "Você aprendeu sua arte com alguém? Qual era sua relação com essa pessoa?",
+    "sort_order": 0
+  },
+  {
+    "job_id" : "Inventor",
+    "question": "O que você perdeu indo atrás de progresso e inovação?",
+    "sort_order": 1
+  },
+  {
+    "job_id" : "Inventor",
+    "question": "Sua arte é revolucionária? Ou pertence a uma área bem estabelecida?",
+    "sort_order": 2
+  },
+  {
+    "job_id" :  "Inventor",
+    "question": "Quando um item ou efeito é criado por você, como ele se parece?",
+    "sort_order": 3
+  },
+
+  {
+    "job_id" : "Ladino",
+    "question": "O que motiva você? Desejo? Vingança? Ou uma ânsia ardente por liberdade?",
+    "sort_order": 0
+  },
+  {
+    "job_id" : "Ladino",
+    "question": "Você é parte de uma organização criminosa? Ou trabalha por conta própria?",
+    "sort_order": 1
+  },
+  {
+    "job_id" : "Ladino",
+    "question": "Há algum lugar que você chama de casa? Ou, no final, todos morrem sozinhos?",
+    "sort_order": 2
+  },
+  {
+    "job_id" : "Ladino",
+    "question": "Qual é a regra mais importante do seu código pessoal?",
+    "sort_order": 3
+  },
+
+  {
+    "job_id" : "Mestre de Armas",
+    "question": "Qual é sua relação com as armas? São meros objetos ou algo maior?",
+    "sort_order": 0
+  },
+  {
+    "job_id" : "Mestre de Armas",
+    "question": "Você procura batalhas ou tenta evitá-las?",
+    "sort_order": 1
+  },
+  {
+    "job_id" : "Mestre de Armas",
+    "question": "Você está ou já esteve a serviço de uma dama ou lorde? Como era essa pessoa?",
+    "sort_order": 2
+  },
+  {
+    "job_id" : "Mestre de Armas",
+    "question": "Qual a aparência de suas armas e como é seu estilo de luta?",
+    "sort_order": 3
+  },
+
+  {
+    "job_id" : "Orador",
+    "question": "Você acha que qualquer um pode ser persuadido? Todos têm um preço?",
+    "sort_order": 0
+  },
+  {
+    "job_id" : "Orador",
+    "question": "Você foi traído por alguém que parecia estar do seu lado. Quem era?",
+    "sort_order": 1
+  },
+  {
+    "job_id" : "Orador",
+    "question": "Como você se sente sobre manipular pessoas, ainda que por uma boa causa?",
+    "sort_order": 2
+  },
+  {
+    "job_id" : "Orador",
+    "question": "No passado, suas palavras colocaram você em apuros. O que aconteceu?",
+    "sort_order": 3
+  },
+
+  {
+    "job_id" : "Quimerista",
+    "question": "Quem lhe ensinou a arte do quimerismo? Seu mentor é humano ou monstruoso?",
+    "sort_order": 0
+  },
+  {
+    "job_id" : "Quimerista",
+    "question": "Pessoas e monstros podem viver em harmonia ou seu destino é a ameaça mútua?",
+    "sort_order": 1
+  },
+  {
+    "job_id" : "Quimerista",
+    "question": "Qual a aparência de sua magia?",
+    "sort_order": 2
+  },
+  {
+    "job_id" : "Quimerista",
+    "question": "Há muitos praticando a sua arte ou você é uma exceção?",
+    "sort_order": 3
+  },
+  {
+    "job_id": "Lâmina Carmesim",
+    "question": "Como você aprendeu a dominar o sangue?",
+    "sort_order": 0
+  },
+  {
+    "job_id": "Lâmina Carmesim",
+    "question": "Você tem uma sede insaciável por sangue. Como você lida com ela?",
+    "sort_order": 1
+  },
+  {
+    "job_id": "Lâmina Carmesim",
+    "question": "Como você age quanto ao preconceito sobre suas habilidades?",
+    "sort_order": 2
+  },
+  {
+    "job_id": "Lâmina Carmesim",
+    "question": "Algo corre em suas veias além de sangue quente. O quê?",
+    "sort_order": 3
+  }
+]

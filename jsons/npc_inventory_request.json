@@ -1,0 +1,80 @@
+[
+  {
+    "npc_id": "Cid, o Gato",
+    "item_id": "Besta",
+    "relation_type": "shop_stock",
+    "quantity": 2
+  },
+  {
+    "npc_id": "Cid, o Gato",
+    "item_id": "Cajado",
+    "relation_type": "shop_stock",
+    "quantity": 2
+  },
+  {
+    "npc_id": "Cid, o Gato",
+    "item_id": "Escudo rúnico",
+    "relation_type": "shop_stock",
+    "quantity": 2
+  },
+  {
+    "npc_id": "Cid, o Gato",
+    "item_id": "Escudo da Primavera",
+    "relation_type": "shop_stock",
+    "quantity": 1
+  },
+  {
+    "npc_id": "Cid, o Gato",
+    "item_id": "Vestes de sábio",
+    "relation_type": "shop_stock",
+    "quantity": 2
+  },
+  {
+    "npc_id": "Cid, o Gato",
+    "item_id": "Placa rúnica",
+    "relation_type": "shop_stock",
+    "quantity": 1
+  },
+  {
+    "npc_id": "Cid, o Gato",
+    "item_id": "Brigantina",
+    "relation_type": "shop_stock",
+    "quantity": 2
+  },
+  {
+    "npc_id": "Cid, o Gato",
+    "item_id": "Anel de Magma",
+    "relation_type": "shop_stock",
+    "quantity": 1
+  },
+  {
+    "npc_id": "Cid, o Gato",
+    "item_id": "Luvas Sedosas",
+    "relation_type": "shop_stock",
+    "quantity": 1
+  },
+  {
+    "npc_id": "Cid, o Gato",
+    "item_id": "Pingente Esmeralda",
+    "relation_type": "shop_stock",
+    "quantity": 1
+  },
+  {
+    "npc_id": "Cid, o Gato",
+    "item_id": "Chicote de correntes",
+    "relation_type": "shop_stock",
+    "quantity": 2
+  },
+  {
+    "npc_id": "Cid, o Gato",
+    "item_id": "Lança leve",
+    "relation_type": "shop_stock",
+    "quantity": 2
+  },
+  {
+    "npc_id": "Cid, o Gato",
+    "item_id": "Shuriken",
+    "relation_type": "shop_stock",
+    "quantity": 2
+  }
+]

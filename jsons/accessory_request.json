@@ -1,0 +1,205 @@
+[
+  {
+    "name": "Cinto de Explorador",
+    "item_type": "acessorio",
+    "cost": 500,
+    "description": "Você recebe um bônus de +4 na Iniciativa.",
+    "img_key": "items/acessorio/cinto_de_explorador"
+  },
+  {
+    "name": "Luvas Elegantes",
+    "item_type": "acessorio",
+    "cost": 500,
+    "description": "Você é imune à condição atordoado.",
+    "img_key": "items/acessorio/luvas_elegantes"
+  },
+  {
+    "name": "Luvas Gastas",
+    "item_type": "acessorio",
+    "cost": 500,
+    "description": "Você é imune à condição fraco.",
+    "img_key": "items/acessorio/luvas_gastas"
+  },
+  {
+    "name": "Luvas Sedosas",
+    "item_type": "acessorio",
+    "cost": 500,
+    "description": "Você é imune à condição lento.",
+    "img_key": "items/acessorio/luvas_sedosas"
+  },
+  {
+    "name": "Luvas Quentes",
+    "item_type": "acessorio",
+    "cost": 500,
+    "description": "Você é imune à condição abalado.",
+    "img_key": "items/acessorio/luvas_quentes"
+  },
+  {
+    "name": "Botas de Novato",
+    "item_type": "acessorio",
+    "cost": 600,
+    "description": "Se tiver menos de 10 EXP e rolar uma falha crítica, você recebe 1 EXP imediatamente.",
+    "img_key": "items/acessorio/botas_de_novato"
+  },
+  {
+    "name": "Máscara Han'nya",
+    "item_type": "acessorio",
+    "cost": 700,
+    "description": "Todo dano que você causa em criaturas abaladas ignora Resistências.",
+    "img_key": "items/acessorio/mascara_han_nya"
+  },
+  {
+    "name": "Pingente Âmbar",
+    "item_type": "acessorio",
+    "cost": 700,
+    "description": "Você é Resistente a dano de terra.",
+    "img_key": "items/acessorio/pingente_ambar"
+  },
+  {
+    "name": "Pingente Ametista",
+    "item_type": "acessorio",
+    "cost": 700,
+    "description": "Você é Resistente a dano de trevas.",
+    "img_key": "items/acessorio/pingente_ametista"
+  },
+  {
+    "name": "Pingente Diamante",
+    "item_type": "acessorio",
+    "cost": 700,
+    "description": "Você é Resistente a dano de luz.",
+    "img_key": "items/acessorio/pingente_diamante"
+  },
+  {
+    "name": "Pingente Esmeralda",
+    "item_type": "acessorio",
+    "cost": 700,
+    "description": "Você é Resistente a dano de veneno.",
+    "img_key": "items/acessorio/pingente_esmeralda"
+  },
+  {
+    "name": "Pingente Opala",
+    "item_type": "acessorio",
+    "cost": 700,
+    "description": "Você é Resistente a dano de ar.",
+    "img_key": "items/acessorio/pingente_opala"
+  },
+  {
+    "name": "Pingente Rubi",
+    "item_type": "acessorio",
+    "cost": 700,
+    "description": "Você é Resistente a dano de fogo.",
+    "img_key": "items/acessorio/pingente_rubi"
+  },
+  {
+    "name": "Pingente Safira",
+    "item_type": "acessorio",
+    "cost": 700,
+    "description": "Você é Resistente a dano de gelo.",
+    "img_key": "items/acessorio/pingente_safira"
+  },
+  {
+    "name": "Pingente Topázio",
+    "item_type": "acessorio",
+    "cost": 700,
+    "description": "Você é Resistente a dano de raio.",
+    "img_key": "items/acessorio/pingente_topazio"
+  },
+  {
+    "name": "Anel de Feitiçaria",
+    "item_type": "acessorio",
+    "cost": 800,
+    "description": "Sua Defesa Mágica aumenta em +1.",
+    "img_key": "items/acessorio/anel_de_feiticaria"
+  },
+  {
+    "name": "Botas de Vagante",
+    "item_type": "acessorio",
+    "cost": 900,
+    "description": "Quando o grupo faz uma descoberta em Viagem, você recebe 1 Ponto de Fabula.",
+    "img_key": "items/acessorio/botas_de_vagante"
+  },
+  {
+    "name": "Elmo de Crista",
+    "item_type": "acessorio",
+    "cost": 1000,
+    "description": "Você recebe +1 em testes de Precisão.",
+    "img_key": "items/acessorio/elmo_de_crista"
+  },
+  {
+    "name": "Luvas Carmesins",
+    "item_type": "acessorio",
+    "cost": 1000,
+    "description": "Quando faz um ataque com multi, você recebe +2 no teste de Precisão.",
+    "img_key": "items/acessorio/luvas_carmesins"
+  },
+  {
+    "name": "Chapéu Pontudo Amarelo",
+    "item_type": "acessorio",
+    "cost": 1000,
+    "description": "Você recebe +1 em testes de Magia.",
+    "img_key": "items/acessorio/chapeu_pontudo_amarelo"
+  },
+  {
+    "name": "Anel do Leão",
+    "item_type": "acessorio",
+    "cost": 1500,
+    "description": "Você recebe +2 em testes opostos que usem Vontade.",
+    "img_key": "items/acessorio/anel_do_leao"
+  },
+  {
+    "name": "Anel da Coruja",
+    "item_type": "acessorio",
+    "cost": 1500,
+    "description": "Você recebe +2 em testes opostos que usem Astúcia.",
+    "img_key": "items/acessorio/anel_da_coruja"
+  },
+  {
+    "name": "Anel do Pupilo",
+    "item_type": "acessorio",
+    "cost": 1500,
+    "description": "Enquanto tiver pelo menos dois Laços de admiração, sua Defesa e Defesa Mágica aumentam em +1.",
+    "img_key": "items/acessorio/anel_do_pupilo"
+  },
+  {
+    "name": "Anel de Contos",
+    "item_type": "acessorio",
+    "cost": 1500,
+    "description": "Quando rola um sucesso crítico, você pode gastar a oportunidade gerada para ganhar 1 Ponto de Fabula.",
+    "img_key": "items/acessorio/anel_de_contos"
+  },
+  {
+    "name": "Luvas de Pele Multicamada",
+    "item_type": "acessorio",
+    "cost": 2000,
+    "description": "Você é imune a todas as condições.",
+    "img_key": "items/acessorio/luvas_de_pele_multicamada"
+  },
+  {
+    "name": "Anel de Cebolas",
+    "item_type": "acessorio",
+    "cost": 2000,
+    "description": "Enquanto estiver usando este acessório, aumente seu máximo de PV e máximo de PM em 2 para cada classe diferente que você tiver.",
+    "img_key": "items/acessorio/anel_de_cebolas"
+  },
+  {
+    "name": "Anel de Gelo",
+    "item_type": "acessorio",
+    "cost": 2500,
+    "description": "Você Absorve dano de gelo, mas é Vulnerável a dano de fogo.",
+    "img_key": "items/acessorio/anel_de_gelo"
+  },
+  {
+    "name": "Anel de Magma",
+    "item_type": "acessorio",
+    "cost": 2500,
+    "description": "Você Absorve dano de fogo, mas é Vulnerável a dano de gelo.",
+    "img_key": "items/acessorio/anel_de_magma"
+  },
+  {
+    "name": "Anel do Ovo",
+    "item_type": "acessorio",
+    "cost": 3000,
+    "description": "Quando fica com 0 PV, você pode escolher resistir e, em vez disso, ficar com 1 PV. Se fizer isso, este efeito não pode ser usado até você descansar.",
+    "img_key": "items/acessorio/anel_do_ovo"
+  }
+]

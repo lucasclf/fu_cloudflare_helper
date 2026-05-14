@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Região de Jotungard",
+    "tagline": "Imagine uma corrente que amarra o mundo e o guia em direção ao avanço, nós somos essa corrente.",
+    "description": "Liderado por um parlamento, mas atuando na prática como um sistema feudalista, esconde um passado expansionista/escravocrata. É um polo tecnológico e mantem fortes restrições ao uso de magia, governando seu povo em rédeas curtas, a uma separação clara de castas sociais.",
+    "img_key": "imperio_jotungard",
+    "location_type": "region"
+  },
+  {
+    "name": "Região de Alberia",
+    "tagline": "Todo homem deve ser livre para manter suas tradições.",
+    "description": "Nascida da junção de pequenos reinos, que se rebelaram contra o Império durante a chamada Guerra de Cisão, regidos por um conselho “provisório”, apesar de parecer um local de alta liberdade, possui enraizado em seu povo um conservadorismo moral/social imenso, apesar da baixa tecnologia, tem uma cultura arcana muito forte.",
+    "img_key": "alberia",
+    "location_type": "region"
+  },
+  {
+    "name": "Passagem do Mártir",
+    "tagline": "???",
+    "description": "???",
+    "img_key": "passagem_do_martir",
+    "location_type": "landmark"
+  },
+  {
+    "name": "Complexo do Mártir",
+    "tagline": "???",
+    "description": "Complexo labirinto de cavernas interligadas",
+    "img_key": "complexo_do_martir",
+    "location_type": "dungeon"
+  },
+  {
+    "name": "Ponte de Aldwyn",
+    "tagline": "Elo entre dois mundos.",
+    "description": "Única forma conhecida de atravessar a cordilheira que divide o Império de Jotungard e a Comunidade de Alberia.",
+    "img_key": "ponte_de_aldwyn",
+    "location_type": "landmark"
+  },
+  {
+    "name": "Cidade Livre da Costa da Pérola",
+    "tagline": "O conhecimento e a Fé que guiam os povos livres.",
+    "description": "No centro da cordilheira, entre as duas grandes nações se encontra a cidade livre da Costa da Pérola, uma cidade dividida entre dois mundos, abrangida por um tênue pacto de cessar fogo, aceito por ambas as nações.Cidade Livre da Costa da Pérola, a cidade onde tudo se cruza: Apesar do cessar fogo, a própria cidade possui diversos problemas internos com os quais precisa lidar.",
+    "img_key": "cidade_livre_costa_perola",
+    "location_type": "city"
+  },
+  {
+    "name": "Esgotos de Costa da Perola",
+    "tagline": "Esgotos da cidade.",
+    "description": "Uma complexa rede de esgotos passa por debaixo da cidade da Costa da Pérola, uma das entradas conhecidas, fica no prédio principal da Academia, mas, existem diversas saidas desconhecidas pela cidade.",
+    "img_key": "esgotos_perola",
+    "location_type": "dungeon"
+  },
+  {
+    "name": "Academia da Costa da Pérola",
+    "tagline": "Se a educação sozinha não transforma a sociedade, sem ela tampouco a sociedade muda.",
+    "description": "Um conjunto de prédios, mais antigos que a própria cidade, essas estruturas abrigam a famosa Acadêmia da Costa da Pérola, sempre de portas abertas para a comunidade.",
+    "img_key": "academia",
+    "location_type": "building"
+  },
+  {
+    "name": "Catedral Sancta Sedes",
+    "tagline": "O maligno é como um cão acorrentado; ladra muito, mas só morde quem se aproxima",
+    "description": "A imponente e Alva Catedral Sancta Sedes, capital da Igreja da Santidade Imaculada, lar da Santa Madre e local de treinamento do exercito da fé.",
+    "img_key": "catedral_sancta_sedes",
+    "location_type": "building"
+  }
+]

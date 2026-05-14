@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Império de Jotungard",
+    "tagline": "Imagine uma corrente que amarra o mundo e o guia em direção ao avanço, nós somos essa corrente.",
+    "description": "Liderado por um parlamento, mas atuando na prática como um sistema feudalista, esconde um passado expansionista/escravocrata. É um polo tecnológico e mantem fortes restrições ao uso de magia, governando seu povo em rédeas curtas, a uma separação clara de castas sociais.",
+    "img_key": "imperio_jotungard",
+    "faction_type": "kingdom",
+    "faction_location_relation": [
+      {
+        "name": "Região de Jotungard",
+        "relation_type": "territory"
+      }
+    ]
+  },
+  {
+    "name": "Comunidade de Alberia",
+    "tagline": "Todo homem deve ser livre para manter suas tradições.",
+    "description": "Nascida da junção de pequenos reinos, que se rebelaram contra o Império durante a chamada Guerra de Cisão, regidos por um conselho “provisório”, apesar de parecer um local de alta liberdade, possui enraizado em seu povo um conservadorismo moral/social imenso, apesar da baixa tecnologia, tem uma cultura arcana muito forte.",
+    "img_key": "alberia",
+    "faction_type": "kingdom",
+    "faction_location_relation": [
+      {
+        "name": "Região de Alberia",
+        "relation_type": "territory"
+      }
+    ]
+  },
+  {
+    "name": "Igreja da Santidade Imaculada",
+    "tagline": "Pois tortuosos são, foram e serão, os caminhos do milagre.",
+    "description": "A Igreja da Santidade Imaculada, um expoente politico dentro e foda da Cidade da Costa da Pérola, possuindo forte influência tanto no Império quanto em Albéria, apoia fortemente a restrição ao uso da mágia, considerando que apenas a forma como a igreja utiliza mágia é a forma correta, declarou ainda como tabu o uso de técnomagia, considerando uma abominação e pecado mortal a mistura de ambas as práticas.",
+    "img_key": "igreja_santidade_imaculada",
+    "faction_type": "cult",
+    "faction_location_relation": [
+      {
+        "name": "Cidade Livre da Costa da Pérola",
+        "relation_type": "headquarters"
+      },
+      {
+        "name": "Cidade Livre da Costa da Pérola",
+        "relation_type": "influence"
+      }
+    ]
+  },
+  {
+    "name": "A Academia",
+    "tagline": "E uma das condições necessárias a pensar certo é não estarmos demasiado certos de nossas certezas.",
+    "description": "Academia da Costa da Pérola, alguns dizem que a academia surgiu como uma resposta da cidade para treinar filósofos capazes de manter sua neutralidade, outros dizem que ela é mais antiga e que a própria cidade cresceu ao redor dela, a verdade se perdeu com o tempo, o importante é que ela existe e aceita alunos de todas as nações, independente de sua classe social, contanto que se mostrem aptos, ministrando aulas em todos os ramos do conhecimento funciona  tanto como uma escola tradicional, quanto uma escola de aventureiros. Se mantem com base em doações de pais de alunos ricos e com um serviço de “aluguel de aventureiros” prestado por ex-alunos e alunos dos últimos anos. Nos últimos anos, vem se mostrando uma oposição intelectual e moral a Igreja da Santidade Imaculada.",
+    "img_key": "academia",
+    "faction_type": "order",
+    "faction_location_relation": [
+      {
+        "name": "Cidade Livre da Costa da Pérola",
+        "relation_type": "headquarters"
+      },
+      {
+        "name": "Cidade Livre da Costa da Pérola",
+        "relation_type": "influence"
+      }
+    ]
+  },
+  {
+    "name": "Trupe Risadinha",
+    "tagline": "Hehe… aventureiro corajoso, bolso pesado.",
+    "description": "Uma gangue de arruaceiros, ninguém sabe como se organizam e se quer se são de fato organizados, cometem seus crimes utilizando sempre utilizando mascaras com rostos sorridentes, tendem a surgir em locais, roubar pessoas, causar o caos e sumir. Alguns comerciantes afirmam terem sido procurados as escuras, para contribuir com um valor, para que a Trupe Risadinha se mantenha longe de sua região, mas, mesmo isso é caótico, as vezes eles de fato obedecem e se mantem longe, as vezes não.",
+    "img_key": "trupe_risadinha",
+    "faction_type": "criminal",
+    "faction_location_relation": [
+      {
+        "name": "Cidade Livre da Costa da Pérola",
+        "relation_type": "enemy_presence"
+      }
+    ]
+  },
+  {
+    "name": "Intérpretes do Terceiro Olho",
+    "tagline": "Hehe… aventureiro corajoso, bolso pesado.",
+    "description": "Pouco se sabe sobre esse grupo, nem os escolásticos mais estudados ou os bispos mais antigos possuem muito conhecimento a respeito, parecem não se importar tanto com assuntos mundanos, mas, atuam de forma cirúrgica em momentos específicos para manter um suposto equilíbrio entre o Império e Albéria, seriam eles aliados ou inimigos? Podem estar por detrás de toda a trama?",
+    "img_key": "terceiro_olho",
+    "faction_type": "order",
+    "faction_location_relation": [
+      {
+        "name": "Cidade Livre da Costa da Pérola",
+        "relation_type": "influence"
+      },
+      {
+        "name": "Região de Alberia",
+        "relation_type": "influence"
+      },
+      {
+        "name": "Região de Jotungard",
+        "relation_type": "influence"
+      }
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Astroscópio",
+    "img_key": "items/artefato/astroscopio",
+    "item_type": "artefato",
+    "description": "Um grande globo cheio de estrelas e nuvens rodopiantes. Quem coloca a mão sobre este poderoso artefato e observa a energia em movimento pode manipular o ciclo do dia e noite em um raio de até 1 dia de Viagem; também pode mudar o clima (criando vento, nevascas, neve, nuvens etc.) na mesma área. O efeito é idêntico a rituais de entropismo (para dia e noite) ou elementalismo (para tempo), mas esse artefato não consome PM e o usuário não precisa ter dominado nenhuma das disciplinas mágicas em questão."
+  },
+  {
+    "name": "Bastão da Terra Ascendente",
+    "img_key": "items/artefato/bastao_da_terra_ascendente",
+    "item_type": "artefato",
+    "description": "Um bastão de 30 centímetros, feito de um metal que lembra latão. Esse poderoso artefato vem de uma era de tecnologias perdidas. Sua estrutura é feita de um metal levíssimo e quase indestrutível, conhecido como oricalco, e uma de suas extremidades abriga uma gema formada por espíritos da terra cristalizados. Quando colocado no centro do “Anel de Oricalco” — uma estrutura cuja natureza e construção ainda são desconhecidas —, o bastão pode levantar massas de terra inteiras do solo e fazê-las flutuar e se mover."
+  },
+  {
+    "name": "Elmo dos Pensamentos",
+    "img_key": "items/artefato/elmo_dos_pensamentos",
+    "item_type": "artefato",
+    "description": "Um elmo levíssimo, criado com o crânio de uma fera misteriosa. Quem veste este artefato pode sentir, sem esforço, as emoções e pensamentos superficiais das pessoas ao redor. O usuário pode ler os pensamentos de uma criatura específica ao se concentrar e usar uma ação. Quando o terrível poder deste artefato é usado, o alvo sente um leve formigamento na base do crânio, sem saber que sua mente está sendo lida."
+  },
+  {
+    "name": "Escama do Vento",
+    "img_key": "items/artefato/escama_do_vento",
+    "item_type": "artefato",
+    "description": "Uma escama dourada e translúcida do tamanho de uma mão humana. Não está claro de qual criatura essa bela escama se soltou — mas, seja o que for, deve ter sido uma verdadeira maravilha da natureza. Quem quer que use esse artefato recebe a habilidade de voar e levitar à vontade, desde que a escama permaneça em contato com sua pele. Alguns dizem que o contato prolongado com a Escama do Vento pode alterar a fisiologia do portador para sempre, transformando-o aos poucos em sabe-se lá o quê."
+  },
+  {
+    "name": "Fragmento de Voz",
+    "img_key": "items/artefato/fragmento_de_voz",
+    "item_type": "artefato",
+    "description": "Um pedaço de cristal vítreo do tamanho de um punho. Dizem que quem segura esse fragmento de cristal pode ouvir vozes cuja sabedoria leva ao poder, à riqueza e à prosperidade. Alguns acreditam que as vozes pertencem a um panteão de deuses esquecidos; outros, que são de pessoas sábias e generosas de uma era passada — ou futura. Essas vozes, contudo, só podem ser ouvidas por quem estiver segurando o artefato, o que significa que as outras pessoas têm que confiar em sua sinceridade."
+  },
+  {
+    "name": "Pena Final",
+    "img_key": "items/artefato/pena_final",
+    "item_type": "artefato",
+    "description": "Uma bela pena que brilha com as cores do arco-íris. Inúmeros estudiosos debateram a natureza e origem dessa pena do tamanho de um antebraço humano, mas não encontraram respostas. Duas coisas, entretanto, são certas: esta é a última do seu tipo, e diversas lendas sugerem que ela pode ser esmagada e transformada em um pó fino que pode ressuscitar uma criatura morta recentemente. Até agora, ninguém teve coragem de testar se isso é verdade, especialmente porque teria que destruir a pena no processo."
+  },
+  {
+    "name": "Rasga-almas",
+    "img_key": "items/artefato/rasga_almas",
+    "item_type": "artefato",
+    "description": "Uma lâmina hiperafiada que brilha com uma luz sinistra. Assemelhando-se à parte inferior de uma montante quebrada, este artefato é quase inútil em combate real; seu verdadeiro poder é outro. Se a sequência correta de posturas e movimentos for realizada, o portador pode isolar uma consciência que esteja no rio das almas e separá-la do fluxo. Esse é um efeito de ritualismo com potência extrema, facilitado se a alma em questão pertencer a alguém cuja morte é recente, se a alma era de caráter forte ou se o portador da Rasga-almas tinha um laço profundo com a pessoa. Dependendo do resultado do teste, a alma pode ser cortada apenas temporariamente ou ficar impossibilitada de voltar ao rio das almas, condenada a sumir no esquecimento ou ser aprisionada em eterno tormento."
+  },
+  {
+    "name": "Sangue Preto",
+    "img_key": "items/artefato/sangue_preto",
+    "item_type": "artefato",
+    "description": "Um grande frasco com uma substância preta oleosa e viscosa. Dizem que esse líquido vem de uma fonte maculada nas profundezas da terra. Quem o bebe recebe uma habilidade peculiar: ao morrer, seu espírito não volta para o rio das almas que permeia o mundo. Em vez disso, sua consciência etérea permanece vinculada ao mundo dos vivos. Entretanto, não se sabe por que alguém escolheria tal destino."
+  },
+  {
+    "name": "Tomo do Portão",
+    "img_key": "items/artefato/tomo_do_portao",
+    "item_type": "artefato",
+    "description": "Um grimório pesado. Às vezes, o olho carmim na capa parece se mover. As páginas desse livro de aparência antiga estão cheias de rabiscos ilegíveis e imagens perturbadoras, representando criaturas horrendas adorando o céu. À luz da lua cheia, a tinta começa a brilhar em um tom avermelhado e se ergue das páginas, contorcendo-se em uma rede de tentáculos que rasgam a realidade. Esse artefato abre um caminho para o Cosmos que se fecha ao amanhecer."
+  },
+  {
+    "name": "Varinha dos Ermos",
+    "img_key": "items/artefato/varinha_dos_ermos",
+    "item_type": "artefato",
+    "description": "Uma varinha de madeira de 10 cm, decorada com folhas de esmeralda. Muito pequeno e frágil para ser usado como arma, esse precioso artefato permite que as pessoas se transformem em animais. O portador pode usar uma ação para transformar uma criatura voluntária (incluindo a si mesmo) em uma pequena fera — como um cão, esquilo, gato, pássaro ou peixe. Qualquer coisa carregada pela pessoa se torna parte da forma animal; enquanto transformado, não é possível falar, lutar ou usar magia. A varinha, no entanto, nunca se torna parte do equipamento do alvo transformado; se você usar seu efeito em si mesmo, terá de carregar o artefato com a boca, o bico ou as garras. Quem estiver portando a varinha pode usar uma ação para reverter a transformação de uma criatura — se o artefato for perdido ou roubado, a transformação só pode ser revertida por um conjurador poderoso com um ritual de quimerismo com potência extrema."
+  },
+  {
+    "name": "Zênite do Homem Morto",
+    "img_key": "items/artefato/zenite_do_homem_morto",
+    "item_type": "artefato",
+    "description": "Lembra uma moeda de ouro antiga, exceto pela caveira na parte de trás. Fácil de perder ou pôr no lugar errado, essa modesta moeda de ouro está desgastada pelo tempo. Muitos riram ao ver o crânio brilhante em sua face oposta, dizendo que se trata da brincadeira de um ourives. Velhos marinheiros, porém, os incentivam a deixar a coisa afundar no oceano: uma antiga lenda fala sobre uma moeda de ouro indestrutível, cujo portador pode comandar um exército de piratas fantasmagóricos em troca da sua própria alma."
+  }
+]

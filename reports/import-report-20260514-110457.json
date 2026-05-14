@@ -1,0 +1,322 @@
+{
+  "started_at": "2026-05-14T10:58:05",
+  "finished_at": "2026-05-14T11:04:57",
+  "only": "all",
+  "steps": [
+    {
+      "target": "sessions",
+      "label": "sessions",
+      "batches": [
+        {
+          "label": "sessions",
+          "path": "admin/sessions",
+          "total": 1,
+          "created": 1,
+          "already_exists": 0,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "target": "arcanas",
+      "label": "arcanas",
+      "batches": [
+        {
+          "label": "arcanas",
+          "path": "admin/arcanas",
+          "total": 9,
+          "created": 9,
+          "already_exists": 0,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "target": "locations",
+      "label": "locations",
+      "batches": [
+        {
+          "label": "locations",
+          "path": "admin/locations",
+          "total": 9,
+          "created": 9,
+          "already_exists": 0,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "target": "factions",
+      "label": "factions",
+      "batches": [
+        {
+          "label": "locations",
+          "path": "admin/locations",
+          "total": 9,
+          "created": 0,
+          "already_exists": 9,
+          "errors": []
+        },
+        {
+          "label": "factions",
+          "path": "admin/factions",
+          "total": 6,
+          "created": 6,
+          "already_exists": 0,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "target": "items",
+      "label": "items",
+      "batches": [
+        {
+          "label": "weapons",
+          "path": "admin/items",
+          "total": 136,
+          "created": 136,
+          "already_exists": 0,
+          "errors": []
+        },
+        {
+          "label": "armors",
+          "path": "admin/items",
+          "total": 31,
+          "created": 31,
+          "already_exists": 0,
+          "errors": []
+        },
+        {
+          "label": "shields",
+          "path": "admin/items",
+          "total": 14,
+          "created": 14,
+          "already_exists": 0,
+          "errors": []
+        },
+        {
+          "label": "accessories",
+          "path": "admin/items",
+          "total": 29,
+          "created": 29,
+          "already_exists": 0,
+          "errors": []
+        },
+        {
+          "label": "artifacts",
+          "path": "admin/items",
+          "total": 11,
+          "created": 11,
+          "already_exists": 0,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "target": "jobs",
+      "label": "jobs",
+      "batches": [
+        {
+          "label": "jobs",
+          "path": "admin/jobs",
+          "total": 16,
+          "created": 16,
+          "already_exists": 0,
+          "errors": []
+        },
+        {
+          "label": "job questions",
+          "path": "admin/jobs/questions",
+          "total": 64,
+          "created": 64,
+          "already_exists": 0,
+          "errors": []
+        },
+        {
+          "label": "job aliases",
+          "path": "admin/jobs/aliases",
+          "total": 48,
+          "created": 48,
+          "already_exists": 0,
+          "errors": []
+        },
+        {
+          "label": "job powers",
+          "path": "admin/powers",
+          "total": 112,
+          "created": 112,
+          "already_exists": 0,
+          "errors": []
+        },
+        {
+          "label": "job spells",
+          "path": "admin/spells",
+          "total": 38,
+          "created": 38,
+          "already_exists": 0,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "target": "monsters",
+      "label": "monsters",
+      "batches": [
+        {
+          "label": "monsters",
+          "path": "admin/monsters",
+          "total": 59,
+          "created": 59,
+          "already_exists": 0,
+          "errors": []
+        },
+        {
+          "label": "monster traits",
+          "path": "admin/monsters/traits",
+          "total": 236,
+          "created": 236,
+          "already_exists": 0,
+          "errors": []
+        },
+        {
+          "label": "monster affinities",
+          "path": "admin/monsters/affinities",
+          "total": 59,
+          "created": 59,
+          "already_exists": 0,
+          "errors": []
+        },
+        {
+          "label": "monster actions",
+          "path": "admin/monsters/actions",
+          "total": 203,
+          "created": 203,
+          "already_exists": 0,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "target": "npcs",
+      "label": "npcs",
+      "batches": [
+        {
+          "label": "npcs",
+          "path": "admin/npcs",
+          "total": 3,
+          "created": 3,
+          "already_exists": 0,
+          "errors": []
+        },
+        {
+          "label": "npc special rules",
+          "path": "admin/npcs/special",
+          "total": 13,
+          "created": 13,
+          "already_exists": 0,
+          "errors": []
+        },
+        {
+          "label": "npc inventory",
+          "path": "admin/npcs/inventory",
+          "total": 13,
+          "created": 13,
+          "already_exists": 0,
+          "errors": []
+        },
+        {
+          "label": "npc equipment",
+          "path": "admin/npcs/equipment",
+          "total": 10,
+          "created": 10,
+          "already_exists": 0,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "target": "pcs",
+      "label": "pcs",
+      "batches": [
+        {
+          "label": "pcs",
+          "path": "admin/pcs",
+          "total": 1,
+          "created": 1,
+          "already_exists": 0,
+          "errors": []
+        },
+        {
+          "label": "pc inventory",
+          "path": "admin/pcs/inventories",
+          "total": 1,
+          "created": 1,
+          "already_exists": 0,
+          "errors": []
+        },
+        {
+          "label": "pc equipment",
+          "path": "admin/pcs/equipments",
+          "total": 1,
+          "created": 1,
+          "already_exists": 0,
+          "errors": []
+        },
+        {
+          "label": "pc jobs",
+          "path": "admin/pcs/jobs",
+          "total": 2,
+          "created": 2,
+          "already_exists": 0,
+          "errors": []
+        },
+        {
+          "label": "pc powers",
+          "path": "admin/pcs/powers",
+          "total": 5,
+          "created": 5,
+          "already_exists": 0,
+          "errors": []
+        },
+        {
+          "label": "pc spells",
+          "path": "admin/pcs/spells",
+          "total": 1,
+          "created": 1,
+          "already_exists": 0,
+          "errors": []
+        },
+        {
+          "label": "pc monster spells",
+          "path": "admin/pcs/monster-spells",
+          "total": 1,
+          "created": 1,
+          "already_exists": 0,
+          "errors": []
+        },
+        {
+          "label": "pc arcanas",
+          "path": "admin/pcs/arcanas",
+          "total": 1,
+          "created": 1,
+          "already_exists": 0,
+          "errors": []
+        },
+        {
+          "label": "pc bonds",
+          "path": "admin/pcs/bonds",
+          "total": 4,
+          "created": 4,
+          "already_exists": 0,
+          "errors": []
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "created": 1137,
+    "already_exists": 9,
+    "errors": 0
+  }
+}
