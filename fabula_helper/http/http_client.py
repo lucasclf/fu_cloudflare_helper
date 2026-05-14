@@ -3,8 +3,8 @@ from typing import Any
 
 import requests
 
-from api_result import ApiPostResult
-from config import Settings
+from fabula_helper.http.api_result import ApiPostResult
+from fabula_helper.config.config import Settings
 
 
 class ApiClient:

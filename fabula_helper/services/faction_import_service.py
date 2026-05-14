@@ -1,9 +1,9 @@
-from import_report import ImportBatchReport
-from http_client import ApiClient
-from normalizers import build_id_map
-from normalizers.faction_normalizer import FactionNormalizer
-from request_definitions import ImportDefinition
-from services.batch_import_service import BatchImportService
+from fabula_helper.importers.import_report import ImportBatchReport
+from fabula_helper.http.http_client import ApiClient
+from fabula_helper.normalizers import build_id_map
+from fabula_helper.normalizers.faction_normalizer import FactionNormalizer
+from fabula_helper.definitions.request_definitions import ImportDefinition
+from fabula_helper.services.batch_import_service import BatchImportService
 
 
 class FactionImportService:

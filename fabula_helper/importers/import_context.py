@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
-from http_client import ApiClient
-from services import (
+from fabula_helper.http.http_client import ApiClient
+from fabula_helper.services import (
     BatchImportService,
     FactionImportService,
     JobImportService,

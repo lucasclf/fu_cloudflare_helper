@@ -3,11 +3,11 @@ import logging
 from datetime import datetime
 from pathlib import Path
 
-from import_context import ImportContext
-from import_report import ImportBatchReport, ImportRunReport, ImportStepReport, now_iso
-from import_step import ImportStep
-from import_targets import ImportTarget, import_target_choices
-from request_groups import (
+from fabula_helper.importers.import_context import ImportContext
+from fabula_helper.importers.import_report import ImportBatchReport, ImportRunReport, ImportStepReport, now_iso
+from fabula_helper.importers.import_step import ImportStep
+from fabula_helper.importers.import_targets import ImportTarget, import_target_choices
+from fabula_helper.definitions.request_groups import (
     ARCANA_GROUP,
     FACTION_GROUP,
     ITEM_GROUP,
@@ -179,7 +179,7 @@ class ImportPipeline:
 
     @staticmethod
     def _save_report(report: ImportRunReport) -> Path:
-        reports_dir = Path("reports")
+        reports_dir = Path("../../reports")
         reports_dir.mkdir(exist_ok=True)
 
         filename = datetime.now().strftime("import-report-%Y%m%d-%H%M%S.json")

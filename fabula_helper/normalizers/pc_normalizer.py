@@ -1,18 +1,18 @@
 from typing import Any
 
-from constants import (
+from fabula_helper.utils.constants import (
     BOND_TARGET_TYPE_FREEFORM,
     BOND_TARGET_TYPE_MONSTER,
     BOND_TARGET_TYPE_NPC,
     BOND_TARGET_TYPE_PC,
     EQUIPMENT_ITEM_FIELDS,
 )
-from json_loader import load_json_array
-from normalizers.common import (
+from fabula_helper.utils.json_loader import load_json_array
+from fabula_helper.normalizers.common import (
     replace_field_name_by_id,
     replace_optional_field_name_by_id,
 )
-from request_definitions import ImportDefinition
+from fabula_helper.definitions.request_definitions import ImportDefinition
 
 
 class PcNormalizer:

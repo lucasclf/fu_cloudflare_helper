@@ -1,11 +1,11 @@
 import logging
 from typing import Any
 
-from console_progress import ConsoleProgress
-from http_client import ApiClient
-from import_report import ImportBatchReport, ImportItemError
-from json_loader import load_json_array
-from request_definitions import ImportDefinition
+from fabula_helper.importers.console_progress import ConsoleProgress
+from fabula_helper.http.http_client import ApiClient
+from fabula_helper.importers.import_report import ImportBatchReport, ImportItemError
+from fabula_helper.utils.json_loader import load_json_array
+from fabula_helper.definitions.request_definitions import ImportDefinition
 
 
 logger = logging.getLogger(__name__)

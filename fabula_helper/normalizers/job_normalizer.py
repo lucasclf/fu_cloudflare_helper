@@ -1,8 +1,8 @@
 from typing import Any
 
-from json_loader import load_json_array
-from normalizers.common import replace_field_name_by_id
-from request_definitions import ImportDefinition
+from fabula_helper.utils.json_loader import load_json_array
+from fabula_helper.normalizers.common import replace_field_name_by_id
+from fabula_helper.definitions.request_definitions import ImportDefinition
 
 
 class JobNormalizer:

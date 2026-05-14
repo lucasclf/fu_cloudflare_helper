@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from request_definitions import (
+from fabula_helper.definitions.request_definitions import (
     ACCESSORY,
     ARCANA,
     ARMOR,
@@ -33,7 +33,7 @@ from request_definitions import (
     SHIELD,
     WEAPON,
 )
-from request_definitions import ImportDefinition
+from fabula_helper.definitions.request_definitions import ImportDefinition
 
 
 @dataclass(frozen=True)

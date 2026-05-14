@@ -1,8 +1,8 @@
 from collections.abc import Callable
 from dataclasses import dataclass
 
-from import_report import ImportBatchReport
-from import_targets import ImportTarget
+from fabula_helper.importers.import_report import ImportBatchReport
+from fabula_helper.importers.import_targets import ImportTarget
 
 
 ImportTask = Callable[[], list[ImportBatchReport]]

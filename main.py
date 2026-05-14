@@ -2,10 +2,10 @@ import argparse
 import logging
 import sys
 
-from config import load_settings
-from import_context_factory import ImportContextFactory
-from import_pipeline import ImportPipeline
-from import_targets import ImportTarget
+from fabula_helper.config.config import load_settings
+from fabula_helper.importers.import_context_factory import ImportContextFactory
+from fabula_helper.importers.import_pipeline import ImportPipeline
+from fabula_helper.importers.import_targets import ImportTarget
 
 
 logger = logging.getLogger(__name__)
