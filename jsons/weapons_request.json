@@ -1355,6 +1355,8 @@
     "damage_type": "gelo",
     "grip": "duas_maos",
     "distance": "corpo_a_corpo",
+    "defense_bonus": 1,
+    "magic_defense_bonus": 1,
     "cost": 2550,
     "is_martial": true,
     "description": "Sua Defesa e Def.M aumentam em +1."
@@ -1858,8 +1860,8 @@
     "cost": 800,
     "is_martial": true,
     "description": "Mutável(muda para Massacre).\nAumento de Defesa.\nAumento de Defesa Mágica.",
-    "defense": "2",
-    "magic_defense": "2"
+    "defense_bonus": 2,
+    "magic_defense_bonus": 2
   },
   {
     "name": "Massacre",
