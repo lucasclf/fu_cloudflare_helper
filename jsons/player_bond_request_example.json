@@ -1,0 +1,42 @@
+[
+  {
+    "pc_id": "Kafra",
+    "target_type": "pc",
+    "target_id": "Kafra",
+    "target_name": null,
+    "admiration_axis": "admiration",
+    "loyalty_axis": null,
+    "affection_axis": null,
+    "description": "Amizade consigo mesmo"
+  },
+  {
+    "pc_id": "Kafra",
+    "target_type": "npc",
+    "target_id": "Luiz Inácio Lula da Silva",
+    "target_name": null,
+    "admiration_axis": "admiration",
+    "loyalty_axis": "loyalty",
+    "affection_axis": "affection",
+    "description": "Amizade consigo mesmo"
+  },
+  {
+    "pc_id": "Kafra",
+    "target_type": "monster",
+    "target_id": "Angela",
+    "target_name": null,
+    "admiration_axis": "admiration",
+    "loyalty_axis": null,
+    "affection_axis": null,
+    "description": "Amizade consigo mesmo"
+  },
+  {
+    "pc_id": "Kafra",
+    "target_type": "freeform",
+    "target_id": null,
+    "target_name": "União Soviética",
+    "admiration_axis": "admiration",
+    "loyalty_axis": null,
+    "affection_axis": null,
+    "description": "Amizade consigo mesmo"
+  }
+]
