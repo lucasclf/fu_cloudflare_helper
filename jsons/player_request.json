@@ -13,5 +13,19 @@
     "theme": "Culpa",
     "tagline": "Tema o Sangue antigo!",
     "money": 0
+  },
+  {
+    "name": "Silas",
+    "description": "Ex-pirata em busca de redenção com a sociedade.",
+    "dexterity_die": "d10",
+    "insight_die": "d8",
+    "might_die": "d8",
+    "willpower_die": "d6",
+    "img_key": "silas",
+    "pronouns": "Ele",
+    "origin": "???",
+    "identity": "Ex-pirata",
+    "theme": "Culpa",
+    "money": 0
   }
 ]

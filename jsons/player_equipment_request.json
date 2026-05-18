@@ -3,5 +3,11 @@
     "pc_id": "Kafra",
     "main_hand": "Genocidio",
     "armor": "Vestes de sábio"
+  },
+  {
+    "pc_id": "Silas",
+    "main_hand": "Pistola",
+    "armor": "Traje de viagem",
+    "off_hand": "Escudo rúnico"
   }
 ]

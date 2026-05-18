@@ -8,5 +8,10 @@
     "pc_id": "Kafra",
     "job_id": "Mestre de Armas",
     "level": 3
+  },
+  {
+    "pc_id": "Silas",
+    "job_id": "Atirador",
+    "level": 5
   }
 ]

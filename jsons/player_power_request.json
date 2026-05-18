@@ -23,5 +23,26 @@
     "pc_id": "Kafra",
     "power_id": "ESCUDO ESCARLATE",
     "level": 1
+  },
+  {
+    "pc_id": "Silas",
+    "power_id": "BARRAGEM",
+    "level": 1
+  },
+  {
+    "pc_id": "Silas",
+    "power_id": "FOGO CRUZADO",
+    "level": 1
+  },
+  {
+    "pc_id": "Silas",
+    "power_id": "MAESTRIA COM ARMAS À DISTÂNCIA",
+    "level": 1
+  },
+  {
+    "pc_id": "Silas",
+    "power_id": "TIRO DE AVISO",
+    "level": 2
   }
+
 ]
