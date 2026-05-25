@@ -3,5 +3,10 @@
     "pc_id": "Kafra",
     "item_id": "Massacre",
     "quantity": 1
+  },
+  {
+    "pc_id": "Silas",
+    "item_id": "Adaga de aço",
+    "quantity": 1
   }
 ]

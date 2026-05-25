@@ -31,18 +31,57 @@
   },
   {
     "pc_id": "Silas",
-    "power_id": "FOGO CRUZADO",
+    "power_id": "ALTA VELOCIDADE",
     "level": 1
   },
   {
     "pc_id": "Silas",
-    "power_id": "MAESTRIA COM ARMAS À DISTÂNCIA",
+    "power_id": "GOLPE BAIXO",
+    "level": 1
+  },
+  {
+    "pc_id": "Silas",
+    "power_id": "OLHOS DE ÁGUIA",
     "level": 1
   },
   {
     "pc_id": "Silas",
     "power_id": "TIRO DE AVISO",
+    "level": 1
+  },
+  {
+    "pc_id": "Jacó",
+    "power_id": "Culinária",
     "level": 2
+  },
+  {
+    "pc_id": "Jacó",
+    "power_id": "Garfo e Faca",
+    "level": 1
+  },
+  {
+    "pc_id": "Jacó",
+    "power_id": "FRENESI",
+    "level": 1
+  },
+  {
+    "pc_id": "Jacó",
+    "power_id": "RESISTIR",
+    "level": 1
+  },
+  {
+    "pc_id": "Jurupari",
+    "power_id": "CÍRCULO ARCANO",
+    "level": 1
+  },
+  {
+    "pc_id": "Jurupari",
+    "power_id": "TEMPO ROUBADO",
+    "level": 1
+  },
+  {
+    "pc_id": "Jurupari",
+    "power_id": "MAGIA ENTRÓPICA",
+    "level": 3
   }
-
 ]

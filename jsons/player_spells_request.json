@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "pc_id": "Jurupari",
+    "spell_id": "Aceleração"
+  },
+  {
+    "pc_id": "Jurupari",
+    "spell_id": "Parar"
+  },
+  {
+    "pc_id": "Jurupari",
+    "spell_id": "Espelhar"
+  }
+]

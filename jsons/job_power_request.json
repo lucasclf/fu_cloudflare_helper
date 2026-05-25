@@ -801,5 +801,1999 @@
     "description": "Quando acerta uma criatura em crise com um ataque corpo a corpo, esse ataque causa 10 pontos de dano adicional. Se estiver no 40º nível ou acima, esse dano adicional aumenta para 20.",
     "type": "heroic",
     "max_level": 1
+  },
+  {
+    "name": "GARFO E FACA",
+    "job_id": ["Gourmet"],
+    "description": "Quando usa Culinária para fazer um ataque livre, se você combinou apenas um 2 ingredientes, você também pode fazer o ataque causar dano normalmente. Se fizer isso, sua RA é considerada como 0 ao calcular o dano causado por este ataque.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "COZINHEIRO VIAJANTE",
+    "job_id": ["Gourmet"],
+    "description": "Após cada rolagem de viagem, se tiver o poder Culinária, você recebe (NP ×2) ingredientes.",
+    "type": "common",
+    "max_level": 3
+  },
+  {
+    "name": "CULINÁRIA",
+    "job_id": ["Gourmet"],
+    "description": "Ao descansar em um assentamento, você recebe (NP) ingredientes.\nVocê pode usar uma ação e combinar 2 ou 3 ingredientes para preparar uma iguaria (veja a próxima página) e escolher um: aplicar os efeitos em você e num aliado que você possa ver; ou fazer um ataque livre com uma arma equipada. Esse ataque não causa dano, mas você aplica os efeitos da iguaria a cada inimigo atingido pelo ataque.\nVocê pode carregar consigo até 10 + (NP × 5) ingredientes e eles nunca estragam até que você os use. Se adquirir este poder na criação de personagem, você pode começar o jogo com dez ingredientes com sabores aleatórios.",
+    "type": "common",
+    "max_level": 5
+  },
+  {
+    "name": "FEITO COM AMOR",
+    "job_id": ["Gourmet"],
+    "description": "Quando usa Culinária e aplica os efeitos da iguaria em você ou num aliado que você possa ver, você pode gastar até (NP × 10) PM. Para cada 10 PM gastos dessa forma, aplique os efeitos da iguaria num aliado adicional que você possa ver.",
+    "type": "common",
+    "max_level": 3
+  },
+  {
+    "name": "SAL E PIMENTA",
+    "job_id": ["Gourmet"],
+    "description": "Ao preparar uma iguaria, você pode gastar 2 Pontos de Inventário. Se o fizer, mude o sabor de um ingrediente para outro sabor à sua escolha.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "ESPECIALIDADE DA CASA",
+    "job_id": ["Gourmet"],
+    "description": "Ao adquirir esse poder heroico, escolha três sabores diferentes entre amargo, salgado, azedo, doce e umami. Então, escolha três efeitos diferentes entre:\n* Você causa 20 pontos de dano de (escolha um: luz, trevas) a todos os alvos desta iguaria. Se estiver no 30º nível ou acima, essa quantidade aumenta para 30. Escolha o tipo do efeito ao adquirir este poder.\n* Durante o próximo turno de cada um dos alvos desta iguaria, todo o dano que eles causam torna-se de (escolha um: luz, trevas) e esse tipo não pode ser mudado. Escolha o tipo do efeito ao adquirir este poder.\n* Cada alvo desta iguaria que estiver sob efeito de um ou mais feitiços com duração “Cena” deixa de estar sob o efeito desses feitiços.\n* Escolha você mesmo ou um aliado que você possa ver. Da próxima vez que cada alvo desta iguaria fizer um ataque ou lançar um feitiço ofensivo (O) antes do fim desta cena, a criatura que você escolheu deve ser incluída entre os alvos do ataque ou feitiço, se possível.\n* Cada alvo desta iguaria fica furioso.\n* Cada alvo desta iguaria fica envenenado.\n* Cada alvo desta iguaria recupera 30 PV e 30 PM. Se você estiver no 40º nível ou acima, o alvo recupera 40 PV e 40 PM em vez disso.\n* Cada alvo desta iguaria se recupera de uma condição à sua escolha.\n* Cada alvo desta iguaria se recupera das condições atordoado, furioso e abalado.\n* Cada alvo desta iguaria se recupera das condições envenenado, lento e fraco. \nQuando criar uma iguaria usando exatamente 3 ingredientes em um conflito, se cada ingrediente for equivalente a um sabor diferente entre os escolhidos ao adquirir esse poder heroico, você pode ignorar todos os efeitos normais dessa iguaria. Se o fizer, você pode, em vez disso, aplicar um, dois ou todos os efeitos que você escolheu ao adquirir este poder heroico.",
+    "type": "heroic",
+    "max_level": 1
+  },
+  {
+    "name": "Árvore da Vida",
+    "job_id": [
+      "Floralista"
+    ],
+    "description": "Ao remover uma magissemente de seu jardim, você pode escolher uma criatura que você possa ver. Se o alvo estiver em crise, ele recupera (5 + (NP × 5)) PV.",
+    "type": "common",
+    "max_level": 5
+  },
+  {
+    "name": "Cloromancia",
+    "job_id": [
+      "Floralista"
+    ],
+    "description": "Sempre que adquirir este poder, você conhece um tipo diferente de magissemente. Durante um conflito, se não houver magissementes em seu jardim, você pode usar uma ação e gastar 20 PM para plantar uma magissemente de um tipo que conheça.",
+    "type": "common",
+    "max_level": 10
+  },
+  {
+    "name": "Enxerto",
+    "job_id": [
+      "Floralista"
+    ],
+    "description": "Enquanto houver uma magissemente em seu jardim e 1 ou mais seções de seu relógio de germinação estiverem preenchidas, você pode usar uma ação para remover essa magissemente de seu jardim. Se fizer isso, plante uma magissemente diferente, desde que seja uma das que você conhece. Isso não altera as seções preenchidas de seu relógio de germinação.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "Influência Verdejante",
+    "job_id": [
+      "Floralista"
+    ],
+    "description": "Você pode fazer rituais da disciplina ritualismo. Além disso, pode usar ritualismo para criar, animar e/ou controlar vegetação, pólen, esporos e toxinas, mas não pode criar nem controlar NPCs da espécie planta dessa forma.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "Jardinagem Marcial",
+    "job_id": [
+      "Floralista"
+    ],
+    "description": "Após plantar uma magissemente usando Cloromancia, mas não Enxerto, você pode escolher um: fazer um ataque livre com uma arma equipada; ou fazer a ação Feitiço sem usar uma ação, lançando um feitiço com custo total de PM igual ou inferior a (5 + (NP × 5)). Você ainda precisa pagar o custo em PM. Sua RA no teste de Precisão ou de Magia é considerada como 0 para calcular o dano causado por este ataque ou magia.",
+    "type": "common",
+    "max_level": 3
+  },
+  {
+    "name": "Cozinheiro Viajante",
+    "job_id": [
+      "Gourmet"
+    ],
+    "description": "Após cada rolagem de viagem, se tiver o poder Culinária, você recebe (NP × 2) ingredientes.",
+    "type": "common",
+    "max_level": 3
+  },
+  {
+    "name": "Culinária",
+    "job_id": [
+      "Gourmet"
+    ],
+    "description": "Ao descansar em um assentamento, você recebe (NP) ingredientes. Você pode usar uma ação e combinar 2 ou 3 ingredientes para preparar uma iguaria e escolher um: aplicar os efeitos em você e em um aliado que você possa ver; ou fazer um ataque livre com uma arma equipada. Esse ataque não causa dano, mas você aplica os efeitos da iguaria a cada inimigo atingido pelo ataque. Você pode carregar consigo até 10 + (NP × 5) ingredientes e eles nunca estragam até que você os use. Se adquirir este poder na criação de personagem, você pode começar o jogo com dez ingredientes com sabores aleatórios.",
+    "type": "common",
+    "max_level": 5
+  },
+  {
+    "name": "Feito com Amor",
+    "job_id": [
+      "Gourmet"
+    ],
+    "description": "Quando usa Culinária e aplica os efeitos da iguaria em você ou num aliado que você possa ver, você pode gastar até (NP × 10) PM. Para cada 10 PM gastos dessa forma, aplique os efeitos da iguaria num aliado adicional que você possa ver.",
+    "type": "common",
+    "max_level": 3
+  },
+  {
+    "name": "Garfo e Faca",
+    "job_id": [
+      "Gourmet"
+    ],
+    "description": "Quando usa Culinária para fazer um ataque livre, se você combinou apenas 2 ingredientes, você também pode fazer o ataque causar dano normalmente. Se fizer isso, sua RA é considerada como 0 ao calcular o dano causado por este ataque.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "Sal e Pimenta",
+    "job_id": [
+      "Gourmet"
+    ],
+    "description": "Ao preparar uma iguaria, você pode gastar 2 Pontos de Inventário. Se fizer isso, mude o sabor de um ingrediente para outro sabor à sua escolha.",
+    "type": "common",
+    "max_level": 1
+  },
+  {
+    "name": "Cascata",
+    "job_id": [
+      "Invocador"
+    ],
+    "description": "Após um inimigo que você possa ver perder PV graças ao dano causado por um de seus aliados, se o aliado causou dano adicional graças a uma de suas invocações do tipo Praga, você pode fazer um ataque livre com uma arma equipada. Esse ataque pode ter apenas o mesmo inimigo como alvo e você recebe um bônus no teste de Precisão igual a (NP). Se o atingir, todo dano causado pelo seu ataque é do mesmo tipo causado pelo aliado, e todas as invocações do tipo Praga que estão no alvo se dissipam após o ataque ser resolvido. Se dois ou mais inimigos engatilharem esse poder ao mesmo tempo, você pode fazer um ataque livre contra cada um deles, na ordem que preferir.",
+    "type": "common",
+    "max_level": 5
+  },
+  {
+    "name": "Expandir Manancial",
+    "job_id": [
+      "Invocador"
+    ],
+    "description": "Enquanto você estiver equipado com um arco, arma arcana, arma arremessável, arma de luta, espada ou mangual, suas invocações do tipo Explosão causam (NP) pontos de dano adicional e o dano adicional concedido por suas invocações do tipo Praga aumenta em (NP).",
+    "type": "common",
+    "max_level": 5
+  },
+  {
+    "name": "Harmonia Elemental",
+    "job_id": [
+      "Invocador"
+    ],
+    "description": "Você consegue se comunicar verbalmente com criaturas elementais. Ao restaurar os PV de uma criatura com uma invocação ou feitiço, se houver um elemental presente na cena, o efeito restaura (NP × 5) PV adicionais.",
+    "type": "common",
+    "max_level": 2
+  },
+  {
+    "name": "Invocação",
+    "job_id": [
+      "Invocador"
+    ],
+    "description": "Você pode usar uma ação e gastar 5 PM para fazer uma invocação acessando a energia de um dos mananciais presentes na cena. Seu (NP) determina a quais invocações você tem acesso.",
+    "type": "common",
+    "max_level": 3
+  },
+  {
+    "name": "Invocações Conectadas",
+    "job_id": [
+      "Invocador"
+    ],
+    "description": "Ao fazer uma invocação, você pode gastar até (NP × 10) PM adicionais. A cada 10 PM gastos desta forma, a invocação pode ter uma criatura adicional que você possa ver como alvo.",
+    "type": "common",
+    "max_level": 3
+  },
+  {
+    "name": "Data de Validade",
+    "job_id": [
+      "Mercador"
+    ],
+    "description": "Quando uma poção ou iguaria que você criou não causar dano, mas fizer uma ou mais criaturas recuperarem PV, você pode fazê-la, em vez de recuperar PV, causar dano de veneno igual a (metade do seu nível + (NP × 10)) a cada uma dessas criaturas. Esse tipo não pode mudar. Esse dano é dividido à metade se for causado a duas ou mais criaturas.",
+    "type": "common",
+    "max_level": 3
+  },
+  {
+    "name": "Estoque Pessoal",
+    "job_id": [
+      "Mercador"
+    ],
+    "description": "Quando você ou outro PJ for gastar (NP + 2) ou menos Pontos de Inventário, você pode gastar 1 Ponto de Comércio para o alvo ignorar esse custo.",
+    "type": "common",
+    "max_level": 3
+  },
+  {
+    "name": "Já Ouvi Falar",
+    "job_id": [
+      "Mercador"
+    ],
+    "description": "Quando você ou um aliado que puder ouvir e entender você fizer um teste para examinar uma criatura, item ou local, você pode gastar 1 Ponto de Comércio para conferir um bônus igual a (NP + 2) ao resultado do teste.",
+    "type": "common",
+    "max_level": 3
+  },
+  {
+    "name": "Ventos do Comércio",
+    "job_id": [
+      "Mercador"
+    ],
+    "description": "Após descansar numa área onde pode fazer comércio, você recebe (NP + 1) Pontos de Comércio. Você nunca pode ter mais que (NP + 3) Pontos de Comércio. Se adquirir este poder na criação de personagem, você começa o jogo com 2 Pontos de Comércio. Numa cena sem conflito, você pode gastar 2 Pontos de Comércio para escolher um: criar um item raro ou um material, aprovado pelo mestre, cujo valor em zênites seja igual ou inferior a (seu nível × 30z); ou criar um NPC que mora por perto, explicando seu ofício e como vocês se conheceram, para o mestre dizer o que ele deseja em troca de seus serviços.",
+    "type": "common",
+    "max_level": 3
+  },
+  {
+    "name": "Verdadeiro Tesouro",
+    "job_id": [
+      "Mercador"
+    ],
+    "description": "Uma vez por sessão, quando você ajudar um NPC ou uma comunidade a superar ganância e corrupção, melhorar a qualidade de vida ou coexistir com outras criaturas, se tiver Ventos do Comércio, você recebe (NP + 1) Pontos de Comércio.",
+    "type": "common",
+    "max_level": 3
+  },
+  {
+    "name": "Alma Quimérica",
+    "job_id": [
+      "Mutante",
+      "Quimerista"
+    ],
+    "description": "Ao lançar um dos seus feitiços de quimerista, você recebe um benefício baseado na espécie da criatura a quem o feitiço originalmente pertencia. Escolha um: você torna-se Resistente aos dois tipos de dano associados a essa espécie; ou, quando causa dano de um dos tipos associados a essa espécie, você causa 5 pontos de dano adicional. O benefício escolhido dura até o fim da cena ou até você lançar um feitiço de quimerista novamente. Tipos associados: terra e veneno (construto), fogo e gelo (demônio), ar e raio (elemental), ar e gelo (fera), raio e fogo (monstro), trevas e veneno (morto-vivo), terra e luz (planta).",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Mutante e Quimerista\nTer o poder Imitação Mágica",
+    "max_level": 1
+  },
+  {
+    "name": "Caçador Silencioso",
+    "job_id": [
+      "Atirador",
+      "Ladino",
+      "Mestre de Armas"
+    ],
+    "description": "Ao usar Alta Velocidade para fazer um ataque livre com um arco, lança ou arma de arremesso, esse ataque causa dano adicional igual a (5 × seu NP em Alta Velocidade). Além disso, se atacar uma ou mais criaturas com um arco, lança ou arma de arremesso, essas criaturas não podem fazer ataques livres até o fim do turno atual.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Atirador, Ladino e Mestre de Armas\nTer o poder Alta Velocidade",
+    "max_level": 1
+  },
+  {
+    "name": "Cloromancia Maior",
+    "job_id": [
+      "Floralista"
+    ],
+    "description": "Uma vez por turno, quando uma magissemente deixar seu jardim, se ela tiver um ou mais efeitos ativados no fim do seu turno, você pode gastar 20 PM. Se fizer isso, reproduza um desses efeitos, podendo escolher um efeito que não seja equivalente às seções atuais de seu relógio de germinação. Além disso, se tiver Influência Verdejante, seus rituais agora também podem influenciar e controlar criaturas de patente soldado da espécie planta, mas você ainda não é capaz de criá-las.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Floralista",
+    "max_level": 1
+  },
+  {
+    "name": "Cochilo Poderoso",
+    "job_id": [
+      "Andarilho",
+      "Guardião",
+      "Mercador"
+    ],
+    "description": "Em seu turno durante um conflito, você pode usar uma ação para recuperar um número de PV e PM igual a (20 + metade do seu nível) e se recuperar de todas as condições. Se fizer isso, seu turno termina imediatamente, você perde a capacidade de ver e ouvir, e sua Defesa e Defesa Mágica tornam-se iguais a 5 e não podem ser modificadas de nenhuma maneira. Essas penalidades duram até o início do seu próximo turno, até depois que você perder PV ou até depois que você for atingido por um ataque ou feitiço ofensivo.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Andarilho, Guardião e Mercador",
+    "max_level": 1
+  },
+  {
+    "name": "Conjuração Maromba",
+    "job_id": [
+      "Andarilho",
+      "Esper",
+      "Furioso",
+      "Guerreiro Sombrio",
+      "Quimerista"
+    ],
+    "description": "Ao fazer um teste de Magia para um feitiço ou ritual, você pode substituir um dos atributos por Vigor. Se o teste de Precisão da arma que estiver equipando incluir Vigor, você pode considerá-la como arcana para poderes e efeitos com esse pré-requisito.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Andarilho, Esper, Furioso, Guerreiro Sombrio e Quimerista",
+    "max_level": 1
+  },
+  {
+    "name": "Dedo Verde",
+    "job_id": ["Floralista"],
+    "description": "Quando preencher uma ou mais seções de seu relógio de germinação, você pode escolher um: preencher 1 seção adicional; ou preencher 1 seção a menos, mínimo de 0 seções preenchidas. Se fizer isso, você não pode usar esse efeito novamente até seu relógio de germinação ter se esvaziado por completo. Além disso, dano causado por suas magissementes ignora Resistências.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Floralista",
+    "max_level": 1
+  },
+  {
+    "name": "Dosagem Precisa",
+    "job_id": [
+      "Erudito",
+      "Gourmet",
+      "Inventor",
+      "Mercador"
+    ],
+    "description": "Poções e iguarias que você criar, assim como os feitiços que você lançar, agora podem fazer com que as criaturas recuperem PV e PM além dos seus PV e PM máximos. Não é possível que o PV ou PM atual de uma criatura seja maior que 150% de seus respectivos pontos máximos. No fim de cada cena, se a quantidade de PV e/ou PM de uma criatura ainda estiver acima do máximo, a pontuação se iguala à máxima.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Erudito, Gourmet, Inventor e Mercador",
+    "max_level": 1
+  },
+  {
+    "name": "Especialidade da Casa",
+    "job_id": [
+      "Gourmet"
+    ],
+    "description": "Ao adquirir este poder heroico, escolha três sabores diferentes entre amargo, salgado, azedo, doce e umami. Então, escolha três efeitos diferentes da lista do poder. Quando criar uma iguaria usando exatamente 3 ingredientes em um conflito, se cada ingrediente for equivalente a um sabor diferente entre os escolhidos ao adquirir este poder, você pode ignorar todos os efeitos normais dessa iguaria. Se fizer isso, pode aplicar um, dois ou todos os efeitos escolhidos ao adquirir este poder heroico.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Gourmet",
+    "max_level": 1
+  },
+  {
+    "name": "Golpe Valente",
+    "job_id": [
+      "Comandante",
+      "Furioso",
+      "Guardião",
+      "Mestre de Armas",
+      "Piloto"
+    ],
+    "description": "Quando usa Quebra-ossos, se seu ataque tiver apenas uma criatura como alvo e você tiver um escudo equipado, você pode desafiar essa criatura até o fim do seu próximo turno. Esse desafio também termina se a criatura for desafiada por outra pessoa ou se você desafiar outra criatura. Uma criatura desafiada deve incluir você entre os alvos dos seus ataques e feitiços ofensivos, se possível. Além disso, uma vez por turno, inclusive turnos de outras criaturas, quando você causar dano à criatura desafiada usando um ataque livre com uma arma corpo a corpo de uma mão ou com uma arma personalizada das categorias espada ou adaga, você pode causar 5 pontos de dano adicional a essa criatura.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Comandante, Furioso, Guardião, Mestre de Armas e Piloto",
+    "max_level": 1
+  },
+  {
+    "name": "Lado a Lado",
+    "job_id": [
+      "Andarilho"
+    ],
+    "description": "Quando seu companheiro causar dano, ele causa 5 pontos de dano adicional. Quando seu companheiro fizer um teste, você pode gastar 1 Ponto de Fabula e evocar um dos Traços de seu companheiro para que ele role novamente um ou ambos os dados. Após usar Companheiro Fiel para seu companheiro fazer uma ação no seu turno, e depois que essa ação for resolvida, você pode escolher um: você e seu companheiro recuperam 10 PM cada; ou, na primeira vez em que você ou seu companheiro fizer um teste até o fim do seu próximo turno, esse teste recebe um bônus igual a (seu NP em Companheiro Fiel).",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Andarilho\nTer o poder Companheiro Fiel",
+    "max_level": 1
+  },
+  {
+    "name": "Levanta a Cabeça!",
+    "job_id": [
+      "Esper",
+      "Orador",
+      "Virtuoso"
+    ],
+    "description": "Ao usar Confio em Você em outro personagem, ele deve escolher entre Destreza, Astúcia, Vigor ou Vontade, então passa a considerar o dado atual do Atributo escolhido como se fosse um passo maior, máximo de d12. Esse benefício dura até o fim da cena ou até você usar Confio em Você nele outra vez.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Esper, Orador e Virtuoso\nTer o poder Confio em Você",
+    "max_level": 1
+  },
+  {
+    "name": "Luar Purificador",
+    "job_id": [
+      "Entropista",
+      "Espiritualista"
+    ],
+    "description": "Quando atingir uma ou mais criaturas com um feitiço ofensivo, se tiver uma arma arcana equipada e a RA do seu teste de Magia for 8 ou mais, você pode fazer com que todas essas criaturas deixem de estar sob efeito de todos os feitiços com duração Cena que as estiverem afetando no momento. Ao lançar um feitiço que tenha um ou mais aliados como alvo, se tiver uma arma arcana equipada, você pode escolher uma condição entre abalado, atordoado, envenenado, fraco, furioso e lento. Se fizer isso, cada alvo se recupera da condição escolhida.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Entropista e Espiritualista",
+    "max_level": 1
+  },
+  {
+    "name": "Manancial Interior",
+    "job_id": [
+      "Invocador"
+    ],
+    "description": "Ao adquirir este poder heroico e sempre que você descansar, você pode escolher um manancial: água, ar, fogo, raio ou terra. Até o próximo descanso, você considera o manancial escolhido como disponível em todas as cenas, além dos mananciais já presentes; pode fazer rituais de elementalismo apenas se manipularem o elemento do manancial escolhido; torna-se Resistente ao tipo de dano do manancial escolhido; e, ao causar dano, pode mudar o tipo do dano causado para o mesmo do manancial escolhido, fazendo esse dano ignorar Resistências.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Invocador",
+    "max_level": 1
+  },
+  {
+    "name": "Manipular Magia",
+    "job_id": [
+      "Elementalista",
+      "Entropista",
+      "Invocador",
+      "Simbolista"
+    ],
+    "description": "Após um inimigo que você possa ver acertar ou errar seu personagem com um feitiço ofensivo, se o resultado do teste de Magia desse inimigo for um número par, você pode usar Invocação imediatamente e sem usar uma ação, após o feitiço ter sido resolvido, para fazer uma das suas invocações contra esse inimigo, sem gastar PM. Essa invocação não pode ser do tipo Praga e deve ter apenas esse inimigo como alvo. Você não pode usar Invocações Conectadas nesta ação.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Elementalista, Entropista, Invocador e Simbolista\nTer o poder Invocação",
+    "max_level": 1
+  },
+  {
+    "name": "Muralha de Espinhos",
+    "job_id": [
+      "Floralista",
+      "Guerreiro Sombrio"
+    ],
+    "description": "Você tem Resistência a dano de luz e de veneno. Após perder PV, se você estiver em crise e uma magissemente estiver em seu jardim, você pode preencher 1 seção do seu relógio de germinação. Além disso, ao usar Golpe das Sombras, você pode fazer o ataque deste poder causar dano de veneno em vez de dano de trevas. Esse tipo de dano ainda não pode ser mudado. Se fizer isso, seu Golpe das Sombras causa dano adicional igual a (2 × o número de seções preenchidas em seu relógio de germinação).",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Floralista e Guerreiro Sombrio\nTer o poder Cloromancia",
+    "max_level": 1
+  },
+  {
+    "name": "Palavras de Sabedoria",
+    "job_id": [
+      "Comandante",
+      "Erudito",
+      "Orador"
+    ],
+    "description": "Ao fazer um teste de Apoio, se o líder do teste em Grupo puder ouvir e entender você, você pode usar (AST + AST), (AST + VON), ou (VON + VON) em vez dos atributos normalmente exigidos pelo teste de Apoio. Além disso, ao usar trabalho em equipe para ajudar o teste de outro personagem em seu turno durante uma cena de conflito, você pode gastar 10 PM. Se fizer isso, escolha até dois benefícios: o personagem alvo recupera 20 PM; o personagem alvo se recupera das condições atordoado, furioso e abalado; no fim do turno desse personagem, você faz um ataque livre com uma arma equipada ou faz a ação Feitiço sem custo de ação, lançando um feitiço cujo custo total em PM seja igual ou inferior a 20; ou, se esse personagem obtiver sucesso em seu teste e isso permitir que ele preencha ou apague uma ou mais seções de um relógio, ele pode preencher ou apagar uma seção adicional.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Comandante, Erudito e Orador",
+    "max_level": 1
+  },
+  {
+    "name": "Poder dos Cinco Mananciais",
+    "job_id": [
+      "Invocador"
+    ],
+    "description": "Após fazer uma invocação durante um conflito, você e até um aliado que você possa ver consideram um dos seus Atributos como um passo maior, máximo de d12. Isso dura até o fim da cena ou até você usar este poder outra vez. O atributo é definido pelo manancial invocado: ar (Astúcia), terra (um atributo à sua escolha), fogo (Destreza), raio (Vigor) ou água (Vontade).",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Invocador",
+    "max_level": 1
+  },
+  {
+    "name": "Por um Futuro Melhor",
+    "job_id": [
+      "Mercador"
+    ],
+    "description": "Quando gastar 1 ou mais Pontos de Fabula, se eles não forem gastos para alterar a história, você pode gastar a mesma quantidade em Pontos de Comércio em vez disso. Além disso, quando receber 2 ou mais Pontos de Comércio por meio de Verdadeiro Tesouro ou Ventos do Comércio, você pode escolher receber exatamente 1 Ponto de Comércio. Se fizer isso, escolha um assentamento a 1 dia de viagem de sua posição atual e aumente a prosperidade dele em uma quantidade igual a (seu NP em Ventos do Comércio + seu NP em Verdadeiro Tesouro). A prosperidade começa em 0 e não tem limite. A partir de 10, custos em zênites de você e aliados são reduzidos à metade na área; a partir de 15, vocês podem descansar livremente sem gastar zênites e testes de Viagem na área nunca usam dado maior que d8; a partir de 20, vilões precisam gastar o dobro de Pontos de Ultima nessa área.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Mercador\nTer os poderes Ventos do Comércio e Verdadeiro Tesouro",
+    "max_level": 1
+  },
+  {
+    "name": "Refração Auramante",
+    "job_id": [
+      "Arcanista",
+      "Espiritualista"
+    ],
+    "description": "Escolha um tipo de dano entre ar, raio, terra, fogo, gelo e luz. Quando um inimigo que você possa ver causar dano em uma ou mais criaturas sob efeito de um feitiço Aura e/ou Barreira que você tenha lançado, o dano sofrido por cada uma dessas criaturas é reduzido em uma quantidade igual a (metade do seu nível de espiritualista) ou (seu nível ÷ 10), use o maior valor, e essa redução é aplicada antes de qualquer Afinidade. Em seguida, você pode causar uma quantidade de dano do tipo escolhido igual a (metade do seu nível) a esse inimigo. Se fizer isso, você não pode causar dano desta forma novamente até o início do seu próximo turno.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Arcanista e Espiritualista.\nTer o feitiço Aura e/ou Barreira",
+    "max_level": 1
+  },
+  {
+    "name": "Rodízio",
+    "job_id": [
+      "Gourmet"
+    ],
+    "description": "Uma vez por cena, ao usar Culinária, você pode combinar quatro ingredientes em uma iguaria, ignorando o limite normal de três ingredientes. Fora isso, a iguaria segue a regra padrão.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Gourmet",
+    "max_level": 1
+  },
+  {
+    "name": "Tranquilidade Efêmera",
+    "job_id": [
+      "Dançarino",
+      "Esper",
+      "Espiritualista",
+      "Ladino",
+      "Simbolista"
+    ],
+    "description": "Quando lançar o feitiço Alucinação ou Torpor, você pode aplicar ambas as condições a cada alvo atingido pelo feitiço. Durante um conflito, você pode usar uma ação e gastar até 20 PM. A cada 10 PM gastos desta forma, você pode escolher um inimigo diferente que você possa ver e que esteja sofrendo duas ou mais condições. Cada inimigo escolhido se recupera de todas as condições e perde uma quantidade de PV igual a (metade do seu nível + (10 × o número de condições das quais o inimigo se recuperou dessa maneira)). Então, você recupera 20 PM para cada inimigo que entrou em Crise ou foi reduzido a 0 PV graças a esse efeito.",
+    "type": "heroic",
+    "prerequisites":"Dominar uma ou mais classes entre Dançarino, Esper, Espiritualista, Ladino e Simbolista",
+    "max_level": 1
+  },
+    {
+    "name": "Carga de Cavalaria",
+    "job_id": [
+      "Comandante"
+    ],
+    "description": "Em um conflito, você pode usar uma ação e gastar 10 PM para escolher um aliado que possa ouvi-lo. O aliado pode fazer imediatamente um ataque livre com uma arma equipada ou um ataque básico se for um NPC. Ele recebe um bônus no teste de Precisão igual ao seu NP, mas considera sua RA como 0 ao calcular o dano causado por este ataque.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 5
+  },
+  {
+    "name": "Carruagem Devastadora",
+    "job_id": [
+      "Comandante"
+    ],
+    "description": "Após usar Decreto do Bispo, Carga de Cavalaria ou Roque do Rei, você pode escolher outro PJ que possa ouvi-lo e ainda não teve seu turno nesta rodada. O turno desse personagem acontece imediatamente após o seu nesta rodada.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Decreto do Bispo",
+    "job_id": [
+      "Comandante"
+    ],
+    "description": "Em um conflito, você pode usar uma ação e gastar 10 PM para escolher um: todos os custos em PM são dobrados; ou todas as fontes de dano causam (NP × 3) de dano adicional.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 5
+  },
+  {
+    "name": "Gambito da Dama",
+    "job_id": [
+      "Comandante"
+    ],
+    "description": "Em um conflito, você pode usar uma ação para fazer um ataque livre com uma arma equipada, considerando sua RA como 0 ao calcular o dano. Após o ataque ser resolvido, escolha um: usar imediatamente Decreto do Bispo, Carga de Cavalaria ou Roque do Rei sem usar ação, pagando o custo apropriado de PM; ou um aliado que possa ouvir você recupera (5 + (NP × 5)) PV.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 6
+  },
+  {
+    "name": "Roque do Rei",
+    "job_id": [
+      "Comandante"
+    ],
+    "description": "Em um conflito, você pode usar uma ação e gastar 10 PM para escolher um: nenhuma criatura pode recuperar PV ou PM; ou todos os efeitos que restauram PM restauram (NP × 5) PM adicionais. O efeito escolhido dura até o início de seu próximo turno.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 4
+  },
+  {
+    "name": "Dança",
+    "job_id": [
+      "Dançarino"
+    ],
+    "description": "Sempre que adquirir este poder, aprenda uma dança. Em seu turno numa cena de conflito, se não tiver uma armadura marcial equipada, você pode gastar 10 PM para apresentar uma dança que aprendeu. Isso não exige ação, mas só pode ser feito antes ou depois da sua ação e apenas uma vez por turno. Se apresentou uma dança diferente em seu turno anterior na mesma cena, o custo da nova dança é reduzido em 5 PM.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 10
+  },
+  {
+    "name": "Dançarino de Guerra",
+    "job_id": [
+      "Dançarino"
+    ],
+    "description": "Após apresentar uma dança, seus ataques feitos com armas das categorias adaga, arremesso, luta e malho causam (NP) pontos de dano adicional até o início de seu próximo turno. Se tiver uma arma arcana equipada, feitiços ofensivos que você lançar também causam (NP) pontos de dano adicional até o início de seu próximo turno.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 5
+  },
+  {
+    "name": "Me Acompanhe",
+    "job_id": [
+      "Dançarino"
+    ],
+    "description": "Ao apresentar uma dança com duração até o início de seu próximo turno, você pode gastar 10 PM. Se fizer isso, escolha um personagem com quem você tem um Laço de afeto: o aliado também recebe os benefícios da dança como se fosse você, e tais benefícios duram até o início do seu próximo turno.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Sapateado Frenético",
+    "job_id": [
+      "Dançarino"
+    ],
+    "description": "Ao apresentar uma dança com duração até o início de seu próximo turno, todos os testes opostos que dependam de acrobacia, coordenação ou velocidade recebem um bônus igual a (NP × 2) até o início de seu próximo turno.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 2
+  },
+  {
+    "name": "Troca de Figurino",
+    "job_id": [
+      "Dançarino"
+    ],
+    "description": "Após apresentar uma dança, você pode fazer a ação Equipamento sem usar ações.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Conexão Simbólica",
+    "job_id": [
+      "Simbolista"
+    ],
+    "description": "Você sempre sabe a direção exata de qualquer criatura que esteja com um de seus símbolos, desde que ela esteja a até 2 dias de viagem de sua posição.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Miragem",
+    "job_id": [
+      "Simbolista"
+    ],
+    "description": "Você pode fazer rituais da disciplina ritualismo. Além disso, também pode usar ritualismo para criar ilusões visuais.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Simbolismo",
+    "job_id": [
+      "Simbolista"
+    ],
+    "description": "Sempre que adquirir este poder, aprenda dois símbolos. Você pode ter até (NP + 1) símbolos ativos ao mesmo tempo; se criar mais símbolos além desse limite, antes deve escolher um de seus símbolos ativos para destruir. Você pode fazer a ação Inventário e gastar 2 PI para criar um símbolo que aprendeu e aplicá-lo em si mesmo, em um aliado que consiga ver ou, por meio de um ataque livre com uma arma equipada que não causa dano, aplicar uma cópia do símbolo a cada inimigo atingido.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 5
+  },
+  {
+    "name": "Símbolos Mágicos",
+    "job_id": [
+      "Simbolista"
+    ],
+    "description": "Se um aliado estiver com um de seus símbolos, ele pode fazer a ação Feitiço para destruir o símbolo e lançar um único feitiço entre aqueles que você conhece. O custo total em PM do feitiço deve ser igual ou menor a (NP × 10), e o aliado ainda deve pagar o custo de PM.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 3
+  },
+  {
+    "name": "Toque Pessoal",
+    "job_id": [
+      "Simbolista"
+    ],
+    "description": "Quando uma criatura que você possa ver e que esteja com um de seus símbolos sofrer dano ou recuperar PV e/ou PM, você pode fazer a criatura sofrer (NP) de dano adicional ou recuperar (NP) PV e/ou PM, respectivamente.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 5
+  },
+  {
+    "name": "Barreira Sonora",
+    "job_id": [
+      "Virtuoso"
+    ],
+    "description": "Após cantar um verso em volume médio ou forte, qualquer quantidade de dano físico que você sofrer até o início de seu próximo turno é reduzido em (NP), antes de aplicar quaisquer Afinidades a dano.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 5
+  },
+  {
+    "name": "Canto da Sereia",
+    "job_id": [
+      "Virtuoso"
+    ],
+    "description": "Você pode fazer rituais da disciplina ritualismo. Além disso, também pode usar ritualismo para criar ilusões sonoras.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Harmonia",
+    "job_id": [
+      "Virtuoso"
+    ],
+    "description": "Após afetar um ou mais inimigos com um verso, se tiver uma arma arcana equipada, você pode escolher um: até o início de seu próximo turno, seus aliados causam (NP) de dano adicional a esses inimigos; ou até o início de seu próximo turno, você recupera (NP) PM cada vez que esses inimigos sofrerem dano, recuperando (NP) PM para cada inimigo afetado quando a mesma fonte causar dano a dois ou mais deles ao mesmo tempo.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 3
+  },
+  {
+    "name": "Magicanto",
+    "job_id": [
+      "Virtuoso"
+    ],
+    "description": "Em seu turno durante uma cena de conflito, você pode usar uma ação e gastar uma quantidade variável de PM para cantar um verso. Você só pode cantar um verso por turno, mesmo se puder fazer mais de uma ação. Ao adquirir este poder, você aprende todos os três volumes, além de uma escala e um tom. Sempre que adquiri-lo novamente, você pode aprender mais uma escala ou um tom.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 10
+  },
+  {
+    "name": "Vibrato",
+    "job_id": [
+      "Virtuoso"
+    ],
+    "description": "Após cantar um verso em volume fraco ou médio, você pode fazer um ataque livre com uma arma equipada, considerando sua RA como 0 ao calcular o dano.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Adepto das Lâminas",
+    "job_id": [
+      "Ladino",
+      "Mestre de Armas"
+    ],
+    "description": "Enquanto tiver uma ou mais adagas corpo a corpo equipadas, sua Defesa e Defesa Mágica aumentam em +1 e você considera essas armas como das categorias arremesso, espada e luta para requisitos de poderes e outros efeitos. Além disso, seus ataques com adagas podem atingir criaturas que normalmente não podem ser alvos de ataques corpo a corpo.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Ladino e Mestre de Armas",
+    "max_level": 1
+  },
+  {
+    "name": "Batalha Incessante",
+    "job_id": [
+      "Comandante"
+    ],
+    "description": "O custo em PM de seus poderes Carga de Cavalaria, Decreto do Bispo e Roque do Rei é reduzido pela metade.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Comandante",
+    "max_level": 1
+  },
+  {
+    "name": "Bimagus",
+    "job_id": [
+      "Elementalista",
+      "Entropista",
+      "Espiritualista"
+    ],
+    "description": "Uma vez por turno em um conflito, se tiver uma arma arcana equipada, você pode usar uma ação e gastar de 20 a 50 PM para fazer a ação Feitiço duas vezes sem usar uma ação e sem gastar PM nos feitiços. O custo total em PM de ambas as magias deve ser 20 + a quantidade de PM gasta para usar este poder, e o segundo feitiço deve ter custo total em PM menor ou igual à metade do custo total do primeiro.",
+    "type": "heroic",
+    "prerequisites": "Dominar duas ou mais classes entre Elementalista, Entropista e Espiritualista.\nEstar no 30° nível ou acima",
+    "max_level": 1
+  },
+  {
+    "name": "Corte Triplo",
+    "job_id": [
+      "Dançarino",
+      "Mestre de Armas"
+    ],
+    "description": "Desde que tenha uma espada ou adaga corpo a corpo e de uma mão equipada em cada espaço de mão convencional, você pode considerar seu espaço de armadura como um segundo espaço de mão secundária, usado apenas para equipar uma adaga ou espada corpo a corpo e de uma mão. Quando fizer a ação Ataque com adagas e/ou espadas equipadas, você pode atacar uma vez com cada arma, seguindo as regras de combate com duas armas: cada ataque perde multi e a RA de cada teste de Precisão é considerada 0 para calcular o dano.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Dançarino e Mestre de Armas",
+    "max_level": 1
+  },
+  {
+    "name": "Espetáculo",
+    "job_id": [
+      "Dançarino"
+    ],
+    "description": "No início de seu turno em um conflito, se não tiver armadura marcial equipada, você pode gastar 1 Ponto de Fabula para apresentar até três danças diferentes que conheça, na ordem que preferir e sem custo em PM. Se fizer isso, você não pode apresentar danças até o fim do seu próximo turno.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Dançarino",
+    "max_level": 1
+  },
+  {
+    "name": "Enxame Rodopiante",
+    "job_id": [
+      "Atirador",
+      "Dançarino",
+      "Furioso"
+    ],
+    "description": "Quando faz um ataque à distância com uma arma de arremesso, se não tiver arma marcial ou escudo equipados, você recebe 1 Ponto de Ímpeto, até o máximo de 5. Seus ataques à distância com armas de arremesso causam dano adicional igual aos seus Pontos de Ímpeto atuais. Quando uma criatura acertar você com um ataque contra sua Defesa, você deve gastar todos os Pontos de Ímpeto e aumentar sua Defesa pelo mesmo valor, podendo transformar o acerto em falha. Você perde todos os Pontos de Ímpeto no fim de cada cena.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Atirador, Dançarino e Furioso",
+    "max_level": 1
+  },
+  {
+    "name": "Flecha Dupla",
+    "job_id": [
+      "Atirador",
+      "Comandante"
+    ],
+    "description": "Quando faz um ataque à distância com um arco, se não tiver mais nenhuma arma equipada, você pode fazer dois ataques diferentes em vez de um, contra o mesmo alvo ou alvos diferentes. Ambos seguem as regras de combate com duas armas: cada ataque perde multi e a RA de cada teste de Precisão é considerada 0 para calcular o dano. Não é cumulativo com personalização rápida.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Atirador e Comandante",
+    "max_level": 1
+  },
+  {
+    "name": "Floresta de Ferro",
+    "job_id": [
+      "Comandante",
+      "Mestre de Armas"
+    ],
+    "description": "Após acertar uma ou mais criaturas com um ataque corpo a corpo usando uma lança, se não tiver mais nenhuma arma equipada, você pode gastar 2 PM e escolher uma das criaturas atingidas. O ataque causa metade do dano a todos os alvos; então escolha Ataque, Guarda, Feitiço, Objetivo ou Poder. O alvo escolhido deve gastar 10 PM sempre que quiser fazer essa ação; se não tiver PM, deve fazer outro tipo de ação. O efeito dura até o início do seu próximo turno ou até você usar este poder novamente.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Comandante e Mestre de Armas",
+    "max_level": 1
+  },
+  {
+    "name": "Hoplita",
+    "job_id": [
+      "Comandante",
+      "Guardião"
+    ],
+    "description": "Enquanto estiver com uma arma equipada no espaço de mão dominante e um escudo no espaço de mão secundária, seus ataques causam 5 pontos de dano adicional e sua Defesa aumenta em +1. Este poder não pode ser usado com armas personalizadas com aumento na Defesa nem com Duplo Escudeiro.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Comandante e Guardião",
+    "max_level": 1
+  },
+  {
+    "name": "Golpe Pulverizador",
+    "job_id": [
+      "Furioso",
+      "Guerreiro Sombrio",
+      "Mestre de Armas"
+    ],
+    "description": "Após acertar uma criatura com Trespassar, se o ataque foi feito com uma arma pesada corpo a corpo, você pode causar dano igual à sua RA em vez de nenhum dano. Todas as fontes de dano adicional, inclusive a terceira opção de Trespassar, ainda se aplicam normalmente; ignore o dano causado pela arma.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Furioso, Guerreiro Sombrio e Mestre de Armas",
+    "max_level": 1
+  },
+  {
+    "name": "Guarda Mágica",
+    "job_id": [
+      "Elementalista",
+      "Entropista",
+      "Espiritualista",
+      "Quimerista"
+    ],
+    "description": "Ao fazer a ação Guarda sem dar cobertura a outra criatura, até o início do seu próximo turno, quando uma criatura que você puder ver lançar um feitiço, após ela gastar os PM, você pode gastar PM igual a 10 + o custo total em PM do feitiço para interrompê-lo e negar seus efeitos. O feitiço não é lançado, mas o alvo ainda gasta a ação.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Elementalista, Entropista, Espiritualista e Quimerista",
+    "max_level": 1
+  },
+  {
+    "name": "Grande Invocação",
+    "job_id": [
+      "Arcanista"
+    ],
+    "description": "Quando invocar um Arcano, você pode gastar 1 Ponto de Fabula e metade dos seus PV atuais para manifestá-lo como uma criatura de patente soldado da espécie demônio sob seu controle. Ela atua como aliada em seu próprio turno, tem nível igual ao seu, atributos, PV, resistências e benefícios de fusão definidos pelas regras do poder, além de ataque básico e efeitos de dispensar do Arcano. A criatura desaparece se for reduzida a 0 PV, se você morrer, ficar inconsciente, deixar a cena, invocar outro Arcano, fizer Grande Invocação de outro Arcano, no fim da cena ou sob suas ordens.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Arcanista.\nEstar no 30° nível ou acima",
+    "max_level": 1
+  },
+  {
+    "name": "Maré Crescente",
+    "job_id": [
+      "Furioso",
+      "Mestre de Armas"
+    ],
+    "description": "Quando faz um ataque corpo a corpo com uma arma de luta, se não tiver mais nenhuma arma marcial ou escudo equipados, você recebe 1 Ponto de Coragem. Seus ataques corpo a corpo com armas de luta causam dano adicional igual a 2 + seus Pontos de Coragem atuais. No fim da cena ou se acumular 5 ou mais Pontos de Coragem no fim do seu turno, você gasta todos esses pontos e recupera 10 PV e PM.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Furioso e Mestre de Armas",
+    "max_level": 1
+  },
+  {
+    "name": "Mira Arcana",
+    "job_id": [
+      "Atirador",
+      "Mestre de Armas",
+      "Simbolista"
+    ],
+    "description": "Quando atinge uma ou mais criaturas com um ataque usando uma arma arcana, o ataque causa 5 pontos de dano adicional e você pode escolher um dos alvos atingidos. Se o próximo feitiço ofensivo que você lançar nesta cena tiver apenas essa criatura como alvo, considere o teste de Magia desse feitiço como sucesso crítico se ambos os dados rolarem o mesmo número, desde que não seja falha crítica.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Atirador, Mestre de Armas e Simbolista",
+    "max_level": 1
+  },
+  {
+    "name": "Momento Fugaz",
+    "job_id": [
+      "Mestre de Armas"
+    ],
+    "description": "Quando fizer um Contra-ataque corpo a corpo com uma espada, você pode usar sua RA no dano causado pelo ataque, sem precisar considerá-la como 0.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Mestre de Armas.\nTer o poder Contra-ataque",
+    "max_level": 1
+  },
+  {
+    "name": "Música Tema",
+    "job_id": [
+      "Virtuoso"
+    ],
+    "description": "Ao adquirir este poder, você recebe uma música-tema e escolhe uma escala que conhece. Uma vez por cena de conflito, após cantar um verso nessa escala, você pode iniciar sua música-tema. Enquanto ela durar, você torna-se Resistente ao tipo de dano da escala, causa 5 pontos de dano adicional ao causar dano desse tipo, e o custo em PM para cantar versos na mesma escala é reduzido pela metade para você e aliados que também possam cantar versos. A música termina no fim da cena, se você sair de cena, ficar inconsciente ou morrer, se alguém cantar um verso de escala diferente, se você não cantar verso até o fim do seu turno ou se outro personagem iniciar outra música-tema.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Virtuoso",
+    "max_level": 1
+  },
+  {
+    "name": "Paso Doble",
+    "job_id": [
+      "Dançarino"
+    ],
+    "description": "Enquanto estiver em crise, você ignora o custo em PM do poder Me Acompanhe.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Dançarino.\nTer o poder Me Acompanhe",
+    "max_level": 1
+  },
+  {
+    "name": "Rituais Ágeis",
+    "job_id": [
+      "Elementalista",
+      "Entropista",
+      "Espiritualista",
+      "Quimerista"
+    ],
+    "description": "Quando iniciar um ritual em uma cena de conflito, seu relógio de ritual é criado com duas seções a menos que o normal, mínimo de quatro seções.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Elementalista, Entropista, Espiritualista e Quimerista",
+    "max_level": 1
+  },
+  {
+    "name": "Selos Rituais",
+    "job_id": [
+      "Simbolista"
+    ],
+    "description": "Quando faz um ritual fora de uma cena de conflito, se o ritual tiver custo total em PM igual ou menor que 60, você pode interromper o processo imediatamente antes do teste de Magia e armazenar os efeitos em um selo de ritual sobre uma superfície que possa tocar. Escolha um gatilho; quando ele for ativado, o selo desaparece e o ritual se conclui no local do selo, com teste de Magia e efeitos resolvidos normalmente. Você só pode ter um selo de ritual ativo por vez.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Simbolista",
+    "max_level": 1
+  },
+  {
+    "name": "Tábula Rasa",
+    "job_id": [
+      "Comandante"
+    ],
+    "description": "Após usar Decreto do Bispo ou Roque do Rei, se estiver em crise, você pode fazer cada inimigo presente na cena perder 10 PV. Se estiver no 20° nível ou acima, esse dano aumenta para 20; se estiver no 40° nível ou acima, aumenta para 30.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Comandante",
+    "max_level": 1
+  },
+  {
+    "name": "Teia de Aranha",
+    "job_id": [
+      "Furioso",
+      "Mestre de Armas"
+    ],
+    "description": "Quando faz um ataque corpo a corpo com um malho, se não tiver mais nenhuma arma equipada, você pode fazer dois ataques separados em vez de um, contra o mesmo alvo ou alvos diferentes. Ambos seguem as regras de combate com duas armas: cada ataque perde multi e a RA de cada teste de Precisão é considerada 0 para calcular o dano. Não é cumulativo com personalização rápida.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Furioso e Mestre de Armas",
+    "max_level": 1
+  },
+  {
+    "name": "Tela em Branco",
+    "job_id": [
+      "Simbolista"
+    ],
+    "description": "Você pode usar uma ação e gastar até 30 PM para escolher uma criatura que você possa ver para cada 5 PM gastos. Cada alvo escolhido se recupera de todas as condições e deixa de ser afetado por qualquer efeito com duração de Cena que o estivesse afetando.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Simbolista",
+    "max_level": 1
+  },
+  {
+    "name": "Tiroteio",
+    "job_id": [
+      "Atirador"
+    ],
+    "description": "Após negar um ataque à distância usando Fogo Cruzado, se seu teste de Precisão for um número par, você pode fazer um ataque livre contra o atacante com uma arma de fogo à distância equipada. Este ataque deve ter o inimigo como único alvo e sua RA é considerada 0 para calcular o dano causado.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Atirador",
+    "max_level": 1
+  },
+  {
+    "name": "Trilha Épica",
+    "job_id": [
+      "Virtuoso"
+    ],
+    "description": "Quando canta um verso de volume médio ou forte, você pode dobrar seu custo em PM ou gastar 1 Ponto de Fabula. Se fizer isso, testes de Precisão feitos por você e todos os aliados que puderem ouvi-lo são considerados sucesso crítico se ambos os dados rolarem o mesmo número, desde que não seja falha crítica.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Virtuoso",
+    "max_level": 1
+  },
+  {
+    "name": "Dons Psíquicos",
+    "job_id": [
+      "Esper"
+    ],
+    "description": "Sempre que adquirir este poder, você recebe um dom. Ao adquirir Dons Psíquicos, você também recebe um Relógio Mental com 4 seções, usado para determinar o custo e a efetividade dos dons.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 5
+  },
+  {
+    "name": "Foco Cognitivo",
+    "job_id": [
+      "Esper"
+    ],
+    "description": "No início do seu turno durante um conflito, você pode escolher um aliado que possa ouvir você ou um inimigo que você possa ver e esteja abalado, atordoado e/ou enfurecido. Até o início do próximo turno, esta criatura será seu foco. Você recebe bônus igual a (NP) em testes para examinar seu foco, em testes de Precisão e Magia de ataques e feitiços ofensivos que tenham seu foco entre os alvos. Quando você faz seu foco recuperar PV e/ou PM, ele recupera (NP × 2) PV e/ou PM adicionais.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 5
+  },
+  {
+    "name": "Hipercognição",
+    "job_id": [
+      "Esper"
+    ],
+    "description": "O custo total em PM de seus feitiços e versos que têm seu foco entre os alvos é reduzido em (NP); ou em (NP × 2) se seu foco for o único alvo, até o mínimo de 0 PM.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 5
+  },
+  {
+    "name": "Navegador",
+    "job_id": [
+      "Esper"
+    ],
+    "description": "Você pode se comunicar telepaticamente com qualquer aliado consciente que esteja a 1 dia de viagem; para poderes e condições, vocês podem ouvir um ao outro. Você pode fazer rituais da disciplina ritualismo. Além disso, pode usar ritualismo para transportar criaturas para dentro e fora da rede de almas, reunir informações e rastrear entidades enquanto estiverem na rede.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Psicocinese",
+    "job_id": [
+      "Esper"
+    ],
+    "description": "Quando faz um teste de Precisão, você pode substituir um dos dados de atributo por Vontade, como (DES + VON) para um arco curto. Além disso, seus ataques corpo a corpo com espadas ou armas arcanas podem atingir criaturas voadoras.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Acromorfose",
+    "job_id": [
+      "Mutante"
+    ],
+    "description": "Seus testes de Precisão para ataques desarmados recebem bônus igual ao seu (NP) e estes ataques causam (6 + (NP × 2)) pontos de dano adicional. No início do seu turno durante um conflito, você pode escolher uma categoria de arma que não seja luta; seus ataques desarmados passam a pertencer à categoria escolhida até o início do seu próximo turno. Se escolher arco, arma de fogo ou arremesso, eles se tornam armas à distância; se escolher adaga ou espada, eles não podem ser usados com Corte Triplo.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 3
+  },
+  {
+    "name": "Biofagia",
+    "job_id": [
+      "Mutante"
+    ],
+    "description": "Se estiver em crise, você pode recuperar (NP × 5) PV depois que um dos seus ataques ou feitiços ofensivos fizer um ou mais inimigos perderem PV.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 4
+  },
+  {
+    "name": "Ecdise",
+    "job_id": [
+      "Mutante"
+    ],
+    "description": "Após perder PV ao sofrer dano, se esse dano for de um tipo que não seja físico, você pode gastar 10 PV para receber Resistência ao tipo do dano sofrido até que use este poder novamente.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Genoclepse",
+    "job_id": [
+      "Mutante"
+    ],
+    "description": "Quando causar dano a um ou mais NPCs, você pode descobrir sua espécie. Além disso, o mestre deve escolher (NP) terioformas que reflitam esses NPCs; se você tiver Teriomorfose, pode pagar imediatamente o custo em PV desse poder para usá-lo ao manifestar essas terioformas, mesmo que não estejam entre as que você aprendeu.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 2
+  },
+  {
+    "name": "Teriomorfose",
+    "job_id": [
+      "Mutante"
+    ],
+    "description": "Sempre que adquirir este poder, você aprende uma terioforma. Você pode usar uma ação e gastar um terço dos seus PV atuais, arredondados para baixo, para manifestar os efeitos de até duas terioformas dentre as que aprendeu.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 6
+  },
+  {
+    "name": "Compressão Tecnológica",
+    "job_id": [
+      "Piloto"
+    ],
+    "description": "Quando não tiver ninguém a bordo do seu veículo pessoal, você pode fazê-lo desaparecer do mundo de jogo a qualquer momento. Se seu veículo pessoal não estiver presente no mundo de jogo e você estiver em um espaço grande o bastante para ele, pode usar a ação Inventário e gastar 2 PI para fazê-lo aparecer perto de você, e pode embarcar sem custos.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Configuração Flexível",
+    "job_id": [
+      "Piloto"
+    ],
+    "description": "Ao usar a ação Equipamento ou Guarda enquanto estiver pilotando seu veículo pessoal, você pode escolher até (NP) dos seus módulos ativos e desativá-los. Se fizer isso, escolha uma quantidade de até (NP) de módulos inativos e os ative.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 4
+  },
+  {
+    "name": "Coração no Motor",
+    "job_id": [
+      "Piloto"
+    ],
+    "description": "No início do seu turno durante um conflito, se estiver pilotando seu veículo pessoal, você pode gastar 10 PM. Se fizer isso, escolha um: na próxima vez que causar dano nesse turno, cause (NP × 2) pontos de dano adicional; na próxima vez que sofrer dano antes do início do seu próximo turno, reduza esse dano em (NP × 2), antes de aplicar Afinidades; ou recupere-se da condição lento ou fraco.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 3
+  },
+  {
+    "name": "Pulso Firme",
+    "job_id": [
+      "Piloto"
+    ],
+    "description": "Ao fazer um teste de Precisão com um módulo de arma, você pode substituir um de seus atributos por Vigor, como (VIG + VON) para um módulo arcano.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Veículo Pessoal",
+    "job_id": [
+      "Piloto"
+    ],
+    "description": "Ao adquirir este poder, você recebe um veículo pessoal com uma estrutura à sua escolha e três módulos diferentes à sua escolha. Sempre que adquirir este poder novamente, você adquire dois módulos adicionais à sua escolha.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 5
+  },
+  {
+    "name": "Acromorfose Maior",
+    "job_id": [
+      "Mutante"
+    ],
+    "description": "Você recebe benefícios com base na categoria atual dos seus ataques desarmados: adaga, arcana, arremesso ou luta consideram a Defesa de cada alvo como igual ao dado de Astúcia atual do alvo; arco ou espada causam 5 pontos de dano adicional quando têm duas ou mais criaturas como alvo; arma de fogo ou pesada causam 5 pontos de dano adicional a construtos e a criaturas não construtos com escudo e/ou armadura marcial; lança ou malho aumentam sua Defesa em +2 e permitem que ataques desarmados atinjam criaturas voadoras. Se seus ataques desarmados forem considerados em mais de uma categoria, você recebe todos os benefícios correspondentes.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Mutante.\nTer o poder Acromorfose",
+    "max_level": 1
+  },
+  {
+    "name": "Bruxa de Aço",
+    "job_id": [
+      "Piloto"
+    ],
+    "description": "Após lançar o primeiro feitiço do seu turno em um conflito, se estiver pilotando seu veículo pessoal, você pode escolher um após resolver o feitiço: desativar um módulo ativo e ativar um módulo inativo; fazer com que o próximo feitiço que causar dano antes do fim da cena cause 5 pontos de dano adicional; ou fazer com que o próximo feitiço que restaurar PV antes do fim da cena restaure 10 PV adicionais de cada alvo.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Piloto",
+    "max_level": 1
+  },
+  {
+    "name": "Câmera Lenta",
+    "job_id": [
+      "Entropista",
+      "Ladino"
+    ],
+    "description": "Você recebe bônus no modificador de iniciativa igual a (seu NP em Esquiva + seu NP em Tempo Roubado). Se não tiver escudo ou armadura marcial equipados, todo dano que você sofre é reduzido em quantidade igual ao seu NP em Esquiva, antes de Afinidades, e você causa dano adicional igual ao seu NP em Tempo Roubado.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Entropista e Ladino.\nTer o poder Esquiva e/ou Tempo Roubado",
+    "max_level": 1
+  },
+  {
+    "name": "Campo Psíquico",
+    "job_id": [
+      "Esper"
+    ],
+    "description": "Seus dons com o evento “Quando você causa dano” também podem ser usados quando um aliado que consegue ouvir você causa dano. Se tiver Escudo Psíquico, ele passa a permitir que você e todos os aliados que possam ouvir você considerem Defesa e Defesa Mágica iguais a (seu dado de Vontade atual + (2 × seções preenchidas em seu Relógio Mental)) para o teste, se esse valor for melhor.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Esper",
+    "max_level": 1
+  },
+  {
+    "name": "Descarga de Ondas Mentais",
+    "job_id": [
+      "Esper"
+    ],
+    "description": "Enquanto seu Relógio Mental estiver preenchido, você pode usar uma ação para apagar todas as suas seções. Se fizer isso, escolha um: causar 20 pontos de dano físico a todos os inimigos presentes na cena; ou causar 30 pontos de dano físico a um único inimigo que você possa ver. Se estiver no 20° nível ou acima, esse valor aumenta em 10; se estiver no 40° nível ou acima, aumenta em 20.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Esper",
+    "max_level": 1
+  },
+  {
+    "name": "Ecdise Maior",
+    "job_id": [
+      "Mutante"
+    ],
+    "description": "Ao usar Ecdise, você pode escolher uma ou ambas as opções: recuperar-se de todas as condições; e/ou deixar de ser afetado por todos os feitiços com duração de Cena que estejam afetando você.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Mutante",
+    "max_level": 1
+  },
+  {
+    "name": "Isca Chamariz",
+    "job_id": [
+      "Atirador"
+    ],
+    "description": "Ao usar Olhos de Águia e escolher a primeira opção, se não houver uma isca chamariz na cena, você pode gastar 10 PM para criá-la com PV iguais a (metade do seu nível + (5 × seu NP em Olhos de Águia)). Quando um inimigo que possa vê-la causar dano a uma ou mais criaturas, a isca sofre dano no lugar de uma dessas criaturas, escolhida aleatoriamente. Quando um inimigo reduz sua isca a 0 PV, ela é destruída e você rola 1d10; se o resultado for igual ou menor que (3 + seu NP em Olhos de Águia), você pode fazer um ataque livre com arma de fogo ou arco equipado contra esse inimigo, com bônus igual ao seu NP em Olhos de Águia e dano que ignora Imunidades e Resistências. A isca não pode recuperar PV e é destruída no fim da cena.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Atirador.\nTer o poder Olhos de Águia",
+    "max_level": 1
+  },
+  {
+    "name": "Magicanhão Quântico",
+    "job_id": [
+      "Inventor"
+    ],
+    "description": "Seus ataques com o magicanhão causam 5 pontos de dano adicional. Ao fazer a ação Ataque com seu magicanhão, se não tiver outra arma equipada, você pode escolher um: destruir o magicanhão e imediatamente criar e equipar um novo sem custo, usando-o no ataque; fazer o ataque ganhar multi (3); ou fazer dois ataques separados em vez de um, seguindo as regras de ataque com duas armas.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Inventor.\nTer o benefício tecnomagia: avançada do poder Engenhocas",
+    "max_level": 1
+  },
+  {
+    "name": "Mimeoclepse",
+    "job_id": [
+      "Mutante",
+      "Quimerista"
+    ],
+    "description": "Ao usar Genoclepse em um NPC cuja espécie esteja entre aquelas das quais você consegue aprender feitiços com Imitação Mágica, o mestre deve revelar todos os feitiços conhecidos por esse NPC. Se o NPC conhecer um ou mais feitiços, você pode aprender um deles como um de seus feitiços de quimerista.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Mutante e Quimerista.\nTer os poderes Genoclepse e Imitação Mágica",
+    "max_level": 1
+  },
+  {
+    "name": "Nebulização",
+    "job_id": [
+      "Inventor"
+    ],
+    "description": "Ao criar uma poção, você recebe 1 Ponto de Nebulização, ou 2 se a poção foi criada pela alquimia do poder Engenhocas. Poções e fragmentos elementais criados por você causam dano adicional igual ao dobro dos seus Pontos de Nebulização atuais. Poções criadas por você que recuperem PV e/ou PM restauram PV e/ou PM adicionais equivalentes a (5 × seus Pontos de Nebulização atuais). Você nunca pode ter mais que 5 Pontos de Nebulização e perde todos no fim de cada cena.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Inventor.\nTer o benefício alquimia: avançada do poder Engenhocas",
+    "max_level": 1
+  },
+  {
+    "name": "Ou Vai ou Racha",
+    "job_id": [
+      "Furioso",
+      "Guerreiro Sombrio"
+    ],
+    "description": "Ao atacar com uma arma, você pode declarar “ou vai ou racha” antes do teste de Precisão. Se fizer isso, a RA do teste é dobrada para determinar o dano e você aplica penalidades se o resultado for par: se a arma for mutável, ela muda de forma e não pode mudar novamente até o fim da cena; se não for mutável ou não puder mudar de forma, ela é posta na mochila e não pode ser equipada até o fim da cena, mas você pode fazer a ação Equipamento imediatamente sem custo. Não se aplica a ataques desarmados, armas improvisadas, módulos de arma ou escudos gêmeos.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Furioso e Guerreiro Sombrio",
+    "max_level": 1
+  },
+  {
+    "name": "Pisar no Calo",
+    "job_id": [
+      "Orador",
+      "Virtuoso"
+    ],
+    "description": "Quando tiver sucesso ao usar Condenar contra um inimigo com pelo menos um Traço que você conheça, você recupera PM igual à metade dos PM perdidos pelo alvo e faz com que ele fique enfurecido, em vez das condições normais. Além disso, ao fazer um teste oposto contra uma criatura enfurecida, ou teste de Precisão ou Magia para ataque ou feitiço ofensivo que tenha uma ou mais criaturas enfurecidas entre os alvos, você tem sucesso crítico quando os dois dados mostram o mesmo número, se não for falha crítica.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Orador e Virtuoso.\nTer o poder Condenar",
+    "max_level": 1
+  },
+  {
+    "name": "Sincronização Dinâmica",
+    "job_id": [
+      "Piloto"
+    ],
+    "description": "No início do seu turno em um conflito, se estiver pilotando seu veículo pessoal, você pode sincronizar com outro PJ pilotando seu próprio veículo pessoal ou com outro PJ passageiro do seu veículo pessoal. Ambos recebem benefícios enquanto a sincronização estiver ativa: ao fazer um teste, pode usar dados atuais de atributos do outro personagem; ao causar dano, causa dano adicional igual à soma das forças dos Laços entre vocês; pode usar uma ação para fazer um ataque livre com módulo de arma ativo ou inativo no veículo pessoal do outro; e, após o fim do seu turno, se o outro PJ ainda não agiu na rodada, ele pode agir imediatamente. A sincronização dura até o fim da cena ou até uma das condições de encerramento ocorrer.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Piloto",
+    "max_level": 1
+  },
+  {
+    "name": "Sobrecarga Explosiva",
+    "job_id": [
+      "Piloto"
+    ],
+    "description": "Escolha um tipo de dano entre fogo, gelo, luz, raio e trevas. Quando você for reduzido a 0 PV pela primeira vez durante uma cena, se estiver dirigindo seu veículo pessoal, pode ficar com exatamente 1 PV. Se fizer isso, você e passageiros deixam o veículo, que desaparece do mundo de jogo, e você causa dano igual ao seu valor de crise a uma única criatura que possa ver, do tipo escolhido. Se o veículo desaparecer assim, o próximo uso de Compressão Tecnológica custa 1 Ponto de Fabula adicional.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Piloto.\nTer o poder Compressão Tecnológica",
+    "max_level": 1
+  },
+  {
+    "name": "Soldado Arcano",
+    "job_id": [
+      "Atirador",
+      "Elementalista",
+      "Mestre de Armas"
+    ],
+    "description": "Você pode usar uma ação para fazer um ataque livre com uma arma equipada contra um único inimigo. Se acertar, sua RA é considerada 0 para calcular o dano. Depois de resolver o ataque, se acertou, você pode fazer a ação Feitiço sem custo de ação: o feitiço deve ser ofensivo, ter custo total em PM igual ou menor que 20 e ter como alvo apenas o inimigo atacado; você ainda paga os PM e faz o teste de Magia. A RA do teste de Magia é considerada 0 para calcular dano ou outros efeitos.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Atirador, Elementalista e Mestre de Armas.\nConhecer ao menos dois feitiços ofensivos",
+    "max_level": 1
+  },
+  {
+    "name": "Sonho Partido",
+    "job_id": [
+      "Esper",
+      "Guerreiro Sombrio"
+    ],
+    "description": "Quando acertar uma ou mais criaturas com um ataque de Golpe das Sombras usando uma espada, cada uma perde PM igual ao número rolado no dado de Vigor para Golpe das Sombras. Então, se esse valor for 8 ou maior, você pode escolher uma criatura atingida. Se ela for seu foco ou você tiver um Laço com ela, ela fará uma ação a menos no próximo turno, mínimo de zero ações.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Esper e Guerreiro Sombrio",
+    "max_level": 1
+  },
+  {
+    "name": "Teriomorfose Maior",
+    "job_id": [
+      "Mutante"
+    ],
+    "description": "Ao usar Teriomorfose no seu turno em um conflito, se isso não acontecer através de Genoclepse, você pode manifestar os efeitos de até três terioformas dentre as que já aprendeu, em vez de apenas duas. Em seguida, pode fazer uma ação adicional. Esta ação não pode ser usada para Teriomorfose.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Mutante",
+    "max_level": 1
+  },
+  {
+    "name": "Varredura Rápida",
+    "job_id": [
+      "Erudito"
+    ],
+    "description": "Ao fazer a ação Estudo em um conflito, você pode examinar as fichas de todos os inimigos que possa ver. Se fizer isso, faça um único teste aberto (AST + AST) e aplique o resultado separadamente a cada inimigo. Se tiver Lampejo de Saber, esse teste não pode ativá-lo.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Erudito",
+    "max_level": 1
+  },
+  {
+    "name": "Constelação do Boitatá",
+    "job_id": [
+      "Astrólogo"
+    ],
+    "description": "Você pode usar uma ação e gastar 5 PM para fazer um teste de (AST + VON) contra a Def.M de um inimigo que você possa ver, causando (NP × 10) pontos de dano de fogo se o atingir. Se consumir uma carga celeste, uma criatura que você possa ver torna-se Resistente a fogo até o fim da cena. Você também gera (NP) cargas solares que duram até o fim da cena.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 3
+  },
+  {
+    "name": "Constelação do Boto",
+    "job_id": [
+      "Astrólogo"
+    ],
+    "description": "Você pode usar uma ação e gastar 5 PM para alinhar os astros de um aliado que você possa ver. Até o fim da cena, o alvo pode trocar um atributo de um teste por AST ou VON. Se consumir uma carga solar, o alvo recebe +1 no teste. Você também gera (NP) cargas estelares que duram até o fim da cena.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 3
+  },
+  {
+    "name": "Constelação do Cão Dourado",
+    "job_id": [
+      "Astrólogo"
+    ],
+    "description": "Você pode usar uma ação e gastar 10 PM para amaldiçoar um inimigo que você possa ver. Até o início do seu próximo turno, todas as fontes que causarem dano de luz ao alvo causam (NP) pontos de dano adicional. Se consumir uma carga estelar, todo dano de luz causado ao alvo ignora Imunidades e Resistências. Você também gera (NP) cargas meteóricas que duram até o fim da cena.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 3
+  },
+  {
+    "name": "Constelação da Rasga-Mortalha",
+    "job_id": [
+      "Astrólogo"
+    ],
+    "description": "Você pode fazer rituais da disciplina ritualismo. Além disso, também pode usar ritualismo para consultar as estrelas sobre possíveis eventos futuros, obter conhecimento de lendas e até realizar pequenos desejos.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Constelação do Saci",
+    "job_id": [
+      "Astrólogo"
+    ],
+    "description": "Você pode usar uma ação e gastar 10 PM para acelerar um aliado que você possa ver. No próximo turno do alvo, ele pode fazer uma ação Equipamento, Guarda, Estudo ou Objetivo sem usar uma ação. Se consumir uma carga meteórica, ele também pode fazer um ataque livre, mas a RA do teste de Precisão desse ataque é considerada 0 para calcular o dano. Você também gera (NP) cargas celestes que duram até o fim da cena.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 3
+  },
+  {
+    "name": "Cabra da Peste",
+    "job_id": [
+      "Bandoleiro"
+    ],
+    "description": "Uma vez por cena, se estiver em crise, você pode usar uma ação e gastar 1 Ponto de Fabula para se recuperar de todas as condições e recuperar PV igual a (NP × 10). Se gastar 1 Ponto de Ultima em vez do Ponto de Fabula para usar este poder, também recupera PM igual a (NP × 10).",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 5
+  },
+  {
+    "name": "Líder de Bando",
+    "job_id": [
+      "Bandoleiro"
+    ],
+    "description": "Quando for o líder de um teste em grupo, e se um ou mais personagens apoiadores tiverem um Laço com você, some as duas forças mais altas dentre esses Laços, em vez de apenas a força mais alta.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Redistribuir Riquezas",
+    "job_id": [
+      "Bandoleiro"
+    ],
+    "description": "No fim de uma cena de conflito na qual um vilão foi reduzido a 0 PV, você recebe (1d6 × NP) PI para distribuir entre os PJs. Além disso, se o vilão tiver mais do que 1 Ponto de Ultima no fim do conflito, você rouba 1 Ponto de Ultima dele e anota em sua ficha. Você só pode ter 1 Ponto de Ultima por vez.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 3
+  },
+  {
+    "name": "Sertanejo",
+    "job_id": [
+      "Bandoleiro"
+    ],
+    "description": "Você possui uma conexão com uma região de terras áridas e desafiadoras, afastada da costa e distante dos costumes da civilização. Ao adquirir este poder, descreva esse lugar e defina com o grupo o conceito de sertanejo no seu mundo de jogo. Essa região conta como uma segunda Origem para você. Se usar um Ponto de Fabula para evocá-la, você pode gastar 1 Ponto de Ultima em vez disso.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Valhacouto",
+    "job_id": [
+      "Bandoleiro"
+    ],
+    "description": "No fim de um descanso, você pode gastar 1 Ponto de Fabula para seu bando trazer (NP + 1) Suprimentos, que duram até você usar este poder novamente. Quando faz um teste de Viagem, pode gastar 1 Suprimento para rolar o dado novamente. Além disso, pode gastar 1 Suprimento para criar uma barraca mágica. Se gastar 1 Ponto de Ultima ao usar este poder, o número de suprimentos aumenta em +2.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 3
+  },
+  {
+    "name": "Altos e Baixos",
+    "job_id": [
+      "Carteador"
+    ],
+    "description": "Quando rola um sucesso crítico ou uma falha crítica, você pode comprar uma carta do seu baralho. Se fizer isso, descarte uma carta da sua mão.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Carta Armadilha",
+    "job_id": [
+      "Carteador"
+    ],
+    "description": "Após um inimigo que você possa ver fazer uma ação num conflito, você pode declarar um naipe do seu baralho após resolver a ação. Então ponha na pilha de descarte, com face para cima, a primeira carta do fundo do baralho. Se for um curinga ou se o naipe for o mesmo que declarou, você pode usar a ação Feitiço sem custo de ação, lançando um feitiço com custo total em PM igual ou menor que (NP × 5). Você ainda deve pagar esse custo de PM.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 4
+  },
+  {
+    "name": "Cartas Mágicas",
+    "job_id": [
+      "Carteador"
+    ],
+    "description": "Você recebe um baralho, uma mão e uma pilha de descarte. Durante um conflito, você pode usar uma ação e gastar até (10 + (NP × 5)) PM, mínimo de 10 PM. Se fizer isso, use o efeito de uma carta na sua mão para cada 5 PM gastos dessa forma, até o máximo de 5 cartas que formam um conjunto. Após usar o efeito do conjunto, se houver, descarte as cartas usadas e compre a mesma quantidade de cartas do seu baralho.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 3
+  },
+  {
+    "name": "Dobro ou Nada",
+    "job_id": [
+      "Carteador"
+    ],
+    "description": "Antes de fazer um teste de Precisão, teste de Magia para um feitiço ofensivo ou teste para afetar um relógio, você pode declarar o dobro ou nada. Se fizer isso e rolar sucesso crítico, dobre o dano causado pelo ataque ou feitiço ou o número de seções preenchidas ou apagadas no relógio. Qualquer outro resultado é considerado falha.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Mulligan",
+    "job_id": [
+      "Carteador"
+    ],
+    "description": "No final do seu turno em um conflito, você pode descartar (NP) cartas da sua mão. Se fizer isso, compre a mesma quantidade de cartas do seu baralho.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 5
+  },
+  {
+    "name": "Alma Ferida",
+    "job_id": [
+      "Cavaleiro Mágico"
+    ],
+    "description": "Uma vez por cena, quando entra em crise, você pode criar um Laço de desconfiança com um número de inimigos igual a (NP) que você possa ver. Laços criados dessa forma duram até o fim da cena e não precisam apagar Laços preexistentes. Se seria necessário apagar Laços para criá-los, escolha um número de Laços atuais equivalente aos excedentes; esses Laços deixam de existir até o fim da cena.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 5
+  },
+  {
+    "name": "Coração Ardente",
+    "job_id": [
+      "Cavaleiro Mágico"
+    ],
+    "description": "Enquanto estiver sob o efeito de uma forma mágica, quando evoca um Laço de desconfiança, inferioridade e/ou ódio em um teste de Precisão ou Magia para causar dano, você causa (NP × 2) de dano adicional do mesmo tipo.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 3
+  },
+  {
+    "name": "Impulso do Coração",
+    "job_id": [
+      "Cavaleiro Mágico"
+    ],
+    "description": "O custo para usar Magitransformação é reduzido em um número de PM igual à quantidade de Laços com emoções de admiração, lealdade e/ou afeto que você possui, até o mínimo de 20 PM.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Magitransformação",
+    "job_id": [
+      "Cavaleiro Mágico"
+    ],
+    "description": "Sempre que adquirir este poder, você deve criar uma nova forma mágica. Você pode usar uma ação e gastar 25 PM para assumir uma forma mágica que possui.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 3
+  },
+  {
+    "name": "Transformação Aprimorada",
+    "job_id": [
+      "Cavaleiro Mágico"
+    ],
+    "description": "Sempre que adquirir este poder, escolha a arma ou armadura de uma das suas formas mágicas. No fim de cada descanso, para cada item escolhido, você pode substituir sua característica ou aplicar uma nova, se o item não tiver características, como se fosse um item raro. A característica escolhida deve ser aprovada pelo mestre e ter valor em zênites igual ou menor que (40 × seu nível).",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 3
+  },
+  {
+    "name": "Animar Arma",
+    "job_id": [
+      "Forjador de Almas"
+    ],
+    "description": "No seu turno, você pode usar uma ação e gastar 1 Ponto de Alma para animar uma arma equipada, liberando o espaço de mão ocupado por ela. A arma flutua como empunhada por uma mão invisível, perde multi e não pode recebê-la de nenhuma forma. No fim de cada rodada, essa arma faz um único ataque usando seu teste de Precisão, mas considera a RA como 0 ao calcular o dano. A arma permanece animada por um número de rodadas igual a (NP) ou até você animar outra arma.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 4
+  },
+  {
+    "name": "Coletar Almas",
+    "job_id": [
+      "Forjador de Almas"
+    ],
+    "description": "Você pode coletar Pontos de Alma de inimigos derrotados e usá-los para fortalecer seus poderes. Você não pode ter mais de (NP + 1) Pontos de Alma.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 5
+  },
+  {
+    "name": "Forjar Característica",
+    "job_id": [
+      "Forjador de Almas"
+    ],
+    "description": "Você pode usar a ação Inventário e gastar 10 PM ou 1 Ponto de Alma para moldar uma característica de arma com custo de até (500z + (seu nível × 40z)) em uma arma ao seu alcance. A característica fica moldada até o fim da cena e um mesmo item só pode ter uma característica moldada por vez.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Forjar Feitiço",
+    "job_id": [
+      "Forjador de Almas"
+    ],
+    "description": "Sempre que adquirir este poder, escolha um feitiço ofensivo de elementalista. Você pode usar a ação Inventário e gastar 10 PM ou 1 Ponto de Alma para infundir um desses feitiços numa arma ao seu alcance. Até o fim da cena, um PJ equipado com uma arma com feitiço infundido pode fazer a ação Feitiço para lançar esse feitiço uma única vez, usando a fórmula do teste de Precisão da arma para o teste de Magia.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 5
+  },
+  {
+    "name": "Manifestar Arma",
+    "job_id": [
+      "Forjador de Almas"
+    ],
+    "description": "No seu turno em um conflito, você pode usar a ação Equipamento e gastar 10 PM ou 1 Ponto de Alma para manifestar uma arma básica, destruindo qualquer arma já manifestada dessa forma. Se tiver espaços de mão livres, pode imediatamente equipar esta arma. Com ela, você pode trocar um Atributo do teste de Precisão por Vontade, como (VON + DES) para um arco curto.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Arsenal Vermelho",
+    "job_id": [
+      "Lâmina Carmesim"
+    ],
+    "description": "Você pode usar uma ação e gastar 5 PV para cobrir uma arma corpo a corpo equipada com seu próprio sangue até o fim da cena. A arma passa a disparar cortes de sangue que atingem alvos que não podem ser acertados por ataques corpo a corpo. Um alvo voador atingido por essa arma é forçado a pousar. Quando está em crise, você não gasta PV ao usar este poder e pode fazer um ataque livre como parte da mesma ação.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Dobrar Sangue",
+    "job_id": [
+      "Lâmina Carmesim"
+    ],
+    "description": "Você pode usar uma ação e gastar 20 PM para escolher um ataque básico ou feitiço conhecido de um inimigo que possa ver. Então faça um teste oposto contra ele de (VON + VIG). Se vencer, o alvo é obrigado a usar a ação escolhida no próximo turno contra um alvo à sua escolha.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Escudo Escarlate",
+    "job_id": [
+      "Lâmina Carmesim"
+    ],
+    "description": "Enquanto estiver em crise, sua Defesa e Defesa Mágica aumentam em (NP).",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 2
+  },
+  {
+    "name": "Frenesi Sanguinolento",
+    "job_id": [
+      "Lâmina Carmesim"
+    ],
+    "description": "Quando rola um sucesso crítico ao fazer um ataque corpo a corpo, você pode gastar a oportunidade gerada para recuperar (NP × 10) PV.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 4
+  },
+  {
+    "name": "Hemofagia",
+    "job_id": [
+      "Lâmina Carmesim"
+    ],
+    "description": "Uma vez por rodada, quando outra criatura faz você perder PV, você pode gastar 10 PV para fazer um ataque livre contra essa criatura depois que a ação dela for resolvida. Se acertar, não causa o dano da arma; em vez disso causa (NP + RA do teste de Precisão) de dano físico.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 5
+  },
+  {
+    "name": "Engabelar",
+    "job_id": [
+      "Malandro"
+    ],
+    "description": "Uma vez por cena, quando um aliado ou inimigo que você possa ver faz um teste, você pode gastar 10 PM para convencer o destino a brincar com a sorte e o azar dele. Se fizer isso, faça o mesmo teste, mas com bônus ou penalidade, à sua escolha, igual a (NP). Então, você pode escolher trocar seu resultado com o resultado do alvo. Até o fim da cena, você pode usar o resultado trocado como a rolagem de um dos seus testes.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 3
+  },
+  {
+    "name": "Explorar Fraqueza",
+    "job_id": [
+      "Malandro"
+    ],
+    "description": "No começo do seu turno, você pode gastar 10 PM para usar a ação Estudo sem custo de ação, antes ou depois da sua ação, usando (AST + DES) como fórmula do teste aberto.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Gambiarra",
+    "job_id": [
+      "Malandro"
+    ],
+    "description": "Uma vez por cena, você pode usar a ação Inventário e gastar até (NP × 2) PI para fazer uma modificação improvisada em uma arma equipada. Para cada 2 PI gastos, escolha uma modificação: a arma fornece +1 em testes de Precisão; causa 2 pontos de dano adicional; fornece +1 em testes da ação Objetivo; ou ataques com ela causam dano de veneno. As modificações duram até o fim da cena.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 4
+  },
+  {
+    "name": "Golpe Aproveitador",
+    "job_id": [
+      "Malandro"
+    ],
+    "description": "Quando faz um ataque contra uma única criatura que esteja sofrendo uma ou mais condições, você pode trocar um dos atributos do teste de Precisão da arma usada por DES e recebe bônus de (NP) nesse teste.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 3
+  },
+  {
+    "name": "Jeitinho",
+    "job_id": [
+      "Malandro"
+    ],
+    "description": "Quando um aliado passar em um teste para preencher ou apagar seções de um relógio, você pode gastar até (NP × 20) PM. Se fizer isso, você não pode fazer testes para influenciar o relógio até o fim do seu próximo turno, mas preenche ou apaga uma seção desse relógio a cada 20 PM gastos dessa forma.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 2
+  },
+  {
+    "name": "Além do Reino da Morte",
+    "job_id": [
+      "Necromante"
+    ],
+    "description": "Quando outra criatura que você possa ver perde PV enquanto estiver em crise, se não for um morto-vivo, você recebe 1 Ponto de Túmulo. Você não pode ter mais de (NP + 1) Pontos de Túmulo. Ao ser reduzido a 0 PV, você perde todos os Pontos de Túmulo; se perdeu ao menos 1 ponto dessa forma e for a primeira vez que fica com 0 PV na cena, você não se rende nem se sacrifica: recupera PV igual a (NP × a quantidade de Pontos de Túmulo perdidos).",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 5
+  },
+  {
+    "name": "Filhos da Sepultura",
+    "job_id": [
+      "Necromante"
+    ],
+    "description": "Você pode se comunicar verbalmente com mortos-vivos. Uma vez por cena, pode fazer uma pergunta a um morto-vivo, que deve responder sinceramente.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Medo é a Chave",
+    "job_id": [
+      "Necromante"
+    ],
+    "description": "Após fazer um ou mais inimigos perderem PV, se tiver Além do Reino da Morte e ao menos um desses inimigos estiver abalado e/ou fraco, você recebe 1 Ponto de Túmulo e recupera (NP × 2) PV e PM.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 3
+  },
+  {
+    "name": "Por Quem os Sinos Dobram",
+    "job_id": [
+      "Necromante"
+    ],
+    "description": "Quando causa dano com um feitiço a uma criatura, se o feitiço causar dano apenas a ela, você pode gastar 1 Ponto de Túmulo. Se fizer isso, escolha um: se a criatura estiver sofrendo uma ou mais condições, o feitiço causa dano adicional igual a ((NP × 2) + o número de condições da criatura); ou, se a criatura não estiver sofrendo condições, ela fica abalada.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 3
+  },
+  {
+    "name": "Rondó do Pesadelo",
+    "job_id": [
+      "Necromante"
+    ],
+    "description": "Ao lançar um feitiço ofensivo com alvo “uma criatura”, você pode gastar 2 Pontos de Túmulo para atingir todas as criaturas presentes na cena que você possa ver. Faça um único teste de Magia e compare-o à Def.M de cada alvo. Se fizer isso, todo dano causado pelo feitiço torna-se de trevas e seu tipo não pode ser alterado.",
+    "type": "common",
+    "prerequisites": null,
+    "max_level": 1
+  },
+  {
+    "name": "Anatomista",
+    "job_id": [
+      "Atirador",
+      "Erudito",
+      "Furioso",
+      "Mestre de Armas"
+    ],
+    "description": "Sempre que adquirir este poder heroico, escolha duas espécies entre construto, demônio, elemental, fera, monstro, morto-vivo e planta. Ao causar dano a um humanoide ou a uma criatura de uma das espécies escolhidas, você pode escolher um: causar 5 pontos de dano adicional a essa criatura; ou deixá-la desorientada até o fim da cena. Quando uma criatura desorientada recupera PV e/ou PM, ela recupera metade da quantidade normal e deixa de estar desorientada.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Atirador, Erudito, Furioso e Mestre de Armas.\nTer o poder Conhecimento é Poder",
+    "max_level": 3
+  },
+  {
+    "name": "Cancela do Lampião",
+    "job_id": [
+      "Bandoleiro"
+    ],
+    "description": "Ao ser alvo de um poder ou feitiço do qual tenha sido alvo anteriormente nesta cena, você pode gastar 1 Ponto de Fabula para se tornar imune ao efeito e dano desse poder ou feitiço até o fim da cena ou até usar este poder novamente. Se gastar 1 Ponto de Ultima em vez do Ponto de Fabula, também recupera 20 PV.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Bandoleiro",
+    "max_level": 1
+  },
+  {
+    "name": "Cargas Radiantes",
+    "job_id": [
+      "Astrólogo"
+    ],
+    "description": "Quando gerar cargas de qualquer tipo, você pode gastar 5 PM para transformar uma das cargas geradas em uma carga cósmica, que pode ser consumida como uma carga de qualquer tipo à sua escolha. Além disso, sempre que fizer uma criatura perder ou recuperar PV, você pode consumir uma carga cósmica para aumentar em 5 o número de PV perdidos ou recuperados.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Astrólogo",
+    "max_level": 1
+  },
+  {
+    "name": "Ceifeiro do Pesar",
+    "job_id": [
+      "Entropista",
+      "Necromante"
+    ],
+    "description": "Quando lança Drenar Espírito ou Drenar Vigor, a quantidade de PV ou PM que você recupera é respectivamente igual à perda de PM ou PV sofrida pelo alvo, em vez da metade. Além disso, se estiver no 20º nível ou acima, Drenar Espírito faz o alvo perder (RA + 20) PM em vez de (RA + 15); se estiver no 40º nível ou acima, faz perder (RA + 25) PM.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Entropista e Necromante.\nAprender ambos os feitiços Drenar Espírito e Drenar Vigor",
+    "max_level": 1
+  },
+  {
+    "name": "Constelação da Cruz Austral",
+    "job_id": [
+      "Astrólogo"
+    ],
+    "description": "Uma vez por cena, você pode usar uma ação, gastar 20 PM e consumir uma carga de cada tipo: celeste, estelar, meteórica e solar. Ao fazer isso, gera o efeito básico de cada um dos outros poderes de astrólogo que possui, cada um em um alvo diferente, sem usar ação ou gastar PM e sem gerar novas cargas.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Astrólogo",
+    "max_level": 1
+  },
+  {
+    "name": "Corte Infernal",
+    "job_id": [
+      "Elementalista",
+      "Guerreiro Sombrio",
+      "Piloto"
+    ],
+    "description": "Ao usar Golpe das Sombras, você pode escolher fogo ou gelo. Se fizer isso, todo dano causado por este ataque torna-se do tipo escolhido em vez de trevas, e você torna-se Resistente ao tipo de dano não escolhido até o início de seu próximo turno. Ao fazer um ataque livre com uma arma corpo a corpo como parte de Golpe das Sombras, este ataque pode atingir inimigos que só podem ser escolhidos como alvos de ataques à distância.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Elementalista, Guerreiro Sombrio e Piloto.\nTer o poder Golpe das Sombras",
+    "max_level": 1
+  },
+  {
+    "name": "Dragão Empalador",
+    "job_id": [
+      "Comandante",
+      "Guerreiro Sombrio"
+    ],
+    "description": "Ao usar Golpe das Sombras, você pode considerar sua RA como 0 ao determinar o dano causado pelo ataque. Se fizer isso, após resolver o ataque de Golpe das Sombras, você pode imediatamente usar Carga de Cavalaria sem usar uma ação, pagando seu custo em PM.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Comandante e Guerreiro Sombrio.\nTer os poderes Carga de Cavalaria e Golpe das Sombras",
+    "max_level": 1
+  },
+  {
+    "name": "Está Vivo!",
+    "job_id": [
+      "Andarilho",
+      "Inventor"
+    ],
+    "description": "A Afinidade do seu companheiro a dano de raio torna-se Absorção e os PV máximos dele aumentam em (2 × seu NP em Visionário). Quando seu companheiro causar dano, se ele não tiver armas equipadas, causa dano adicional igual ao seu NP em Visionário.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Andarilho e Inventor.\nTer os poderes Companheiro Fiel (construto) e Visionário",
+    "max_level": 1
+  },
+  {
+    "name": "Fagomago",
+    "job_id": [
+      "Entropista",
+      "Gourmet",
+      "Mutante",
+      "Quimerista"
+    ],
+    "description": "Quando lança Dissipar, o custo de PM desse feitiço torna-se 10 × A e o alvo torna-se até três criaturas. Ao fazer um ou mais inimigos deixarem de ser afetados por um ou mais feitiços com duração Cena, escolha um: recuperar 20 PM para cada feitiço cujos efeitos se encerraram em ao menos um inimigo dessa forma; ou, para cada feitiço assim, aplicar uma cópia do efeito desse feitiço em você mesmo, mantendo escolhas do feitiço original. Essa cópia não usa ações, PM ou testes e não é considerada lançar um feitiço.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Entropista, Gourmet, Mutante e Quimerista",
+    "max_level": 1
+  },
+  {
+    "name": "Fluxo de Yin e Yang",
+    "job_id": [
+      "Astrólogo",
+      "Elementalista",
+      "Esper",
+      "Dançarino",
+      "Invocador"
+    ],
+    "description": "Ao causar dano físico, de gelo, de terra ou de trevas pela primeira vez em um turno, você recebe 1 Ponto de Yin e, se tiver pelo menos 1 Ponto de Yang, causa 5 pontos de dano adicional. Ao causar dano de ar, de fogo, de luz ou de raio pela primeira vez em um turno, você recebe 1 Ponto de Yang e, se tiver pelo menos 1 Ponto de Yin, causa 5 pontos de dano adicional. No fim de seu turno, se tiver 3 ou mais Pontos de Yin e/ou Yang e pelo menos 1 de cada tipo, perca todos esses pontos e aplique o efeito da maioria: Yin faz cada inimigo presente na cena perder PM igual à metade do seu nível; Yang faz uma criatura que você possa ver recuperar PM igual ao seu nível. Se empatar, aplique ambos. Você só ganha e usa esses pontos durante conflitos e os perde no fim de cada cena.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Astrólogo, Elementalista, Esper, Dançarino e Invocador",
+    "max_level": 1
+  },
+  {
+    "name": "Forja Entrelaçada",
+    "job_id": [
+      "Forjador de Almas"
+    ],
+    "description": "Você pode usar as ações Inventário ou Equipamento sem usar uma ação, mas apenas para usar um dos poderes de forjador de almas que possui.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Forjador de Almas",
+    "max_level": 1
+  },
+  {
+    "name": "Instinto Assassino",
+    "job_id": [
+      "Lâmina Carmesim"
+    ],
+    "description": "Quando acerta uma criatura em crise com um ataque corpo a corpo, esse ataque causa 10 pontos de dano adicional. Se estiver no 40º nível ou acima, esse dano adicional aumenta para 20.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Lâmina Carmesim",
+    "max_level": 1
+  },
+  {
+    "name": "Lido Como um Livro",
+    "job_id": [
+      "Erudito",
+      "Esper",
+      "Ladino",
+      "Malandro"
+    ],
+    "description": "Ao ter sucesso em Roubo de Alma contra um ou mais inimigos, você pode escolher um deles. Se fizer isso, faz a ação Estudo sem usar uma ação contra esse inimigo, considerando o resultado e a rolagem alta do teste aberto como iguais aos do teste feito para Roubo de Alma. Ao causar dano a um inimigo elite ou campeão, se você roubou o tesouro da alma dele durante esta cena, causa dano adicional igual ao seu NP em Roubo de Alma a esse inimigo.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Erudito, Esper, Ladino e Malandro.\nTer o poder Roubo de Alma",
+    "max_level": 1
+  },
+  {
+    "name": "Maestria de Ofuda",
+    "job_id": [
+      "Arcanista",
+      "Mercador",
+      "Simbolista"
+    ],
+    "description": "Ao usar Simbolismo em um conflito, você pode gastar 20 PM para ignorar o custo normal em PI deste poder. Ao fazer um ataque livre com uma arma corpo a corpo como parte do uso de Simbolismo, esse ataque pode atingir inimigos que só podem ser escolhidos como alvos de ataques à distância.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Arcanista, Mercador e Simbolista.\nTer o poder Simbolismo",
+    "max_level": 1
+  },
+  {
+    "name": "Mestre de Duelos",
+    "job_id": [
+      "Atirador",
+      "Carteador",
+      "Furioso",
+      "Ladino",
+      "Mestre de Armas"
+    ],
+    "description": "Ao usar o efeito de Par Mágico, se atacar com uma arma arcana ou arremessável, você causa dano adicional igual ao valor em comum das cartas resolvidas e recupera PM igual a 2 × esse valor.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Atirador, Carteador, Furioso, Ladino e Mestre de Armas.\nTer o poder Cartas Mágicas",
+    "max_level": 1
+  },
+  {
+    "name": "Multifunção",
+    "job_id": [
+      "Forjador de Almas"
+    ],
+    "description": "Quando uma criatura faz a ação Objetivo enquanto está equipada com uma ou mais armas com uma característica ou feitiço fornecida por um dos seus poderes de forjador de almas, ela recebe bônus de +1 no teste da ação para cada um desses itens, até o máximo de +2.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Forjador de Almas",
+    "max_level": 1
+  },
+  {
+    "name": "Nascimento da Crueldade",
+    "job_id": [
+      "Necromante"
+    ],
+    "description": "Após a morte de um NPC que não seja vilão, que você possa ver e que seja fera, humanoide, monstro ou planta, você pode gastar 2 Pontos de Túmulo e reduzir seus PV e PM máximos em um número igual ao nível desse NPC. Se fizer isso, o cadáver se torna um lacaio morto-vivo de patente soldado que obedece a seus comandos telepáticos, retém equipamento original, tem turno próprio em conflitos e recebe benefícios de descanso. Se o lacaio ficar com 0 PV enquanto estiver a mais de um dia de viagem de você, ou se você morrer ou ficar inconsciente, ele é destruído. Você pode destruir seu lacaio a qualquer momento e, para criar outro, deve destruir o atual; se ele for destruído, seus PV e PM máximos voltam ao normal.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Necromante",
+    "max_level": 1
+  },
+  {
+    "name": "Papinho Amigável",
+    "job_id": [
+      "Malandro",
+      "Orador"
+    ],
+    "description": "Durante uma cena de conflito, você pode usar uma ação para escolher uma criatura de patente soldado que possa ouvir e entender você, se o mestre disser que ela é um alvo válido. Se ela estiver sob duas ou mais condições, você pode gastar PM igual a (30 + metade do nível da criatura alvo) para convencê-la a lutar por você. Você controla a ficha dela no lugar do mestre. O efeito dura até o fim da cena ou até a criatura deixar de ter duas ou mais condições. Você só pode controlar uma criatura dessa forma por vez.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Malandro e Orador",
+    "max_level": 1
+  },
+  {
+    "name": "Poder da Amizade",
+    "job_id": [
+      "Cavaleiro Mágico"
+    ],
+    "description": "Uma vez por cena, enquanto estiver sob o efeito de uma forma mágica, você pode gastar uma ação e PM igual a (10 × o número de PJs presentes na cena com os quais você tem um Laço) para fazer um ataque em grupo contra uma única criatura. Você e cada um desses personagens fazem um ataque livre contra essa criatura com uma arma equipada, considerando a RA do teste de Precisão como 0 ao calcular o dano. Após resolver os ataques, você causa dano adicional de luz ao alvo igual a 2 × a soma da força dos Laços que você tem com cada personagem que causou dano ao alvo. Se estiver no 20° nível ou acima, esse dano aumenta em 5; se estiver no 40° nível ou acima, aumenta em 10.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Cavaleiro Mágico",
+    "max_level": 1
+  },
+  {
+    "name": "Preto e Branco",
+    "job_id": [
+      "Carteador",
+      "Entropista",
+      "Espiritualista",
+      "Guerreiro Sombrio"
+    ],
+    "description": "Ao usar o efeito de Encrenca em Dobro, você pode fazer todo o dano causado por ele tornar-se luz ou trevas, em vez de ser de um tipo correspondente aos naipes das cartas usadas. Além disso, enquanto tiver um curinga em sua pilha de descarte, todo dano causado por Encrenca em Dobro, Flush Mágico e Flush Ofuscante ignora Imunidades e Resistências.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Carteador, Entropista, Espiritualista e Guerreiro Sombrio.\nTer o poder Cartas Mágicas",
+    "max_level": 1
+  },
+  {
+    "name": "Pulso das Larvas",
+    "job_id": [
+      "Necromante"
+    ],
+    "description": "Enquanto tiver pelo menos 1 Ponto de Túmulo, você tem Imunidade a dano de trevas e veneno, Resistência a dano físico e Vulnerabilidade a dano de luz. Essas Afinidades substituem quaisquer outras que você tenha para esses tipos de dano e não podem ser alteradas enquanto você tiver pelo menos 1 Ponto de Túmulo.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Necromante",
+    "max_level": 1
+  },
+  {
+    "name": "Raízes Simbióticas",
+    "job_id": [
+      "Andarilho",
+      "Floralista",
+      "Mutante",
+      "Quimerista"
+    ],
+    "description": "Ao recuperar PV, você pode escolher recuperar apenas metade. Se fizer isso, seu companheiro recupera a mesma quantidade de PV. No fim de seu turno em um conflito, se os PV atuais do seu companheiro forem iguais ou maiores que os PV máximos dele e ele não tiver feito ações ou ataques neste turno, você pode ordenar que ele faça um ataque livre usando um dos ataques básicos que possui.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Andarilho, Floralista, Mutante e Quimerista.\nTer o poder Companheiro Fiel (construto)",
+    "max_level": 1
+  },
+  {
+    "name": "Redistribuição Aprimorada",
+    "job_id": [
+      "Bandoleiro"
+    ],
+    "description": "O limite de Pontos de Ultima que você pode acumular com Redistribuir Riquezas aumenta para 3, mas você continua limitado a roubar somente 1 Ponto de Ultima por uso desse poder.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Bandoleiro.\nTer o poder Redistribuir Riquezas",
+    "max_level": 1
+  },
+  {
+    "name": "Rito Proibido",
+    "job_id": [
+      "Arcanista",
+      "Carteador"
+    ],
+    "description": "Enquanto houver uma ou mais cartas em sua pilha de descarte, você tem Resistência ao tipo de dano correspondente ao naipe da carta no topo da pilha; se for um curinga, você tem Resistência a ar, fogo, gelo e terra. Você também adiciona o conjunto Monarca Proibido: 4 cartas do mesmo valor e nenhum curinga + 1 curinga. Seu efeito causa 777 pontos de dano a cada inimigo presente na cena; o dano é de luz se o valor em comum das 4 cartas for par, ou trevas se for ímpar. Se houver um curinga em sua pilha de descarte, esse dano ignora Imunidades e Resistências.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Arcanista e Carteador.\nTer adquirido pelo menos NP 3 em Cartas Mágicas",
+    "max_level": 1
+  },
+  {
+    "name": "Sacrifício Arcano",
+    "job_id": [
+      "Arcanista",
+      "Guardião"
+    ],
+    "description": "Uma vez por cena, quando você e/ou um ou mais aliados que você possa ver forem reduzidos a 0 PV, se você estiver fundido a um Arcano, em vez disso vocês podem ficar com exatamente 1 PV. Se fizer isso, você deve dispensar esse Arcano imediatamente, sem usar efeito de dispensar, e não pode invocá-lo novamente até o fim da cena.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Arcanista e Guardião",
+    "max_level": 1
+  },
+  {
+    "name": "Segredo do Grande Caldeirão",
+    "job_id": [
+      "Inventor"
+    ],
+    "description": "Quando criar uma poção por meio de Alquimia, você pode considerar que o resultado do dado que define o alvo é 13 ou 17, mesmo se o dado mostrar outro número.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Inventor.\nTer o poder Engenhocas (Alquimia: superior)",
+    "max_level": 1
+  },
+  {
+    "name": "Tática da Asa Quebrada",
+    "job_id": [
+      "Comandante",
+      "Guardião"
+    ],
+    "description": "Depois que um inimigo que você possa ver fizer um teste de Precisão ou de Magia para um feitiço ofensivo no turno dele em um conflito, você pode conceder +3 ao resultado desse teste. Se fizer isso, escolha um: você e cada aliado que possa escutá-lo tornam-se Resistentes a todos os tipos de dano até o fim deste turno; ou você e cada aliado que possa escutá-lo causam 5 pontos de dano adicional até o fim deste turno. Após usar este poder, você não pode reutilizá-lo até o início do seu próximo turno.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Comandante e Guardião",
+    "max_level": 1
+  },
+  {
+    "name": "Truque do Caçador",
+    "job_id": [
+      "Atirador",
+      "Mestre de Armas"
+    ],
+    "description": "Ao transformar uma arma personalizada mutável durante seu turno, escolha um: se você não tiver feito ataques neste turno, o próximo ataque que fizer com esta arma neste turno causa 5 pontos de dano adicional; ou, se você atingir uma ou mais criaturas com um ataque usando esta arma neste turno, você recupera 5 PV e 5 PM.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Atirador e Mestre de Armas",
+    "max_level": 1
+  },
+  {
+    "name": "Vanguarda de Cartas",
+    "job_id": [
+      "Carteador"
+    ],
+    "description": "Durante um conflito, se você tiver duas ou menos cartas de vanguarda em jogo, pode usar uma ação para escolher 1 carta da sua mão e baixá-la como carta de vanguarda com a face para baixo; se fizer isso, compre 1 carta do seu baralho. Ao sofrer dano, se tiver uma ou mais cartas de vanguarda em jogo, você pode revelar uma delas e colocá-la no topo da pilha de descarte. Se a carta for curinga ou seu naipe corresponder ao tipo de dano sofrido, você não sofre dano e recupera PM igual ao dano que sofreria. No fim de cada conflito, embaralhe cartas de vanguarda de volta no baralho.",
+    "type": "heroic",
+    "prerequisites": "Dominar a classe Carteador.\nTer o poder Cartas Mágicas",
+    "max_level": 1
+  },
+  {
+    "name": "Voz da Bruxaria",
+    "job_id": [
+      "Orador",
+      "Virtuoso"
+    ],
+    "description": "Após um ou mais inimigos sofrerem uma ou mais condições devido a um verso que você cantou ou ao seu Condenar, cada um desses inimigos também fica enfeitiçado, exceto criaturas imunes ou que já sofriam todas as condições que podem ser infligidas dessa forma. Uma criatura enfeitiçada deve sempre incluir você entre os alvos de ataques e feitiços ofensivos se puder, e deixa de estar enfeitiçada no início de seu próximo turno ou assim que se recuperar de uma ou mais condições.",
+    "type": "heroic",
+    "prerequisites": "Dominar uma ou mais classes entre Orador e Virtuoso",
+    "max_level": 1
   }
 ]

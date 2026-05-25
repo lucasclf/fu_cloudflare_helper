@@ -12,6 +12,31 @@
   {
     "pc_id": "Silas",
     "job_id": "Atirador",
-    "level": 5
+    "level": 3
+  },
+  {
+    "pc_id": "Silas",
+    "job_id": "Ladino",
+    "level": 2
+  },
+  {
+    "pc_id": "Jacó",
+    "job_id": "Gourmet",
+    "level": 3
+  },
+  {
+    "pc_id": "Jacó",
+    "job_id": "Furioso",
+    "level": 2
+  },
+  {
+    "pc_id": "Jurupari",
+    "job_id": "Arcanista",
+    "level": 1
+  },
+  {
+    "pc_id": "Jurupari",
+    "job_id": "Entropista",
+    "level": 4
   }
 ]

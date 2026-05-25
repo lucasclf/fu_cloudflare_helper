@@ -12,7 +12,7 @@
     "identity": "Ex-generala do Exército",
     "theme": "Culpa",
     "tagline": "Tema o Sangue antigo!",
-    "money": 0
+    "money": 30
   },
   {
     "name": "Silas",
@@ -26,6 +26,34 @@
     "origin": "???",
     "identity": "Ex-pirata",
     "theme": "Culpa",
-    "money": 0
+    "money": 30
+  },
+  {
+    "name": "Jacó",
+    "description": "Ex-lutador e chef gourmet.",
+    "dexterity_die": "d8",
+    "insight_die": "d8",
+    "might_die": "d10",
+    "willpower_die": "d6",
+    "img_key": "jaco",
+    "pronouns": "Ele",
+    "origin": "???",
+    "identity": "O cozinheiro cascudo",
+    "theme": "Pertencimento",
+    "money": 120
+  },
+  {
+    "name": "Jurupari",
+    "description": "Mendigo pacifista.",
+    "dexterity_die": "d6",
+    "insight_die": "d10",
+    "might_die": "d6",
+    "willpower_die": "d10",
+    "img_key": "jurupari",
+    "pronouns": "Ele",
+    "origin": "???",
+    "identity": "???",
+    "theme": "???",
+    "money": 280
   }
 ]

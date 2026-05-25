@@ -9,5 +9,16 @@
     "main_hand": "Pistola",
     "armor": "Traje de viagem",
     "off_hand": "Escudo rúnico"
+  },
+  {
+    "pc_id": "Jacó",
+    "main_hand": "Soqueira de ferro",
+    "armor": "Túnica de combate",
+    "off_hand": "Soqueira de ferro"
+  },
+  {
+    "pc_id": "Jurupari",
+    "main_hand": "Cajado",
+    "armor": "Vestes de sábio"
   }
 ]
